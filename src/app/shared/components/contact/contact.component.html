@@ -1,0 +1,23 @@
+ <ng-container *ngIf="{language: language$ | async} as info">
+
+  <div class="contact" [ngClass]="{'home': fromHome}">
+    <div class="contact__btn" [ngClass]="{'home': fromHome}">
+      <h3 class="contact__btn-title" *ngIf="!fromHome">{{contactTitle[info.language!]}}</h3>
+      <div class="contact__btn__icons" [ngClass]="{'home': fromHome}">
+        <div class="contact__btn__icons-item" *ngFor="let item of contact" [ngClass]="{'home': fromHome}">
+          <span
+            class="contact__btn__icons-item-background"
+            [ngClass]="{'mail': item.icon === 'fas fa-envelope'}"
+          >
+            <i [class]="item.icon"></i>
+          </span>
+          <span class="contact__btn__icons-item-text" *ngIf="!fromHome">
+            {{item.url}}
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</ng-container>

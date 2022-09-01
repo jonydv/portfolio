@@ -1,0 +1,26 @@
+@import 'variables';
+:host{
+  max-width: 100%;
+  box-sizing: border-box;
+  width: 100%;
+  overflow-x: hidden;
+
+  section{
+    display: flex;
+    max-width: 100%;
+    width:100%;
+    jdv-hero-section,
+    jdv-services-section,
+    jdv-grid-banners{
+      margin: auto;
+      display: block;
+      max-width: 100%;
+      width: 100%;
+      background: $background-secondary;
+      min-height: calc(100vh - 84px);
+    }
+    jdv-services-section{
+      background: $background-alt;
+    }
+  }
+}

@@ -1,0 +1,113 @@
+@import 'variables';
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.hero{
+  max-width: 100%;
+  width: 100%;
+  height: calc(100vh - 84px);
+  background: $background;
+  display: grid;
+  place-items: center;
+  @include mobile{
+    padding: 0 1rem;
+    place-items: start;
+    max-width: 100%;
+    height: fit-content;
+  }
+  &__container{
+    max-width: $max-width;
+    margin: 0 auto;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    &.mobile{
+      flex-direction: column;
+      padding: 1rem 0;
+    }
+    @include tablet{
+      @include inner-width;
+    }
+    &__content{
+      cursor: default;
+      @include mobile{
+        display: flex;
+        flex-direction: column;
+      }
+      &-name{
+        color: $primary;
+        font-size: 1.5rem;
+        margin: 0;
+        padding: 0;
+        @include mobile{
+          font-size: 1.25rem;
+        }
+      }
+      &-title{
+        font-size: 5rem;
+        color: $title;
+        text-shadow: 1px 1px 4px $text;
+        margin: .5rem 0;
+        padding: 0;
+        @include mobile{
+          font-size: 2.5rem;
+          margin: 0.15rem 0;
+          letter-spacing: -0.1rem;
+        }
+      }
+      &-subtitle{
+        font-size: 4rem;
+        color: $text;
+        margin: .5rem 0;
+        padding: 0;
+        text-shadow: 1px 1px 4px $title;
+        @include mobile{
+          font-size: 2rem;
+          margin: 0.15rem 0;
+          letter-spacing: -0.1rem;
+        }
+      }
+      &-paragraph{
+        max-width: 90%;
+        text-align: justify;
+        color: $text;
+        padding: 0;
+        margin: 1rem 0;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        @include mobile{
+          max-width: 100%;
+          letter-spacing: -0.1px;
+          font-size: 1.15rem;
+          line-height: 1.5rem;
+        }
+      }
+      &-button{
+        width: 200px;
+        border: 1px solid $primary;
+        background: transparent;
+        padding: 1rem;
+        color: $primary;
+        border-radius: 3rem;
+        margin: 1rem 0;
+        cursor: pointer;
+        &:hover{
+          background: rgba(100,255,218,0.1);
+        }
+        @include mobile{
+          align-self: center;
+        }
+      }
+    }
+  }
+
+}

@@ -1,0 +1,58 @@
+@import 'variables';
+
+.education{
+  &__info{
+    &-title{
+      width: fit-content;
+      color: $primary-dark;
+      border-bottom: 2px solid $primary-dark;
+      font-weight: bold;
+      font-size: 1.5rem;
+      border-radius: 5px;
+      padding-bottom: .5rem;
+      cursor: default;
+      &.mt-2{
+        margin-top: 2rem;
+      }
+    }
+    &-subtitle{
+      margin-top: 1rem;
+      width: fit-content;
+      color: $title;
+      font-weight: 500;
+      font-size: 1.25rem;
+      padding-bottom: .5rem;
+      cursor: default;
+      i{
+        margin-right: .5rem;
+      }
+    }
+    &-paragraph{
+      text-align: justify;
+      width: fit-content;
+      color: $text;
+      font-size: 1rem;
+      line-height: 1.5rem;
+      padding-bottom: .5rem;
+      cursor: default;
+    }
+
+    &-link{
+      text-align: justify;
+      text-decoration: underline;
+      width: fit-content;
+      color: $primary;
+      font-size: 1rem;
+      padding-bottom: .5rem;
+      cursor: pointer;
+      display: block;
+      margin-bottom: 1rem;
+      &:hover{
+        color: $primary-dark;
+      }
+      i{
+        margin-left: .5rem;
+      }
+    }
+  }
+}

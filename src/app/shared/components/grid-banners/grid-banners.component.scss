@@ -1,0 +1,131 @@
+@import 'variables';
+.grid{
+  margin: auto;
+  padding: 2rem 0;
+  max-width: 100%;
+  width: 100%;
+  border-radius: 5px;
+  background: #FEFEFE;
+  min-height: calc(100vh - 84px);
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 2rem;
+  @include mobile{
+    padding: 2.5rem 1rem;
+    max-width: 100%;
+    height: fit-content;
+  }
+  @include tablet{
+    @include inner-width;
+  }
+  &__item{
+    display: flex;
+    max-width: $max-width;
+    margin: auto;
+    align-items: center;
+    column-gap: 2.5rem;
+    cursor: default;
+    &.reverse{
+      flex-direction: row-reverse;
+      @include mobile{
+        flex-direction: column;
+      }
+    }
+    @include mobile{
+      flex-direction: column;
+      column-gap: 0;
+    }
+    &-image{
+      flex: 40%;
+      margin-bottom: 2rem;
+      @include mobile{
+        flex: 100%;
+        width: 100%;
+        margin-bottom: 1.5rem;
+      }
+      img{
+        max-width: 100%;
+        &.rounded{
+          border-radius: 20px;
+          box-shadow: 6px 9px 10px 0px rgba(214, 214, 214, 0.71);
+          -webkit-box-shadow: 6px 9px 10px 0px rgba(214, 214, 214, 0.71);
+          -moz-box-shadow: 6px 9px 10px 0px rgba(214, 214, 214, 0.71);
+          @include mobile{
+            border-radius: 12px;
+          }
+        }
+
+      }
+    }
+    &-info{
+      flex: 60%;
+      @include mobile{
+        flex: 100%;
+      }
+      &-title{
+        font-size: 4rem;
+        color: $dark;
+        text-shadow: 2px 5px 5px $primary;
+        margin-bottom: 1.5rem;
+        letter-spacing: .5rem;
+        &.work{
+          text-shadow: 2px 5px 5px $background;
+          text-align: center;
+        }
+        @include mobile{
+          font-size: 2rem;
+          letter-spacing: .25rem;
+        }
+      }
+      &-paragraph{
+        font-size: 1.5rem;
+        color: $background-secondary;
+        letter-spacing: .25rem;
+        text-align: justify;
+        line-height: 2.2rem;
+        @include mobile{
+          font-size: 1.25rem;
+          line-height: 1.75rem;
+          letter-spacing: .1rem;
+        }
+      }
+    }
+  }
+
+  &__content{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    &-info{
+      max-width: $max-width;
+      margin: auto;
+      padding: 2rem 0;
+      @include mobile{
+        padding: 2rem 1rem;
+      }
+      &-title{
+        font-size: 4rem;
+        color: $dark;
+        margin-bottom: 1.5rem;
+        @include mobile{
+          font-size: 2rem;
+          text-align: center;
+        }
+      }
+      &-paragraph{
+        font-size: 1.5rem;
+        line-height: 2rem;
+        color: $dark;
+        text-shadow: 1px 1px 4px $text;
+        text-align: justify;
+        @include mobile{
+          font-size: 1.15rem;
+          line-height: 1.5rem;
+        }
+      }
+    }
+  }
+}

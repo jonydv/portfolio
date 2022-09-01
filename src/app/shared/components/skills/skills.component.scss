@@ -1,0 +1,62 @@
+@import 'variables';
+.skills{
+  width: 100%;
+  min-height: 250px;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: .5rem;
+  padding: 1rem 2rem 1rem 2rem;
+  margin-bottom: 1rem;
+  @include mobile{
+    border-bottom: 4px solid $dark;
+  }
+  &__title{
+    flex: 100%;
+    &-value{
+      width: fit-content;
+      color: $primary-dark;
+      border-bottom: 2px solid $primary-dark;
+      font-weight: bold;
+      font-size: 1.5rem;
+      border-radius: 5px;
+      padding-bottom: .5rem;
+      cursor: default;
+    }
+  }
+  &__items{
+    flex: calc(50% - .5rem);
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: .75rem;
+    background: $text;
+    border-radius: 20px;
+    padding: .75rem;
+    box-shadow: 5px 16px 39px 0px rgba(3,3,3,0.6);
+    -webkit-box-shadow: 5px 16px 39px 0px rgba(3,3,3,0.6);
+    -moz-box-shadow: 5px 16px 39px 0px rgba(3,3,3,0.6);
+    &-background{
+      img{
+        max-width: 100%;
+        transition: all ease 3ms;
+        &.fab.fa-js-square{
+          color: #FFEF00;
+        }
+        &:hover{
+          transform: scale(1.1);
+        }
+
+      }
+    }
+    &-text{
+          color: $title;
+          font-size: 1.25rem;
+          cursor: pointer;
+          &:hover{
+            color: $text;
+          }
+    }
+  }
+}

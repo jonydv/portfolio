@@ -1,0 +1,127 @@
+@import 'variables';
+@import 'src/styles/mixins/mixins.scss';
+.services{
+  max-width: 100%;
+  min-height: calc(100vh - 84px);
+  &-container{
+    max-width: $max-width;
+    margin: auto;
+    padding: 2rem 0;
+    @include mobile{
+      padding: 0rem 1rem;
+      height: fit-content;
+    }
+    @include tablet{
+      @include inner-width;
+    }
+    &__title{
+      width: fit-content;
+      color: $text;
+      font-weight: bold;
+      font-size: 4rem;
+      cursor: default;
+      margin: 1.5rem 0;
+      text-shadow: 1px 1px 4px $title;
+      @include mobile{
+        font-size: 2rem;
+      }
+    }
+    &__paragraph{
+      text-align: justify;
+      font-size: 1.5rem;
+      line-height: 2rem;
+      color: $text;
+      letter-spacing: -0.1px;
+      @include mobile{
+        font-size: 1.15rem;
+        line-height: 1.5rem;
+      }
+    }
+    &__cards{
+      margin: 1.5rem 0;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+
+      @include mobile{
+        grid-template-columns: 1fr;
+      }
+      &-item{
+        padding: 3rem 1rem 3rem 1rem;
+       background: $background;
+       background: -webkit-linear-gradient(to right, $dark, $background-secondary, $primary-hover);
+       background: linear-gradient(to right, $dark, $background-secondary, $primary-hover);
+
+        box-shadow: 5px 16px 39px 0px rgba(3,3,3,0.6);
+        -webkit-box-shadow: 5px 16px 39px 0px rgba(3,3,3,0.6);
+        -moz-box-shadow: 5px 16px 39px 0px rgba(3,3,3,0.6);
+        border-radius: 1rem;
+        height: 450px;
+        border-radius: 1rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        &:hover{
+          box-shadow: 6px 6px 20px 0px rgba(100,255,218,0.49);
+          -webkit-box-shadow: 6px 6px 20px 0px rgba(100,255,218,0.49);
+          -moz-box-shadow: 6px 6px 20px 0px rgba(100,255,218,0.49);
+        }
+        @include mobile{
+          height: 350px;
+          padding: 2rem 1.5rem 2rem 1.5rem;
+        }
+        @include tablet{
+          height: 470px;
+        }
+        &__icon{
+          position: relative;
+          max-width: 200px;
+          max-height: 220px;
+          width: 100%;
+          @include mobile{
+            max-width: 150px;
+            max-height: 160px;
+            width: 100%;
+          }
+          &-title{
+            position: absolute;
+            top: -2.5rem;
+            left: -2.5rem;
+            color: $primary;
+            border-radius: 10px;
+            background: $primary-hover;
+            border: 1px solid $primary;
+            padding: .5rem;
+            margin-bottom: 0;
+            font-size: .75rem;
+            width: 135px;
+            text-align: center;
+            @include mobile{
+              top: -1.5rem;
+              left: -65%;
+            }
+            &:hover{
+              cursor: pointer;
+            }
+          }
+          img{
+            margin-top: 1rem;
+            max-width: 100%;
+            max-height: 100%;
+          }
+        }
+        &__content{
+          margin-top: 1.5rem;
+          &-paragraph{
+            color: $title;
+            font-size: 1.15rem;
+            line-height: 1.5rem;
+            cursor: default;
+          }
+        }
+      }
+    }
+  }
+}
+
+

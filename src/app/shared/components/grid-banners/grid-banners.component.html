@@ -1,0 +1,22 @@
+<ng-container *ngIf="{
+  isMobile: isMobile$ | async,
+  language: language$ | async
+} as data">
+  <div class="grid">
+
+    <ng-container *ngFor="let item of gridItems">
+      <div class="grid__item hide-on-init" [ngClass]="{'reverse': item.reverse}" animateOnScroll animationName="animate__animated animate__fadeInUp animate__fast">
+        <div class="grid__item-image">
+          <img [src]="item.imageUrl" alt="grid-image" [ngClass]="{'rounded': fromWorks}">
+        </div>
+        <div class="grid__item-info">
+          <h3 class="grid__item-info-title" [ngClass]="{'work': fromWorks}">{{item.title[data.language!]}}</h3>
+          <p class="grid__item-info-paragraph">
+            {{item.paragraph[data.language!]}}
+          </p>
+        </div>
+      </div>
+    </ng-container>
+
+  </div>
+</ng-container>

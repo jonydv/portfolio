@@ -1,0 +1,62 @@
+<ng-container *ngIf="{
+  isMobile: isMobile$ | async,
+  language: language$ | async
+} as info">
+  <header class="header" >
+    <div class="header-container" >
+      <nav class="header-container__nav" *ngIf="!info.isMobile; else mobileHeader">
+        <div class="header-container__nav__logo" routerLink="/">
+          <img src="../../../../assets/logos/jdv-logo.svg" alt="jdv logo">
+        </div>
+        <div class="header-container__nav__links">
+          <ng-container
+          *ngFor="let item of navItems"
+        >
+          <a
+            [routerLink]="item?.link"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact:
+              true}"
+            class="header-container__nav__links-item"
+          >
+              {{item.title[info.language!]}}
+            </a>
+          </ng-container>
+        </div>
+      </nav>
+    </div>
+    <div class="nav-backdrop" *ngIf="info.isMobile && showNav" (click)="toggleShowNav()">
+      <nav class="header-container__mobile__nav animate__animated animate__fadeIn" >
+        <div class="header-container__mobile__nav__links">
+          <ng-container
+            *ngFor="let item of navItems"
+          >
+          <a
+            [routerLink]="item?.link"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact:
+              true}"
+            class="header-container__mobile__nav__links-item"
+          >
+          {{item.title[info.language!]}}
+          </a>
+          </ng-container>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <ng-template #mobileHeader>
+    <div class="header-container__logo" routerLink="/">
+      <img src="../../../../assets/logos/jdv-logo.svg"  alt="jdv logo">
+    </div>
+    <a class="header-container__icon" href="https://www.linkedin.com/in/jonatan-villalba-9126951b9/" target="_blank">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <div class="header-container__hamburger">
+      <i [class]="showNav ? 'fas fa-times' : 'fas fa-bars'" (click)="toggleShowNav()"></i>
+    </div>
+  </ng-template>
+
+</ng-container>
+
+

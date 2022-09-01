@@ -1,0 +1,43 @@
+ <ng-container *ngIf="{language: language$ | async} as info">
+
+  <div class="education">
+    <div class="education__info">
+      <h3 class="education__info-title">
+        {{title[info?.language!]}}
+      </h3>
+      <ng-container *ngFor="let course of courses">
+        <h4 class="education__info-subtitle hide-on-init" animateOnScroll animationName="animate__animated animate__fadeInUp animate__fast">
+          <i [class]="course.icon"></i>
+          {{course?.school![info?.language!]}}
+        </h4>
+
+        <p class="education__info-paragraph hide-on-init" animateOnScroll animationName="animate__animated animate__fadeInUp animate__fast" *ngIf="course?.title">
+          {{course?.title![info?.language!]}}
+        </p>
+
+        <p class="education__info-paragraph hide-on-init" animateOnScroll animationName="animate__animated animate__fadeInUp animate__fast" *ngIf="course?.subtitle">
+          {{course?.subtitle![info?.language!]}}
+        </p>
+
+        <a *ngIf="course?.link" class="education__info-link hide-on-init" animateOnScroll animationName="animate__animated animate__fadeInUp animate__fast" [href]="course.link" target="_blank">
+          {{viewCertificate[info.language!]}} <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+      </ng-container>
+
+      <h3 class="education__info-title mt-2 hide-on-init" animateOnScroll animationName="animate__animated animate__fadeInUp animate__fast">
+        {{englishLevel.title[info?.language!]}}
+      </h3>
+      <h4 class="education__info-subtitle hide-on-init" animateOnScroll animationName="animate__animated animate__fadeInUp animate__fast">
+        <i [class]="englishLevel.icon"></i>
+        {{englishLevel.school[info?.language!]}}
+      </h4>
+      <p class="education__info-paragraph hide-on-init" animateOnScroll animationName="animate__animated animate__fadeInUp animate__fast">
+        {{englishLevel.subtitle![info.language!]}}
+      </p>
+
+    </div>
+
+
+  </div>
+
+</ng-container>

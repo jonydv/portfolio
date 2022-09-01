@@ -1,0 +1,12 @@
+<ng-container *ngIf="{selected: selected$ | async} as info">
+ <div class="language">
+    <div class="language__item">
+      <img src="../../../../assets/language-icons/argentina.svg" alt="flag svg" (click)="changeLanguage('es')"
+      [ngClass]="{'active': info.selected == 'es'}">
+    </div>
+    <div class="language__item">
+      <img src="../../../../assets/language-icons/usa.svg" alt="flag svg" (click)="changeLanguage('en')"
+      [ngClass]="{'active': info.selected == 'en'}">
+    </div>
+  </div>
+</ng-container>

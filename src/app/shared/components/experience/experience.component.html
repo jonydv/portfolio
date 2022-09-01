@@ -1,0 +1,22 @@
+<ng-container *ngIf="{language: language$ | async} as info">
+
+  <div class="experience">
+      <div class="experience__info">
+        <h3 class="experience__info-title mt-2">{{title[info.language!]}}</h3>
+        <ng-container *ngFor="let position of positions">
+          <h4 class="experience__info-subtitle hide-on-init" animateOnScroll animationName="animate__animated animate__fadeInUp animate__fast">
+            <i [class]="position.icon"></i>
+            {{position.company[info.language!]}} <span class="experience__info-subtitle-emphasis">{{position.period[info.language!]}}</span>
+          </h4>
+          <h4 class="experience__info-subtitle hide-on-init" animateOnScroll animationName="animate__animated animate__fadeInUp animate__fast">
+            {{position.role[info.language!]}}
+          </h4>
+          <div class="experience__info-paragraph hide-on-init" animateOnScroll animationName="animate__animated animate__fadeInUp animate__fast">
+            {{position.description[info.language!]}}
+          </div>
+        </ng-container>
+
+      </div>
+    </div>
+
+</ng-container>

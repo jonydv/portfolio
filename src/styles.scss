@@ -1,0 +1,102 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~swiper/swiper-bundle";
+@import 'variables';
+@import 'animate.css';
+html{
+  scroll-behavior: smooth;
+  --webkit-font-smoothing: antialiased;
+  font-family: 'Roboto';
+}
+body{
+  background-color: $background;
+  font-family: 'Roboto';
+  // padding: 0;
+  // margin: 0;
+  // width: 100%;
+  // max-width: 100%;
+  &.lock{
+    overflow-y: hidden;
+  }
+}
+html{
+  // max-width: 100%;
+  // width: 100%;
+  @include custom-scrollbar;
+}
+
+*, *:before, *:after{
+  box-sizing: border-box;
+}
+
+
+html, app-root, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: 'Roboto';
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+}
+
+
+footer, header, nav, section, main{
+  display: block;
+  max-width: 100%;
+}
+
+
+body{
+  line-height: 1;
+}
+
+
+ol, ul{
+  list-style: none;
+}
+
+
+blockquote, q{
+  quotes: none;
+}
+
+
+blockquote:before, blockquote:after, q:before, q:after{
+  content: '';
+  content: none;
+}
+
+
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+input{
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+.animate__animated {
+  visibility: visible !important;
+}
+.hide-on-init {
+  visibility: hidden;
+}
+
+jdv-curriculum{
+  display: block;
+  max-width: 100%;
+  width: fit-content;
+  margin: auto;
+  box-shadow: 6px 6px 20px 0px rgba(100,255,218,0.49);
+  -webkit-box-shadow: 6px 6px 20px 0px rgba(100,255,218,0.49);
+  -moz-box-shadow: 6px 6px 20px 0px rgba(100,255,218,0.49);
+  @include mobile{
+    max-width: 100%;
+  }
+}
+

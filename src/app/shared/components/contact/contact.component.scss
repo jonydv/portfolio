@@ -1,0 +1,111 @@
+@import 'variables';
+.contact{
+  width: 100%;
+  min-height: 250px;
+  height: fit-content;
+  display: flex;
+  padding: 1rem 2rem 1rem 2rem;
+  margin-bottom: 1rem;
+  &.home{
+    min-height: 50px;
+    margin-bottom: 0;
+    @include desktop{
+      width: 350px;
+      margin-top: 1rem;
+    }
+
+  }
+  &__btn{
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    &.home{
+      width: 100%;
+      justify-content: center;
+      @include mobile{
+        margin: auto;
+        width: 250px;
+      }
+    }
+    &-title{
+      color: $primary-dark;
+      border-bottom: 2px solid $primary-dark;
+      font-weight: bold;
+      font-size: 1.5rem;
+      border-radius: 5px;
+      padding-bottom: .5rem;
+      cursor: default;
+    }
+    &__icons{
+      &.home{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+          .contact__btn__icons-item-background{
+            width: 45px;
+            height: 48px;
+            @include mobile{
+              width: 30px;
+              height: 34px;
+            }
+            &.mail{
+              width: 50px;
+              height: 40px;
+              @include mobile{
+                width: 38px;
+                height: 25px;
+              }
+            }
+            i{
+              font-size: 3.5rem;
+              cursor: pointer;
+              @include mobile{
+                font-size: 2.5rem;
+              }
+            }
+          }
+
+      }
+      &-item{
+        &-background{
+          width: 22px;
+          height: 25px;
+          background: $title;
+          display: grid;
+          place-content: center;
+          border-radius: 5px;
+          border: 1px solid $text;
+          &.mail{
+            height: 22px;
+            width: 27px;
+          }
+        }
+        &-text{
+          color: $title;
+          font-size: 1.25rem;
+          cursor: pointer;
+          &:hover{
+            color: $text;
+          }
+        }
+        display: flex;
+        margin-top: 1rem;
+        align-items: center;
+        column-gap: .75rem;
+        i{
+          position: relative;
+          color: #385898;
+          font-size: 2rem;
+          cursor: pointer;
+          transition: all ease 3ms;
+          &:hover{
+            font-size: 2.2rem;
+          }
+        }
+      }
+
+    }
+  }
+}
