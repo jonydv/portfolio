@@ -4,7 +4,7 @@
     <div class="contact__btn" [ngClass]="{'home': fromHome}">
       <h3 class="contact__btn-title" *ngIf="!fromHome">{{contactTitle[info.language!]}}</h3>
       <div class="contact__btn__icons" [ngClass]="{'home': fromHome}">
-        <div class="contact__btn__icons-item" *ngFor="let item of contact" [ngClass]="{'home': fromHome}">
+        <a class="contact__btn__icons-item" *ngFor="let item of contact" [ngClass]="{'home': fromHome}" [href]="item.url" [target]="'_blank'" rel="nofollow">
           <span
             class="contact__btn__icons-item-background"
             [ngClass]="{'mail': item.icon === 'fas fa-envelope'}"
@@ -12,9 +12,9 @@
             <i [class]="item.icon"></i>
           </span>
           <span class="contact__btn__icons-item-text" *ngIf="!fromHome">
-            {{item.url}}
+            {{item.displayName}}
           </span>
-        </div>
+        </a>
       </div>
 
     </div>

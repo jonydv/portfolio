@@ -17,15 +17,18 @@ export class ContactComponent implements OnInit {
   contact = [
     {
       icon: 'fab fa-facebook-square',
-      url: 'www.facebook.com'
+      url: 'https://www.facebook.com/jonatan.villalba.14/',
+      displayName: 'Facebook'
     },
     {
       icon: 'fab fa-linkedin',
-      url: 'www.linkedin.com'
+      url: 'https://www.linkedin.com/in/jonatan-villalba-9126951b9/',
+      displayName: 'LinkedIn'
     },
     {
       icon: 'fas fa-envelope',
-      url: 'www.mail.com'
+      url: `mailto:?subject=jonatandavidvillalba@gmail.com&body=Hola me contacto por tu página web`,
+      displayName: 'Gmail'
     }
   ];
   @Input() fromHome: boolean = false;
