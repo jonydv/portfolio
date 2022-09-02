@@ -27,7 +27,7 @@ export class ContactComponent implements OnInit {
     },
     {
       icon: 'fas fa-envelope',
-      url: `mailto:?subject=jonatandavidvillalba@gmail.com&body=Hola me contacto por tu página web`,
+      url: `mailto:jonatandavidvillalba@gmail.com?subject=Contacto desde tu página web&body=Hola me contacto por tu página web`,
       displayName: 'Gmail'
     }
   ];
