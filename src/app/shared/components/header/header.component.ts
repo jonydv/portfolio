@@ -16,9 +16,9 @@ export class HeaderComponent implements OnInit {
   isMobile$: Observable<boolean> = this.breakpointService.isMobile$;
   navItems: Header[] = [
     {title: {es: 'Inicio', en: 'Home'}, link: '/'},
-    {title: {es: 'Experiencia', en: 'Experience'}, link: '/experience'},
+    // {title: {es: 'Experiencia', en: 'Experience'}, link: '/experience'},
     {title: {es: 'Trabajos', en: 'Works'}, link: '/works'},
-    {title: {es:'Contacto', en: 'Contact'}, link: '/contact'},
+    // {title: {es:'Contacto', en: 'Contact'}, link: '/contact'},
     {title: {es: 'Curriculum', en: 'Curriculum'}, link: '/curriculum'}
   ];
   language$: Observable<string> = this.languageSelectorService.getLanguage();
