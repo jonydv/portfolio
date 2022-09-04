@@ -50,17 +50,20 @@
               width: 30px;
               height: 34px;
             }
-            &.mail{
-              width: 50px;
-              height: 40px;
-              @include mobile{
-                width: 38px;
-                height: 25px;
-              }
-            }
+            // &.mail{
+            //   width: 50px;
+            //   height: 40px;
+            //   @include mobile{
+            //     width: 38px;
+            //     height: 25px;
+            //   }
+            // }
             i{
               font-size: 3.5rem;
               cursor: pointer;
+              &:hover{
+                color: $primary;
+              }
               @include mobile{
                 font-size: 2.5rem;
               }
@@ -69,25 +72,28 @@
 
       }
       &-item{
-        &-background{
-          width: 22px;
-          height: 25px;
-          background: $title;
-          display: grid;
-          place-content: center;
-          border-radius: 5px;
-          border: 1px solid $text;
-          &.mail{
-            height: 22px;
-            width: 27px;
-          }
+        // &-background{
+        //   width: 22px;
+        //   height: 25px;
+        //   background: $title;
+        //   display: grid;
+        //   place-content: center;
+        //   border-radius: 5px;
+        //   border: 1px solid $text;
+        //   &.mail{
+        //     height: 22px;
+        //     width: 27px;
+        //   }
+        // }
+        &:hover{
+          color: $primary;
         }
         &-text{
           color: $title;
           font-size: 1.25rem;
           cursor: pointer;
           &:hover{
-            color: $text;
+            color: $primary;
           }
         }
         display: flex;
@@ -102,7 +108,7 @@
           cursor: pointer;
           transition: all ease 3ms;
           &:hover{
-            font-size: 2.2rem;
+            color: $primary;
           }
         }
       }

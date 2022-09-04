@@ -1,8 +1,8 @@
-<div class="skills">
+<div class="skills" [ngClass]="{'home': fromHome}">
   <div class="skills__title">
-    <h3 class="skills__title-value">Skills</h3>
+    <h3 class="skills__title-value" [ngClass]="{'home': fromHome}">Skills</h3>
   </div>
-  <div class="skills__items hide-on-init"
+  <div class="skills__items hide-on-init" [ngClass]="{'home': fromHome}"
     animateOnScroll animationName="animate__animated animate__fadeInUp animate__fast"
     *ngFor="let item of skills">
     <div class="skills__items-background" >

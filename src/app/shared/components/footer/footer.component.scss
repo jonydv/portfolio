@@ -16,7 +16,7 @@ footer{
     justify-content: center;
     @include mobile{
       flex-direction: column;
-      padding: 1.5rem 0;
+      padding: 1.5rem 1rem;
       row-gap: 1.5rem;
     }
     @include tablet{
@@ -27,6 +27,7 @@ footer{
       font-size: 1.15rem;
       line-height: 1.5rem;
       margin-left: auto;
+      cursor: default;
       @include mobile{
         font-size: .85rem;
         line-height: 1.15rem;

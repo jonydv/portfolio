@@ -82,11 +82,12 @@
         margin: .5rem 0;
         padding: 0;
         width: 100%;
-        text-shadow: 1px 1px 4px $text;
+        text-shadow: 1px 1px 2px $text;
         @include mobile{
           font-size: 2.5rem;
           margin: 0.15rem 0;
           letter-spacing: -0.1rem;
+          text-shadow: none;
         }
       }
       &__position{

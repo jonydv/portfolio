@@ -22,5 +22,13 @@
     jdv-services-section{
       background: $background-alt;
     }
+    &.skills{
+      background: $title;
+      padding: 2rem 0;
+      jdv-skills{
+        max-width: $max-width;
+        margin: auto;
+      }
+    }
   }
 }
