@@ -47,9 +47,10 @@
         max-width: 100%;
         &.rounded{
           border-radius: 20px;
-          box-shadow: 6px 9px 10px 0px rgba(214, 214, 214, 0.71);
-          -webkit-box-shadow: 6px 9px 10px 0px rgba(214, 214, 214, 0.71);
-          -moz-box-shadow: 6px 9px 10px 0px rgba(214, 214, 214, 0.71);
+          // box-shadow: 6px 9px 10px 0px rgba(214, 214, 214, 0.71);
+          -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          -moz-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
           @include mobile{
             border-radius: 12px;
           }
@@ -65,16 +66,20 @@
       &-title{
         font-size: 4rem;
         color: $dark;
-        text-shadow: 2px 5px 5px $primary;
+        text-shadow: 1px 1px 0px $background;
         margin-bottom: 1.5rem;
         letter-spacing: .5rem;
         &.work{
-          text-shadow: 2px 5px 5px $background;
+          text-shadow: 1px 1px 0px $background;
           text-align: center;
+          @include mobile{
+            text-shadow: none;
+          }
         }
         @include mobile{
           font-size: 2rem;
           letter-spacing: .25rem;
+          text-shadow: none;
         }
       }
       &-paragraph{
@@ -87,6 +92,7 @@
           font-size: 1.25rem;
           line-height: 1.75rem;
           letter-spacing: .1rem;
+          text-align: left;
         }
       }
     }
@@ -119,11 +125,12 @@
         font-size: 1.5rem;
         line-height: 2rem;
         color: $dark;
-        text-shadow: 1px 1px 4px $text;
+        text-shadow: 1px 1px 0px $text;
         text-align: justify;
         @include mobile{
           font-size: 1.15rem;
           line-height: 1.5rem;
+          text-shadow: none;
         }
       }
     }

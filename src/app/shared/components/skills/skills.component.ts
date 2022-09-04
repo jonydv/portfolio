@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'jdv-skills',
@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SkillsComponent implements OnInit {
 
+  @Input() fromHome: boolean = false;
   skills = [
     {
       icon: '../../../assets/icons/javascript.svg',
