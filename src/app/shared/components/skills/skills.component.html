@@ -6,7 +6,7 @@
     animateOnScroll animationName="animate__animated animate__fadeInUp animate__fast"
     *ngFor="let item of skills">
     <div class="skills__items-background" >
-      <img [src]="item.icon" [alt]="item.alt">
+      <img [src]="item.icon" [alt]="item.alt" loading="lazy">
     </div>
   </div>
 </div>

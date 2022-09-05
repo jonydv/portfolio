@@ -13,10 +13,10 @@
       <ng-container *ngFor="let item of projects">
         <ng-template swiperSlide >
 
-              <img [src]="item?.principalImage" alt="" class="principal-image">
+              <img [src]="item?.principalImage" alt="" class="principal-image" loading="lazy">
               <div class="principal-image__logo">
                 <div class="principal-image__logo-container">
-                <img [src]="item.image" [alt]="item.title">
+                <img [src]="item.image" [alt]="item.title" loading="lazy">
                   <a [href]="item.url" [target]="item.target" class="project__info-container-item__link">
                       {{viewSite[info.language!]}}
                     <i class="fa-solid fa-arrow-up-right-from-square"></i>

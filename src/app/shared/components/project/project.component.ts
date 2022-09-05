@@ -18,50 +18,50 @@ export class ProjectComponent implements OnInit {
   projects = [
     {
       title: 'K-One Chile',
-      image: '../../../assets/projects-logos/k1.png',
-      principalImage: '../../../../assets/projects-images/kone.jpg',
+      image: '../../../assets/projects-logos/k1.webp',
+      principalImage: '../../../../assets/projects-images/kone.webp',
       url: 'https://www.k1.cl',
       target: '_blank'
     },
     {
       title: 'Antihuman Chile',
-      image: '../../../assets/projects-logos/antihuman.svg',
-      principalImage: '../../../../assets/projects-images/antihuman.jpg',
+      image: '../../../assets/projects-logos/antihuman.webp',
+      principalImage: '../../../../assets/projects-images/antihuman.webp',
       url: 'https://www.antihuman.cl',
       target: '_blank'
     },
     {
       title: 'Bold Chile',
       image: '../../../assets/projects-logos/bold.svg',
-      principalImage: '../../../../assets/projects-images/bold.jpg',
+      principalImage: '../../../../assets/projects-images/bold.webp',
       url: 'https://www.bold.cl',
       target: '_blank'
     },
     {
       title: 'Belsport Chile',
-      image: '../../../assets/projects-logos/belsport.png',
-      principalImage: '../../../../assets/projects-images/belsport.jpg',
+      image: '../../../assets/projects-logos/belsport.webp',
+      principalImage: '../../../../assets/projects-images/belsport.webp',
       url: 'https://www.belsport.cl',
       target: '_blank'
     },
     {
       title: 'Bamers Chile',
-      image: '../../../assets/projects-logos/bamers.png',
-      principalImage: '../../../../assets/projects-images/bamers.jpg',
+      image: '../../../assets/projects-logos/bamers.webp',
+      principalImage: '../../../../assets/projects-images/bamers.webp',
       url: 'https://www.bamers.cl',
       target: '_blank'
     },
     {
       title: 'Crocs Chile',
-      image: '../../../assets/projects-logos/crocs.svg',
-      principalImage: '../../../../assets/projects-images/crocs.jpg',
+      image: '../../../assets/projects-logos/crocs.webp',
+      principalImage: '../../../../assets/projects-images/crocs.webp',
       url: 'https://www.crocs.cl',
       target: '_blank'
     },
     {
       title: 'Aufbau Chile',
-      image: '../../../assets/projects-logos/aufbau.svg',
-      principalImage: '../../../../assets/projects-images/aufbau.jpg',
+      image: '../../../assets/projects-logos/aufbau.webp',
+      principalImage: '../../../../assets/projects-images/aufbau.webp',
       url: 'https://www.aufbau.cl',
       target: '_blank'
     }

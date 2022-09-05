@@ -10,7 +10,7 @@
           <div class="services-container__cards-item hide-on-init" animateOnScroll animationName="animate__animated animate__fadeInUp animate__fast">
             <div class="services-container__cards-item__icon">
               <p class="services-container__cards-item__icon-title">{{item.title[info.language!]}}</p>
-              <img [src]="item.imgUrl" alt="web-image">
+              <img [src]="item.imgUrl" alt="web-image" loading="lazy">
             </div>
             <div class="services-container__cards-item__content">
               <p class="services-container__cards-item__content-paragraph">

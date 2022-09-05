@@ -2,11 +2,11 @@
  <div class="language">
     <div class="language__item">
       <img src="../../../../assets/language-icons/argentina.svg" alt="flag svg" (click)="changeLanguage('es')"
-      [ngClass]="{'active': info.selected == 'es'}">
+      [ngClass]="{'active': info.selected == 'es'}" loading="lazy">
     </div>
     <div class="language__item">
       <img src="../../../../assets/language-icons/usa.svg" alt="flag svg" (click)="changeLanguage('en')"
-      [ngClass]="{'active': info.selected == 'en'}">
+      [ngClass]="{'active': info.selected == 'en'}" loading="lazy">
     </div>
   </div>
 </ng-container>

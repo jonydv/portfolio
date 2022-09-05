@@ -6,7 +6,7 @@
     <div class="header-container" >
       <nav class="header-container__nav" *ngIf="!info.isMobile; else mobileHeader">
         <div class="header-container__nav__logo" routerLink="/">
-          <img src="../../../../assets/logos/jdv-logo.svg" alt="jdv logo">
+          <img src="../../../../assets/logos/jdv-logo.svg" alt="jdv logo" loading="lazy">
         </div>
         <div class="header-container__nav__links">
           <ng-container
@@ -47,7 +47,7 @@
   </header>
   <ng-template #mobileHeader>
     <div class="header-container__logo" routerLink="/">
-      <img src="../../../../assets/logos/jdv-logo.svg"  alt="jdv logo">
+      <img src="../../../../assets/logos/jdv-logo.svg"  alt="jdv logo" loading="lazy">
     </div>
     <a class="header-container__icon" href="https://www.linkedin.com/in/jonatan-villalba-9126951b9/" target="_blank">
       <i class="fab fa-linkedin"></i>
