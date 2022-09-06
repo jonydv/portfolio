@@ -29,7 +29,12 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/assets/ico/jdv-logo.ico"
+              "src/assets/ico/jdv-logo.ico",
+              {
+                "glob": "_redirects",
+                "input": "src",
+                "output": "/"
+              }
             ],
             "stylePreprocessorOptions": {
               "includePaths": [
