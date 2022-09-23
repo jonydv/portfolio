@@ -61,11 +61,18 @@ export class WorksComponent implements OnInit {
       reverse: false
     },
     {
+      title: {es: 'Tupemesa', en: 'Tupemesa'},
+      paragraph: {es:'Customización de vista 360 para asesor comercial del sitio, SEO, implementación de Google analytics.',
+      en: 'Customization of 360 view for commercial advisor of the site, SEO, implementation of Google analytics.'},
+      imageUrl: '../../../../assets/projects-images/tupemesa-desktop.webp',
+      reverse: true
+    },
+    {
       title: {es: 'Promesa', en: 'Promesa'},
       paragraph: {es: 'Analisis de requerimientos del front-end, implementación de Google Recaptcha para registro de usuarios, desarrollo general del front-end con principios responsive para la correcta visualización en todo el sitio, conección con la API de twilio para la devolución de PIN de activación en los celulares de los usuarios, comercio eléctronico B2B.',
     en: 'Analysis of front-end requirements, implementation of Google Recaptcha for user registration, general development of the front-end with responsive principles for the correct display throughout the site, connection with the twilio API for the return of activation PIN in the cell phones of users, B2B electronic commerce.'},
       imageUrl: '../../../../assets/projects-images/promesa-desktop.webp',
-      reverse: true
+      reverse: false
     }
   ];
 

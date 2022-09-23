@@ -17,6 +17,13 @@ export class ProjectComponent implements OnInit {
   viewSite: Language = {es: 'Ir al sitio', en: 'View'};
   projects = [
     {
+      title: 'Tupemesa Peru',
+      image: '../../../assets/projects-logos/tupemesa-logo.webp',
+      principalImage: '../../../../assets/projects-images/tupemesa.webp',
+      url: 'https://tienda.tupemesa.com.pe/',
+      target: '_blank'
+    },
+    {
       title: 'K-One Chile',
       image: '../../../assets/projects-logos/k1.webp',
       principalImage: '../../../../assets/projects-images/kone.webp',
@@ -63,6 +70,13 @@ export class ProjectComponent implements OnInit {
       image: '../../../assets/projects-logos/aufbau.webp',
       principalImage: '../../../../assets/projects-images/aufbau.webp',
       url: 'https://www.aufbau.cl',
+      target: '_blank'
+    },
+    {
+      title: 'Promesa Ecuador',
+      image: '../../../assets/projects-logos/promesa-logo.webp',
+      principalImage: '../../../../assets/projects-images/promesa.webp',
+      url: '',
       target: '_blank'
     }
   ];
