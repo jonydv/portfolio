@@ -13,8 +13,8 @@ SwiperCore.use([Navigation]);
 })
 export class ProjectComponent implements OnInit {
 
-  title: Language = {es: 'Proyectos donde he colaborado', en: 'Projects where I have collaborated'};
-  viewSite: Language = {es: 'Ir al sitio', en: 'View'};
+  title: Language = { es: 'Proyectos donde he colaborado', en: 'Projects where I have collaborated' };
+  viewSite: Language = { es: 'Ir al sitio', en: 'View' };
   projects = [
     {
       title: 'Tupemesa Peru',
@@ -39,7 +39,7 @@ export class ProjectComponent implements OnInit {
     },
     {
       title: 'Bold Chile',
-      image: '../../../assets/projects-logos/bold.svg',
+      image: '../../../assets/projects-logos/bold.webp',
       principalImage: '../../../../assets/projects-images/bold.webp',
       url: 'https://www.bold.cl',
       target: '_blank'
