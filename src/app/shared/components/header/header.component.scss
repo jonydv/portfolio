@@ -1,5 +1,5 @@
-@import 'variables';
-header{
+@import "src/styles/variables/variables.scss";
+header {
   height: 84px;
   background: $dark;
   box-shadow: 0 3px 4px 0 rgb(0 0 0 / 50%);
@@ -8,91 +8,89 @@ header{
   position: sticky;
   top: 0;
   z-index: 10;
-  @include mobile{
+  @include mobile {
     height: 64px;
   }
-  .header-container{
-    width:100%;
+  .header-container {
+    width: 100%;
     height: 100%;
     max-width: $max-width;
     margin: 0 auto;
 
-    @include mobile{
+    @include mobile {
       display: flex;
       justify-content: space-between;
       padding: 1rem;
     }
-    @include tablet{
+    @include tablet {
       @include inner-width;
     }
-    &__logo{
+    &__logo {
       cursor: pointer;
-      @include mobile{
+      @include mobile {
         max-width: 100px;
-        img{
+        img {
           max-width: 100%;
         }
       }
     }
-    &__nav{
+    &__nav {
       display: flex;
       align-items: center;
       width: 100%;
       height: 100%;
-      &__logo{
+      &__logo {
         cursor: pointer;
         justify-self: flex-start;
         width: 120px;
-        img{
+        img {
           max-width: 100%;
         }
       }
-      &__links{
+      &__links {
         justify-self: flex-end;
         margin-left: auto;
         display: flex;
         column-gap: 1.5rem;
         align-items: center;
-        &-item{
+        &-item {
           color: $title;
           text-decoration: none;
           height: 100%;
           padding: 0.85rem;
           font-weight: 500;
-          &.active{
+          &.active {
             color: $primary;
             border: 1px solid $primary;
             border-radius: 5px;
-            font-weight: bold ;
-            &:hover{
-              background: rgba(100,255,218,0.1);
+            font-weight: bold;
+            &:hover {
+              background: rgba(100, 255, 218, 0.1);
             }
           }
-          &:hover{
+          &:hover {
             color: $primary;
           }
         }
       }
     }
-    &__icon{
+    &__icon {
       margin-left: auto;
       margin-right: 1.5rem;
-      .fab.fa-linkedin{
+      .fab.fa-linkedin {
         color: #0a66c2;
         font-size: 2rem;
-
       }
     }
-    &__hamburger{
-      i{
+    &__hamburger {
+      i {
         font-size: 2rem;
         color: $title;
       }
     }
   }
-
 }
-.nav-backdrop{
+.nav-backdrop {
   position: absolute;
   top: 0;
   left: 0;
@@ -103,7 +101,7 @@ header{
   overflow-x: hidden;
   z-index: 10;
 }
-.header-container__mobile__nav{
+.header-container__mobile__nav {
   display: flex;
   justify-content: center;
   max-width: 100%;
@@ -114,41 +112,40 @@ header{
   top: 64px;
   left: 30%;
   z-index: 2;
-  &__links{
+  &__links {
     display: flex;
     flex-direction: column;
     max-width: 100%;
     width: 100%;
-    &-item{
+    &-item {
       color: $title;
       text-decoration: none;
       padding: 1rem;
       font-weight: 500;
       width: 100%;
-      &.active{
+      &.active {
         color: $primary;
-        padding: .825rem;
+        padding: 0.825rem;
         border: 1px solid $primary;
-        border-radius: .5rem;
+        border-radius: 0.5rem;
         cursor: pointer;
         text-align: center;
-        margin: .5rem;
+        margin: 0.5rem;
         width: calc(100% - 1rem);
         font-weight: bold;
       }
-      &-button{
+      &-button {
         border: 1px solid $primary;
         background: transparent;
         color: $primary;
-        padding: .825rem;
-        border-radius: .5rem;
+        padding: 0.825rem;
+        border-radius: 0.5rem;
         cursor: pointer;
         margin: 1rem;
-        &:hover{
-          background: rgba(100,255,218,0.1);
+        &:hover {
+          background: rgba(100, 255, 218, 0.1);
         }
       }
     }
   }
 }
-
