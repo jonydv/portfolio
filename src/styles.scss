@@ -1,81 +1,136 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~swiper/swiper-bundle";
-@import 'variables';
-@import 'animate.css';
-html{
+@import "src/styles/variables/variables.scss";
+@import "animate.css";
+html {
   scroll-behavior: smooth;
   --webkit-font-smoothing: antialiased;
-  font-family: 'Omnes', sans-serif;
+  font-family: "Omnes", sans-serif;
 }
-body{
+body {
   background-color: $background;
-  font-family: 'Omnes', sans-serif;
+  font-family: "Omnes", sans-serif;
   // padding: 0;
   // margin: 0;
   // width: 100%;
   // max-width: 100%;
-  &.lock{
+  &.lock {
     overflow-y: hidden;
   }
 }
-html{
+html {
   // max-width: 100%;
   // width: 100%;
   @include custom-scrollbar;
 }
 
-*, *:before, *:after{
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
-
-html, app-root, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video{
+html,
+app-root,
+body,
+div,
+span,
+object,
+iframe,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+em,
+img,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+b,
+u,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+canvas,
+embed,
+footer,
+header,
+nav,
+section,
+video {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
-  font-family: 'Omnes', sans-serif;
+  font-family: "Omnes", sans-serif;
   vertical-align: baseline;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   text-size-adjust: none;
 }
 
-
-footer, header, nav, section, main{
+footer,
+header,
+nav,
+section,
+main {
   display: block;
   max-width: 100%;
 }
 
-
-body{
+body {
   line-height: 1;
 }
 
-
-ol, ul{
+ol,
+ul {
   list-style: none;
 }
 
-
-blockquote, q{
+blockquote,
+q {
   quotes: none;
 }
 
-
-blockquote:before, blockquote:after, q:before, q:after{
-  content: '';
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
   content: none;
 }
 
-
-table{
+table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-
-input{
+input {
+  appearance: none;
   -webkit-appearance: none;
   border-radius: 0;
 }
@@ -87,7 +142,7 @@ input{
   visibility: hidden;
 }
 
-jdv-curriculum{
+jdv-curriculum {
   display: block;
   max-width: 100%;
   width: fit-content;
@@ -95,8 +150,7 @@ jdv-curriculum{
   box-shadow: 0px 0px 10px 2px rgb(100 255 218 / 20%);
   -webkit-box-shadow: 0px 0px 10px 2px rgb(100 255 218 / 20%);
   -moz-box-shadow: 0px 0px 10px 2px rgb(100 255 218 / 20%);
-  @include mobile{
+  @include mobile {
     max-width: 100%;
   }
 }
-
