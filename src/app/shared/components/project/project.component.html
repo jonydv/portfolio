@@ -1,39 +1,47 @@
- <ng-container *ngIf="{language: language$ | async} as info">
+<ng-container *ngIf="{ language: language$ | async } as info">
   <div class="project">
     <div class="project__info">
-      <h3 class="project__info-title mt-2">{{title[info.language!]}}</h3>
+      <h3 class="project__info-title mt-2">{{ title[info.language!] }}</h3>
       <div class="project__info-container">
         <swiper
-        [config]="swiperConfig"
-        [navigation]="{
-          nextEl: '.right',
-          prevEl: '.left'
-        }"
-      >
-      <ng-container *ngFor="let item of projects">
-        <ng-template swiperSlide >
-
-              <img [src]="item?.principalImage" alt="" class="principal-image" loading="lazy">
+          [config]="swiperConfig"
+          [navigation]="{
+            nextEl: '.right',
+            prevEl: '.left'
+          }"
+          [autoplay]="{ delay: 6000 }"
+          [loop]="true"
+        >
+          <ng-container *ngFor="let item of projects">
+            <ng-template swiperSlide>
+              <img
+                [src]="item?.principalImage"
+                alt=""
+                class="principal-image"
+                loading="lazy"
+              />
               <div class="principal-image__logo">
                 <div class="principal-image__logo-container">
-                <img [src]="item.image" [alt]="item.title" loading="lazy">
-                  <a [href]="item.url" [target]="item.target" class="project__info-container-item__link">
-                      {{viewSite[info.language!]}}
+                  <img [src]="item.image" [alt]="item.title" loading="lazy" />
+                  <a
+                    [href]="item.url"
+                    [target]="item.target"
+                    class="project__info-container-item__link"
+                  >
+                    {{ viewSite[info.language!] }}
                     <i class="fa-solid fa-arrow-up-right-from-square"></i>
                   </a>
                 </div>
               </div>
-
-        </ng-template>
-      </ng-container>
-      </swiper>
-      <div class="left">
-        <i class="fas fa-chevron-left"></i>
-      </div>
-      <div class="right">
-        <i class="fas fa-chevron-right"></i>
-      </div>
-
+            </ng-template>
+          </ng-container>
+        </swiper>
+        <div class="left">
+          <i class="fas fa-chevron-left"></i>
+        </div>
+        <div class="right">
+          <i class="fas fa-chevron-right"></i>
+        </div>
       </div>
     </div>
   </div>
