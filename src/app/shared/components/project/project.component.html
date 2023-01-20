@@ -9,7 +9,7 @@
             nextEl: '.right',
             prevEl: '.left'
           }"
-          [autoplay]="{ delay: 6000 }"
+          [autoplay]="{ delay: isMobile ? 3000 : 6000 }"
           [loop]="true"
         >
           <ng-container *ngFor="let item of projects">

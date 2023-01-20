@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Observable } from 'rxjs';
 import { LanguageSelectorService } from 'src/app/services/language-selector.service';
 import SwiperCore, { Autoplay, Navigation, SwiperOptions } from 'swiper';
@@ -12,6 +12,7 @@ SwiperCore.use([Navigation, Autoplay]);
   styleUrls: ['./project.component.scss'],
 })
 export class ProjectComponent implements OnInit {
+  @Input() isMobile: boolean = false;
   title: Language = {
     es: 'Proyectos donde he colaborado',
     en: 'Projects where I have collaborated',

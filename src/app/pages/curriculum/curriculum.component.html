@@ -1,28 +1,31 @@
-<ng-container *ngIf="{ language: language$ | async} as info">
-
+<ng-container *ngIf="{ language: language$ | async } as info">
   <div class="curriculum__header">
-    <jdv-profile-image class="animate__animated animate__pulse"></jdv-profile-image>
+    <jdv-profile-image
+      class="animate__animated animate__pulse"
+    ></jdv-profile-image>
     <div class="curriculum__header-personal">
-      <h1 class="curriculum__header-personal__name animate__animated animate__fadeInDown">{{name}}</h1>
-      <h3 class="curriculum__header-personal__position animate__animated animate__fadeInDown">{{position[info.language!]}}</h3>
+      <h1
+        class="curriculum__header-personal__name animate__animated animate__fadeInDown"
+      >
+        {{ name }}
+      </h1>
+      <h3
+        class="curriculum__header-personal__position animate__animated animate__fadeInDown"
+      >
+        {{ position[info.language!] }}
+      </h3>
     </div>
-
   </div>
   <div class="curriculum">
     <section class="curriculum__left">
-
-        <jdv-contact></jdv-contact>
-        <jdv-skills></jdv-skills>
-
+      <jdv-contact></jdv-contact>
+      <jdv-skills></jdv-skills>
     </section>
     <section class="curriculum__right">
-
       <jdv-education></jdv-education>
       <jdv-experience></jdv-experience>
 
-      <jdv-project></jdv-project>
-
+      <jdv-project [isMobile]="(isMobile$ | async)!"></jdv-project>
     </section>
   </div>
-
 </ng-container>
