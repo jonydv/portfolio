@@ -4,32 +4,36 @@ import { ErrorPageComponent } from './pages/error-page/error-page.component';
 import { CurriculumComponent } from './pages/curriculum/curriculum.component';
 import { WorksComponent } from './pages/works/works.component';
 
-
 const routes: Routes = [
   {
     path: '',
-    loadChildren: () => import('./pages/pages.module').then(m => m.PagesModule),
+    loadChildren: () =>
+      import('./pages/pages.module').then((m) => m.PagesModule),
   },
   {
-    path: 'curriculum', component: CurriculumComponent
+    path: 'curriculum',
+    component: CurriculumComponent,
   },
   {
-    path: 'works', component: WorksComponent
+    path: 'works',
+    component: WorksComponent,
   },
-  {
-    path: '404',
-    component: ErrorPageComponent
-  },
+  // {
+  //   path: '404',
+  //   component: ErrorPageComponent
+  // },
   {
     path: '**',
-    redirectTo: '404'
-  }
+    redirectTo: '',
+  },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, {
-    scrollPositionRestoration: 'enabled'
-  })],
-  exports: [RouterModule]
+  imports: [
+    RouterModule.forRoot(routes, {
+      scrollPositionRestoration: 'enabled',
+    }),
+  ],
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
