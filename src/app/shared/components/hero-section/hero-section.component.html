@@ -1,35 +1,75 @@
- <ng-container *ngIf="{
-  isMobile: isMobile$ | async,
-  language: language$ | async
-} as info">
-
+<ng-container
+  *ngIf="{
+    isMobile: isMobile$ | async,
+    language: language$ | async
+  } as info"
+>
   <div class="hero">
-    <div class="hero__container" [ngClass]="{'mobile': info.isMobile}">
+    <div class="hero__container" [ngClass]="{ mobile: info.isMobile }">
       <div class="hero__container__content" *ngIf="heroInfo">
-        <h5 class="hero__container__content-name animate__animated animate__fadeInDown">{{heroInfo.first[info.language!]}}</h5>
-        <h1 class="hero__container__content-title animate__animated animate__fadeInDown" >{{heroInfo.name[info.language!]}}</h1>
-        <h3 class="hero__container__content-subtitle animate__animated animate__fadeInDown">{{heroInfo.position[info.language!]}}</h3>
+        <h5
+          class="hero__container__content-name"
+          [ngClass]="{
+            'animate__animated animate__fadeInDown': animatedClassess
+          }"
+        >
+          {{ heroInfo.first[info.language!] }}
+        </h5>
+        <h1
+          class="hero__container__content-title"
+          [ngClass]="{
+            'animate__animated animate__fadeInDown': animatedClassess
+          }"
+        >
+          {{ heroInfo.name[info.language!] }}
+        </h1>
+        <h3
+          class="hero__container__content-subtitle"
+          [ngClass]="{
+            'animate__animated animate__fadeInDown': animatedClassess
+          }"
+        >
+          {{ heroInfo.position[info.language!] }}
+        </h3>
         <ng-container *ngIf="info.isMobile">
           <ng-container *ngTemplateOutlet="profileImage"></ng-container>
         </ng-container>
-        <p class="hero__container__content-paragraph animate__animated animate__fadeInUp">
-          {{heroInfo.resume[info.language!]}}
+        <p
+          class="hero__container__content-paragraph"
+          [ngClass]="{
+            'animate__animated animate__fadeInUp': animatedClassess
+          }"
+        >
+          {{ heroInfo.resume[info.language!] }}
         </p>
-        <button class="hero__container__content-button animate__animated animate__fadeInUp" (click)="navigateByUrl('/works')">
-          {{heroInfo.callToAction[info.language!]}}
+        <button
+          class="hero__container__content-button"
+          (click)="navigateByUrl('/works')"
+          [ngClass]="{
+            'animate__animated animate__fadeInUp': animatedClassess
+          }"
+        >
+          {{ heroInfo.callToAction[info.language!] }}
         </button>
       </div>
       <ng-container *ngIf="!info.isMobile">
-        <div class="hero__container__content-image animate__animated animate__fadeInDown">
+        <div
+          class="hero__container__content-image"
+          [ngClass]="{
+            'animate__animated animate__fadeInDown': animatedClassess
+          }"
+        >
           <ng-container *ngTemplateOutlet="profileImage"></ng-container>
         </div>
       </ng-container>
     </div>
   </div>
-
 </ng-container>
 
 <ng-template #profileImage>
-  <jdv-profile-image class="hero__container__content-subtitle animate__animated animate__fadeInDown"></jdv-profile-image>
+  <jdv-profile-image
+    class="hero__container__content-subtitle"
+    [ngClass]="{ 'animate__animated animate__fadeInDown': animatedClassess }"
+  ></jdv-profile-image>
   <jdv-contact [fromHome]="true"></jdv-contact>
 </ng-template>
