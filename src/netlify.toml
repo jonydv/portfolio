@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build:ssr"
+  publish = "dist/portfolio/browser"
+  functions = "dist/portfolio/server/main.js"
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

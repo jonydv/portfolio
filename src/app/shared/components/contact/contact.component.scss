@@ -1,77 +1,75 @@
-@import 'variables';
-.contact{
+@import "src/styles/variables/variables.scss";
+.contact {
   width: 100%;
   min-height: 250px;
   height: fit-content;
   display: flex;
   padding: 1rem 2rem 1rem 2rem;
   margin-bottom: 1rem;
-  &.home{
+  &.home {
     min-height: 50px;
     margin-bottom: 0;
-    @include desktop{
+    @include desktop {
       width: 350px;
       margin-top: 1rem;
     }
-
   }
-  &__btn{
+  &__btn {
     height: 52px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    &.home{
+    &.home {
       width: 100%;
       justify-content: center;
-      @include mobile{
+      @include mobile {
         margin: auto;
         width: 250px;
       }
     }
-    &-title{
+    &-title {
       color: $primary-dark;
       border-bottom: 2px solid $primary-dark;
       font-weight: bold;
       font-size: 1.5rem;
       border-radius: 5px;
-      padding-bottom: .5rem;
+      padding-bottom: 0.5rem;
       cursor: default;
     }
-    &__icons{
-      &.home{
+    &__icons {
+      &.home {
         display: flex;
         justify-content: space-between;
         width: 100%;
 
-          .contact__btn__icons-item-background{
-            width: 45px;
-            height: 48px;
-            @include mobile{
-              width: 30px;
-              height: 34px;
+        .contact__btn__icons-item-background {
+          width: 45px;
+          height: 48px;
+          @include mobile {
+            width: 30px;
+            height: 34px;
+          }
+          // &.mail{
+          //   width: 50px;
+          //   height: 40px;
+          //   @include mobile{
+          //     width: 38px;
+          //     height: 25px;
+          //   }
+          // }
+          i {
+            font-size: 3.5rem;
+            cursor: pointer;
+            &:hover {
+              color: $primary;
             }
-            // &.mail{
-            //   width: 50px;
-            //   height: 40px;
-            //   @include mobile{
-            //     width: 38px;
-            //     height: 25px;
-            //   }
-            // }
-            i{
-              font-size: 3.5rem;
-              cursor: pointer;
-              &:hover{
-                color: $primary;
-              }
-              @include mobile{
-                font-size: 2.5rem;
-              }
+            @include mobile {
+              font-size: 2.5rem;
             }
           }
-
+        }
       }
-      &-item{
+      &-item {
         // &-background{
         //   width: 22px;
         //   height: 25px;
@@ -85,34 +83,33 @@
         //     width: 27px;
         //   }
         // }
-        &:hover{
+        &:hover {
           color: $primary;
         }
-        &-text{
+        &-text {
           color: $title;
           font-size: 1.25rem;
           cursor: pointer;
-          &:hover{
+          &:hover {
             color: $primary;
           }
         }
         display: flex;
         margin-top: 1rem;
         align-items: center;
-        column-gap: .75rem;
+        column-gap: 0.75rem;
         text-decoration: none;
-        i{
+        i {
           position: relative;
           color: #385898;
           font-size: 2rem;
           cursor: pointer;
           transition: all ease 3ms;
-          &:hover{
+          &:hover {
             color: $primary;
           }
         }
       }
-
     }
   }
 }

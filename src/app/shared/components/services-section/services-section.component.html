@@ -1,28 +1,45 @@
- <ng-container *ngIf="{language: language$ | async} as info">
+<ng-container *ngIf="{ language: language$ | async } as info">
   <div class="services">
     <div class="services-container">
-      <h3 class="services-container__title hide-on-init" animateOnScroll animationName="animate__animated animate__fadeInUp animate__fast">{{serviceTitle[info.language!]}}</h3>
-      <p class="services-container__paragraph hide-on-init" animateOnScroll animationName="animate__animated animate__fadeInUp animate__fast">
-        {{serviceIntro[info.language!]}}
+      <h3
+        class="services-container__title hide-on-init"
+        animateOnScroll
+        animationName="animate__animated animate__fadeInUp animate__fast"
+      >
+        {{ serviceTitle[info.language!] }}
+      </h3>
+      <p
+        class="services-container__paragraph hide-on-init"
+        animateOnScroll
+        animationName="animate__animated animate__fadeInUp animate__fast"
+      >
+        {{ serviceIntro[info.language!] }}
       </p>
-      <div class="services-container__cards" >
+      <div class="services-container__cards">
         <ng-container *ngFor="let item of services">
-          <div class="services-container__cards-item hide-on-init" animateOnScroll animationName="animate__animated animate__fadeInUp animate__fast">
+          <div
+            class="services-container__cards-item hide-on-init"
+            animateOnScroll
+            animationName="animate__animated animate__fadeInUp animate__fast"
+          >
             <div class="services-container__cards-item__icon">
-              <p class="services-container__cards-item__icon-title">{{item.title[info.language!]}}</p>
-              <img [src]="item.imgUrl" alt="web-image" loading="lazy">
+              <p class="services-container__cards-item__icon-title">
+                {{ item.title[info.language!] }}
+              </p>
+              <img
+                [src]="item.imgUrl"
+                [alt]="item.title[info.language!]"
+                loading="lazy"
+              />
             </div>
             <div class="services-container__cards-item__content">
               <p class="services-container__cards-item__content-paragraph">
-                {{item.text[info.language!]}}
+                {{ item.text[info.language!] }}
               </p>
             </div>
           </div>
         </ng-container>
-
       </div>
     </div>
   </div>
 </ng-container>
-
-

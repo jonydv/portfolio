@@ -1,17 +1,17 @@
-@import 'variables';
-:host{
+@import "src/styles/variables/variables.scss";
+:host {
   max-width: 100%;
   box-sizing: border-box;
   width: 100%;
   overflow-x: hidden;
 
-  section{
+  section {
     display: flex;
     max-width: 100%;
-    width:100%;
+    width: 100%;
     jdv-hero-section,
     jdv-services-section,
-    jdv-grid-banners{
+    jdv-grid-banners {
       margin: auto;
       display: block;
       max-width: 100%;
@@ -19,13 +19,13 @@
       background: $background-secondary;
       min-height: calc(100vh - 84px);
     }
-    jdv-services-section{
+    jdv-services-section {
       background: $background-alt;
     }
-    &.skills{
+    &.skills {
       background: $title;
       padding: 2rem 0;
-      jdv-skills{
+      jdv-skills {
         max-width: $max-width;
         margin: auto;
       }

@@ -1,41 +1,41 @@
-@import 'variables';
-.skills{
+@import "src/styles/variables/variables.scss";
+.skills {
   width: 100%;
   min-height: 250px;
   height: fit-content;
   display: flex;
   flex-wrap: wrap;
-  column-gap: .5rem;
+  column-gap: 0.5rem;
   padding: 1rem 2rem 1rem 2rem;
   margin-bottom: 1rem;
-  &.home{
+  &.home {
     padding: 0;
     row-gap: 1rem;
     column-gap: 1.25rem;
-    @include tablet{
+    @include tablet {
       @include inner-width;
     }
-    @include mobile{
+    @include mobile {
       padding: 0 1rem;
       border-bottom: none;
     }
   }
-  @include mobile{
+  @include mobile {
     border-bottom: 4px solid $dark;
   }
-  &__title{
+  &__title {
     flex: 100%;
 
-    &-value{
+    &-value {
       width: fit-content;
       color: $primary-dark;
       border-bottom: 2px solid $primary-dark;
       font-weight: bold;
       font-size: 1.5rem;
       border-radius: 5px;
-      padding-bottom: .5rem;
+      padding-bottom: 0.5rem;
       cursor: default;
-      &.home{
+      &.home {
         font-size: 4rem;
         color: #030303;
         text-shadow: 1px 1px 0px $background;
@@ -44,59 +44,57 @@
         border-bottom: none;
         width: 100%;
         text-align: center;
-        @include mobile{
+        @include mobile {
           font-size: 2rem;
           margin-bottom: 0;
         }
       }
     }
   }
-  &__items{
-    flex: calc(50% - .5rem);
+  &__items {
+    flex: calc(50% - 0.5rem);
     margin-top: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    column-gap: .75rem;
+    column-gap: 0.75rem;
     background: $text;
     border-radius: 20px;
-    padding: .75rem;
-    box-shadow: 5px 16px 39px 0px rgba(3,3,3,0.6);
-    -webkit-box-shadow: 5px 16px 39px 0px rgba(3,3,3,0.6);
-    -moz-box-shadow: 5px 16px 39px 0px rgba(3,3,3,0.6);
-    &.home{
+    padding: 0.75rem;
+    box-shadow: 5px 16px 39px 0px rgba(3, 3, 3, 0.6);
+    -webkit-box-shadow: 5px 16px 39px 0px rgba(3, 3, 3, 0.6);
+    -moz-box-shadow: 5px 16px 39px 0px rgba(3, 3, 3, 0.6);
+    &.home {
       flex: calc(25% - 2.5rem);
       box-shadow: 0px 10px 10px 0px rgb(3 3 3 / 60%);
       -webkit-box-shadow: 0px 10px 10px 0px rgb(3 3 3 / 60%);
       -moz-box-shadow: 0px 10px 10px 0px rgb(3 3 3 / 60%);
-      @include desktop{
+      @include desktop {
         max-width: calc(25% - 1.25rem);
       }
-      @include mobile{
+      @include mobile {
         flex: calc(50% - 2rem);
-
       }
     }
-    &-background{
-      img{
+    &-background {
+      img {
         max-width: 100%;
         transition: all ease 3ms;
-        &.fab.fa-js-square{
-          color: #FFEF00;
+        &.fab.fa-js-square {
+          color: #ffef00;
         }
-        &:hover{
+        &:hover {
           transform: scale(1.1);
         }
-
       }
     }
-    &-text{
-          color: $title;
-          font-size: 1.25rem;
-          cursor: pointer;
-          &:hover{
-            color: $text;
-          }
+    &-text {
+      color: $title;
+      font-size: 1.25rem;
+      cursor: pointer;
+      &:hover {
+        color: $text;
+      }
     }
   }
 }

@@ -1,23 +1,23 @@
-@import 'variables';
-@import 'src/styles/mixins/mixins.scss';
+@import "src/styles/variables/variables.scss";
+@import "src/styles/mixins/mixins.scss";
 
-.container__img{
+.container__img {
   border-radius: 50%;
-  border: .25rem solid $primary;
+  border: 0.25rem solid $primary;
   width: 350px;
   height: 350px;
   @include backgroundEffect;
-  @include mobile{
+  @include mobile {
     width: 250px;
     height: 250px;
     margin: 1rem auto;
   }
-  img{
+  img {
     border-radius: 50%;
     width: 350px;
     height: 350px;
-    border: .5rem solid transparent;
-    @include mobile{
+    border: 0.5rem solid transparent;
+    @include mobile {
       width: 250px;
       height: 250px;
     }

@@ -1,17 +1,26 @@
-<ng-container *ngIf="{
-  isMobile: isMobile$ | async,
-  language: language$ | async
-}as info">
-
+<ng-container
+  *ngIf="{
+    isMobile: isMobile$ | async,
+    language: language$ | async
+  } as info"
+>
   <footer class="footer">
     <div class="footer-container">
       <h5 class="footer-container__copyright">
-        {{copyright[info.language!] + ' '}}&#174; {{' ' + date + ' ' + name}}
+        {{ copyright[info.language!] + " " }}&#174;
+        {{ " " + date + " " + name }}
       </h5>
-      <a [href]="certificationUrl" [target]="'_blank'" class="footer-container__certification">
-        <img src="../../../../assets/logos/insignia.svg" alt="" loading="lazy">
+      <a
+        [href]="certificationUrl"
+        [target]="'_blank'"
+        class="footer-container__certification"
+      >
+        <img
+          src="../../../../assets/logos/insignia.svg"
+          alt="insignia certificacion mercado pago developer"
+          loading="lazy"
+        />
       </a>
     </div>
   </footer>
-
 </ng-container>

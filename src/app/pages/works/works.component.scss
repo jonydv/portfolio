@@ -1,13 +1,13 @@
-@import 'variables';
+@import "src/styles/variables/variables.scss";
 
-.works{
+.works {
   width: 100%;
   max-width: 100%;
-  section{
+  section {
     display: flex;
     max-width: 100%;
     width: 100%;
-    jdv-grid-banners{
+    jdv-grid-banners {
       margin: auto;
       display: block;
       max-width: 100%;
