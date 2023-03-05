@@ -1,22 +1,31 @@
-import {Injectable} from '@angular/core';
+import { Injectable } from '@angular/core';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class ScrollLockService {
+  constructor() {}
 
-  constructor() { }
-
-  lock(){
-    document?.body?.classList?.add('lock');
-
+  lock() {
+    this.validateSSR() ? null : document?.body?.classList?.add('lock');
   }
 
-  unlock(){
-    document?.body?.classList?.remove('lock');
+  unlock() {
+    this.validateSSR() ? null : document?.body?.classList?.remove('lock');
   }
 
   handleLockBodyScroll(isVisible: boolean): void {
-    document?.body?.classList?.toggle('lock-scroll', isVisible);
+    this.validateSSR()
+      ? null
+      : document?.body?.classList?.toggle('lock-scroll', isVisible);
+  }
+
+  validateSSR() {
+    const isSSR = typeof window === 'undefined';
+    if (isSSR) {
+      return true;
+    } else {
+      return false;
+    }
   }
 }
