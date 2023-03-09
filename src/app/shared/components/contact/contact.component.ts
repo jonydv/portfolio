@@ -21,7 +21,7 @@ export class ContactComponent implements OnInit {
     },
     {
       icon: 'fab fa-linkedin',
-      url: 'https://www.linkedin.com/in/jonatan-david-villalba-9126951b9/',
+      url: 'https://www.linkedin.com/in/jonatan-david-villalba/',
       displayName: 'LinkedIn',
     },
     {
