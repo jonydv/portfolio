@@ -11,13 +11,22 @@ import { LanguageSelectorService } from 'src/app/services/language-selector.serv
 export class WorksComponent implements OnInit {
   gridItems: Grid[] = [
     {
+      title: { es: 'JDVM Movie', en: 'JDVM Movie' },
+      paragraph: {
+        es: 'Este proyecto lo he creado desde cero utilizando la última versión del framework Angular y la API de TheMovieDB. Implementé carga perezosa y renderizado del lado del servidor para lograr un mejor rendimiento y una optimización del SEO. En esta aplicación, se pueden encontrar filtros avanzados, meta-resolvers para cargar datos de manera anticipada, búsquedas mediante queries, scroll infinito para una mejor experiencia del usuario, rutas dinámicas y la implementación de la API de YouTube para la visualización de trailers de películas. Además, cuenta con un diseño responsivo y muchas otras características.',
+        en: 'I created this project from scratch using the latest version of the Angular framework and TheMovieDB API. I implemented lazy loading and server-side rendering to achieve better performance and SEO optimization. This application features advanced filters, meta-resolvers for preloading data, query-based searching, infinite scrolling for a better user experience, dynamic routes, and implementation of the YouTube API for viewing movie trailers. It also has a responsive design and many other features.',
+      },
+      imageUrl: '../../../../assets/projects-images/movie-desktop.webp',
+      reverse: false,
+    },
+    {
       title: { es: 'Belsport', en: 'Belsport' },
       paragraph: {
         es: 'Participe en el proyecto en la customización del look and feel de la página, implementación de Apis externas, SEO con google analitycs, diseño responsivo para la correcta visualización en diferentes dispositivos, utilización de carga perezosa de componentes y modulos, implementación de scroll infinito administrable, optimización de performance.',
         en: 'I participated in the project in customizing the look and feel of the page, implementing external APIs, SEO with google analytics, responsive design for correct visualization on different devices, using lazy loading of components and modules, implementing manageable infinite scroll, performance optimization.',
       },
       imageUrl: '../../../../assets/projects-images/belsport-desktop.webp',
-      reverse: false,
+      reverse: true,
     },
     {
       title: { es: 'Bamers', en: 'Bamers' },
@@ -26,7 +35,7 @@ export class WorksComponent implements OnInit {
         en: 'Development of custom and manageable grids, SEO, adaptable to different devices, maintenance, estimation of new front-end requirements, static and manageable pages.',
       },
       imageUrl: '../../../../assets/projects-images/bamers-desktop.webp',
-      reverse: true,
+      reverse: false,
     },
     {
       title: { es: 'Antihuman', en: 'Antihuman' },
@@ -35,7 +44,7 @@ export class WorksComponent implements OnInit {
         en: 'Development of custom and manageable product carousels, customization of look and feel, brand-oriented design, adaptable to different devices, performance optimization and SEO.',
       },
       imageUrl: '../../../../assets/projects-images/antihuman-desktop.webp',
-      reverse: false,
+      reverse: true,
     },
     {
       title: { es: 'Aufbau', en: 'Aufbau' },
@@ -44,7 +53,7 @@ export class WorksComponent implements OnInit {
         en: 'Customization of routes, implementation of dynamic modals, management of product promotions, visualization and customization according to device resolution, activation of campaigns, tracking of user navigation activities on different site routes.',
       },
       imageUrl: '../../../../assets/projects-images/aufbau-desktop.webp',
-      reverse: true,
+      reverse: false,
     },
     {
       title: { es: 'Bold', en: 'Bold' },
@@ -53,7 +62,7 @@ export class WorksComponent implements OnInit {
         en: 'Implementation of reactive forms with various functionalities, user login, registration, implementation and customization of payment platforms in the application checkout, activation of purchases for guest users.',
       },
       imageUrl: '../../../../assets/projects-images/bold-desktop.webp',
-      reverse: false,
+      reverse: true,
     },
     {
       title: { es: 'K-one', en: 'K-one' },
@@ -62,7 +71,7 @@ export class WorksComponent implements OnInit {
         en: 'Customization of the entire websites visual, improvements in the main landing page, customization of search results, improvements in the checkout pages display for mobile devices.',
       },
       imageUrl: '../../../../assets/projects-images/kone-desktop.webp',
-      reverse: true,
+      reverse: false,
     },
     {
       title: { es: 'Crocs', en: 'Crocs' },
@@ -71,7 +80,7 @@ export class WorksComponent implements OnInit {
         en: 'I estimate new front-end requirements, customize the overall look and feel of the site and display the header, and implement Google Analytics',
       },
       imageUrl: '../../../../assets/projects-images/crocs-desktop.webp',
-      reverse: false,
+      reverse: true,
     },
     {
       title: { es: 'Tupemesa', en: 'Tupemesa' },
@@ -80,7 +89,7 @@ export class WorksComponent implements OnInit {
         en: 'Customization of 360 view for the commercial advisor of the site, SEO, implementation of Google analytics.',
       },
       imageUrl: '../../../../assets/projects-images/tupemesa-desktop.webp',
-      reverse: true,
+      reverse: false,
     },
     {
       title: { es: 'Promesa', en: 'Promesa' },
@@ -89,7 +98,7 @@ export class WorksComponent implements OnInit {
         en: 'Analysis of front-end requirements, implementation of Google Recaptcha for user registration, general front-end development with responsive principles for correct display throughout the site, connection with the Twilio API for returning activation PINs to users cellphones, B2B e-commerce.',
       },
       imageUrl: '../../../../assets/projects-images/promesa-desktop.webp',
-      reverse: false,
+      reverse: true,
     },
   ];
 
