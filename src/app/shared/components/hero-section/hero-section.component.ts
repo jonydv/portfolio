@@ -1,4 +1,4 @@
-import { Component, OnInit, AfterViewInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import { Hero } from 'src/app/models/hero.interface';
@@ -20,7 +20,7 @@ interface Item {
   templateUrl: './hero-section.component.html',
   styleUrls: ['./hero-section.component.scss'],
 })
-export class HeroSectionComponent implements OnInit, AfterViewInit {
+export class HeroSectionComponent {
   isMobile$: Observable<boolean> = this.breakpointService.isMobile$;
 
   heroInfo: Hero = {
@@ -40,16 +40,13 @@ export class HeroSectionComponent implements OnInit, AfterViewInit {
   };
 
   language$: Observable<string> = this.languageSelectorService.getLanguage();
-  animatedClassess: boolean = false;
+  animatedClassess: boolean;
   constructor(
     private breakpointService: BreakpointService,
     private languageSelectorService: LanguageSelectorService,
     private router: Router
-  ) {}
-
-  ngOnInit(): void {}
-  ngAfterViewInit(): void {
-    this.animatedClassess = true;
+  ) {
+    this.animatedClassess = typeof window === 'undefined' ? false : true;
   }
 
   navigateByUrl(url: string) {
