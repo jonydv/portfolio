@@ -40,14 +40,12 @@ export class HeroSectionComponent {
   };
 
   language$: Observable<string> = this.languageSelectorService.getLanguage();
-  animatedClassess: boolean;
+
   constructor(
     private breakpointService: BreakpointService,
     private languageSelectorService: LanguageSelectorService,
     private router: Router
-  ) {
-    this.animatedClassess = typeof window === 'undefined' ? false : true;
-  }
+  ) {}
 
   navigateByUrl(url: string) {
     this.router.navigateByUrl(url);

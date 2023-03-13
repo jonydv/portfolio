@@ -7,58 +7,30 @@
   <div class="hero">
     <div class="hero__container">
       <div class="hero__container__content" *ngIf="heroInfo">
-        <h5
-          class="hero__container__content-name"
-          [ngClass]="{
-            'animate__animated animate__fadeInDown': animatedClassess
-          }"
-        >
+        <h5 class="hero__container__content-name">
           {{ heroInfo.first[info.language!] }}
         </h5>
-        <h1
-          class="hero__container__content-title"
-          [ngClass]="{
-            'animate__animated animate__fadeInDown': animatedClassess
-          }"
-        >
+        <h1 class="hero__container__content-title">
           {{ heroInfo.name[info.language!] }}
         </h1>
-        <h3
-          class="hero__container__content-subtitle"
-          [ngClass]="{
-            'animate__animated animate__fadeInDown': animatedClassess
-          }"
-        >
+        <h3 class="hero__container__content-subtitle">
           {{ heroInfo.position[info.language!] }}
         </h3>
         <ng-container *ngIf="info.isMobile">
           <ng-container *ngTemplateOutlet="profileImage"></ng-container>
         </ng-container>
-        <p
-          class="hero__container__content-paragraph"
-          [ngClass]="{
-            'animate__animated animate__fadeInUp': animatedClassess
-          }"
-        >
+        <p class="hero__container__content-paragraph">
           {{ heroInfo.resume[info.language!] }}
         </p>
         <button
           class="hero__container__content-button"
           (click)="navigateByUrl('/works')"
-          [ngClass]="{
-            'animate__animated animate__fadeInUp': animatedClassess
-          }"
         >
           {{ heroInfo.callToAction[info.language!] }}
         </button>
       </div>
       <ng-container *ngIf="!info.isMobile">
-        <div
-          class="hero__container__content-image"
-          [ngClass]="{
-            'animate__animated animate__fadeInDown': animatedClassess
-          }"
-        >
+        <div class="hero__container__content-image">
           <ng-container *ngTemplateOutlet="profileImage"></ng-container>
         </div>
       </ng-container>
@@ -69,7 +41,6 @@
 <ng-template #profileImage>
   <jdv-profile-image
     class="hero__container__content-subtitle"
-    [ngClass]="{ 'animate__animated animate__fadeInDown': animatedClassess }"
   ></jdv-profile-image>
   <jdv-contact [fromHome]="true"></jdv-contact>
 </ng-template>
