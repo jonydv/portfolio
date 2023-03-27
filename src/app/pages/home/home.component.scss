@@ -25,9 +25,18 @@
     &.skills {
       background: $title;
       padding: 2rem 0;
+      flex-direction: column;
       jdv-skills {
         max-width: $max-width;
         margin: auto;
+      }
+      jdv-project {
+        max-width: $max-width;
+        margin: auto;
+        @include mobile {
+          max-width: 100%;
+          padding: 0 1rem;
+        }
       }
     }
   }

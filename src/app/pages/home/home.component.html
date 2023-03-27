@@ -2,6 +2,10 @@
   <jdv-hero-section></jdv-hero-section>
 </section>
 <section class="skills">
+  <jdv-project
+    [fromHome]="true"
+    [isMobile]="(isMobile$ | async)!"
+  ></jdv-project>
   <jdv-skills [fromHome]="true"></jdv-skills>
 </section>
 <section>
