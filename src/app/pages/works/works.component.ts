@@ -18,6 +18,7 @@ export class WorksComponent implements OnInit {
       },
       imageUrl: '../../../../assets/projects-images/movie-desktop.webp',
       reverse: false,
+      link: 'https://jdvmovies.netlify.app/',
     },
     {
       title: { es: 'Belsport', en: 'Belsport' },
@@ -27,6 +28,7 @@ export class WorksComponent implements OnInit {
       },
       imageUrl: '../../../../assets/projects-images/belsport-desktop.webp',
       reverse: true,
+      link: 'https://belsport.cl/',
     },
     {
       title: { es: 'Bamers', en: 'Bamers' },
@@ -36,6 +38,7 @@ export class WorksComponent implements OnInit {
       },
       imageUrl: '../../../../assets/projects-images/bamers-desktop.webp',
       reverse: false,
+      link: 'https://bamers.cl/',
     },
     {
       title: { es: 'Antihuman', en: 'Antihuman' },
@@ -45,6 +48,7 @@ export class WorksComponent implements OnInit {
       },
       imageUrl: '../../../../assets/projects-images/antihuman-desktop.webp',
       reverse: true,
+      link: 'https://www.antihuman.cl/',
     },
     {
       title: { es: 'Aufbau', en: 'Aufbau' },
@@ -54,6 +58,7 @@ export class WorksComponent implements OnInit {
       },
       imageUrl: '../../../../assets/projects-images/aufbau-desktop.webp',
       reverse: false,
+      link: 'https://aufbau.cl/',
     },
     {
       title: { es: 'Bold', en: 'Bold' },
@@ -63,6 +68,7 @@ export class WorksComponent implements OnInit {
       },
       imageUrl: '../../../../assets/projects-images/bold-desktop.webp',
       reverse: true,
+      link: 'https://bold.cl/',
     },
     {
       title: { es: 'K-one', en: 'K-one' },
@@ -72,6 +78,7 @@ export class WorksComponent implements OnInit {
       },
       imageUrl: '../../../../assets/projects-images/kone-desktop.webp',
       reverse: false,
+      link: 'https://k1.cl/',
     },
     {
       title: { es: 'Crocs', en: 'Crocs' },
@@ -81,6 +88,7 @@ export class WorksComponent implements OnInit {
       },
       imageUrl: '../../../../assets/projects-images/crocs-desktop.webp',
       reverse: true,
+      link: 'https://crocs.cl/',
     },
     {
       title: { es: 'Tupemesa', en: 'Tupemesa' },
@@ -90,6 +98,7 @@ export class WorksComponent implements OnInit {
       },
       imageUrl: '../../../../assets/projects-images/tupemesa-desktop.webp',
       reverse: false,
+      link: 'https://tienda.tupemesa.com.pe/',
     },
     {
       title: { es: 'Promesa', en: 'Promesa' },
@@ -99,6 +108,7 @@ export class WorksComponent implements OnInit {
       },
       imageUrl: '../../../../assets/projects-images/promesa-desktop.webp',
       reverse: true,
+      link: 'https://www.promesa.com.ec/',
     },
   ];
 

@@ -27,6 +27,17 @@
           <p class="grid__item-info-paragraph">
             {{ item.paragraph[data.language!] }}
           </p>
+          <a
+            *ngIf="item?.link"
+            class="grid__item-info-link hide-on-init"
+            animateOnScroll
+            animationName="animate__animated animate__fadeInUp animate__fast"
+            [href]="item.link"
+            target="_blank"
+          >
+            {{ viewPage[data.language!] }}
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
         </div>
       </div>
     </ng-container>
