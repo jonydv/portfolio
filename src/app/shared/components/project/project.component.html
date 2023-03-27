@@ -1,7 +1,9 @@
 <ng-container *ngIf="{ language: language$ | async } as info">
   <div class="project">
     <div class="project__info">
-      <h3 class="project__info-title mt-2">{{ title[info.language!] }}</h3>
+      <h3 class="project__info-title mt-2" [ngClass]="{ home: fromHome }">
+        {{ fromHome ? homeTitle[info.language!] : title[info.language!] }}
+      </h3>
       <div class="project__info-container">
         <swiper
           [config]="swiperConfig"

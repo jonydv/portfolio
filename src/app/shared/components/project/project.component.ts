@@ -13,9 +13,14 @@ SwiperCore.use([Navigation, Autoplay]);
 })
 export class ProjectComponent implements OnInit {
   @Input() isMobile: boolean = false;
+  @Input() fromHome: boolean = false;
   title: Language = {
     es: 'Proyectos donde he colaborado',
     en: 'Projects where I have collaborated',
+  };
+  homeTitle: Language = {
+    es: 'Proyectos',
+    en: 'Projects',
   };
   viewSite: Language = { es: 'Ir al sitio', en: 'View' };
   projects = [
@@ -90,38 +95,40 @@ export class ProjectComponent implements OnInit {
       target: '_blank',
     },
   ];
-  swiperConfig: SwiperOptions = {
-    slidesPerView: 4,
-    spaceBetween: 10,
-    pagination: true,
-    navigation: true,
-    breakpoints: {
-      0: {
-        slidesPerView: 1,
-        slidesPerGroup: 1,
-      },
-      356: {
-        slidesPerView: 2,
-        slidesPerGroup: 2,
-      },
-      526: {
-        slidesPerView: 3,
-        slidesPerGroup: 3,
-      },
-      696: {
-        slidesPerView: 3,
-        slidesPerGroup: 3,
-      },
-      1400: {
-        slidesPerView: 4,
-        slidesPerGroup: 4,
-      },
-    },
-  };
+  swiperConfig: SwiperOptions = {};
 
   language$: Observable<string> = this.languageSelectorService.getLanguage();
 
   constructor(private languageSelectorService: LanguageSelectorService) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.swiperConfig = {
+      slidesPerView: this.fromHome ? 5 : 4,
+      spaceBetween: 10,
+      pagination: true,
+      navigation: true,
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+          slidesPerGroup: 1,
+        },
+        356: {
+          slidesPerView: 2,
+          slidesPerGroup: 2,
+        },
+        526: {
+          slidesPerView: 3,
+          slidesPerGroup: 3,
+        },
+        696: {
+          slidesPerView: 3,
+          slidesPerGroup: 3,
+        },
+        1400: {
+          slidesPerView: this.fromHome ? 5 : 4,
+          slidesPerGroup: this.fromHome ? 5 : 4,
+        },
+      },
+    };
+  }
 }
