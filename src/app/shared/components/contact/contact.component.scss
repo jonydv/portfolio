@@ -39,7 +39,8 @@
     &__icons {
       &.home {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        column-gap: 3rem;
         width: 100%;
 
         .contact__btn__icons-item-background {

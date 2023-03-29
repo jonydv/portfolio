@@ -14,11 +14,11 @@ export class ContactComponent implements OnInit {
     en: 'Contact',
   };
   contact = [
-    {
-      icon: 'fab fa-facebook-square',
-      url: 'https://www.facebook.com/jonatan.villalba.14/',
-      displayName: 'Facebook',
-    },
+    // {
+    //   icon: 'fab fa-facebook-square',
+    //   url: 'https://www.facebook.com/jonatan.villalba.14/',
+    //   displayName: 'Facebook',
+    // },
     {
       icon: 'fab fa-linkedin',
       url: 'https://www.linkedin.com/in/jonatan-david-villalba/',

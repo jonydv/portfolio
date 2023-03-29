@@ -25,6 +25,14 @@ export class ProjectComponent implements OnInit {
   viewSite: Language = { es: 'Ir al sitio', en: 'View' };
   projects = [
     {
+      title: 'Sap Spartacus Demo ',
+      image: '../../../assets/projects-logos/spartacus-logo.webp',
+      principalImage:
+        '../../../../assets/projects-images/spartacus-demo-mobile.webp',
+      url: 'https://jdv-spartacus.netlify.app/',
+      target: '_blank',
+    },
+    {
       title: 'Movie App',
       image: '../../../assets/projects-logos/movie-logo.webp',
       principalImage: '../../../../assets/projects-images/movie-mobile.webp',

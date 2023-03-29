@@ -11,6 +11,16 @@ import { LanguageSelectorService } from 'src/app/services/language-selector.serv
 export class WorksComponent implements OnInit {
   gridItems: Grid[] = [
     {
+      title: { es: 'Spartacus Demo', en: 'JDV Spartacus Demo' },
+      paragraph: {
+        es: 'He creado este proyecto desde cero utilizando el framework Angular y el acelerador Sap Spartacus/Sap Composable Storefront en su versión 4.x. El objetivo de este proyecto es servir como inducción a la tecnología del acelerador para un equipo de trabajo que se encuentra dando sus primeros pasos en este ámbito. En este proyecto se pueden observar diversas personalizaciones de componentes y la estilización de la interfaz de usuario, todo ello con el fin de asemejarla a un e-commerce referente en Argentina y América Latina. Además, he implementado el Server Side Rendering utilizando Angular Universal y las metodologías utilizadas por Spartacus.        Este proyecto incluye también la implementación de modales, personalización de los flujos de listado de productos, página de detalle de productos, buscador y mucho más.',
+        en: 'I have created this project from scratch using the Angular framework and the Sap Spartacus/Sap Composable Storefront accelerator in version 4.x. The objective of this project is to serve as an introduction to the accelerator technology for a team that is taking its first steps in this field. This project showcases various component customizations and user interface styling aimed at resembling a leading e-commerce site in Argentina and Latin America. Additionally, I have implemented Server Side Rendering using Angular Universal and the methodologies used by Spartacus. This project also includes the implementation of modals, customization of product listing flows, product detail page, search engine, and much more',
+      },
+      imageUrl: '../../../../assets/projects-images/spartacus-demo.webp',
+      reverse: true,
+      link: 'https://jdv-spartacus.netlify.app/',
+    },
+    {
       title: { es: 'JDVM Movie', en: 'JDVM Movie' },
       paragraph: {
         es: 'Este proyecto lo he creado desde cero utilizando la última versión del framework Angular y la API de TheMovieDB. Implementé carga perezosa y renderizado del lado del servidor para lograr un mejor rendimiento y una optimización del SEO. En esta aplicación, se pueden encontrar filtros avanzados, meta-resolvers para cargar datos de manera anticipada, búsquedas mediante queries, scroll infinito para una mejor experiencia del usuario, rutas dinámicas y la implementación de la API de YouTube para la visualización de trailers de películas. Además, cuenta con un diseño responsivo y muchas otras características.',
