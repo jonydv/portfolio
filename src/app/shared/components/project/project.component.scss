@@ -1,6 +1,11 @@
 @import "src/styles/variables/variables.scss";
 .project {
   padding-bottom: 2rem;
+  &.home {
+    @include desktop {
+      padding: 0 1.5rem 2rem 1.5rem;
+    }
+  }
   &__info {
     &-title {
       width: fit-content;

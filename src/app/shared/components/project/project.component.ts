@@ -132,6 +132,10 @@ export class ProjectComponent implements OnInit {
           slidesPerView: 3,
           slidesPerGroup: 3,
         },
+        1100: {
+          slidesPerView: 4,
+          slidesPerGroup: 4,
+        },
         1400: {
           slidesPerView: this.fromHome ? 5 : 4,
           slidesPerGroup: this.fromHome ? 5 : 4,

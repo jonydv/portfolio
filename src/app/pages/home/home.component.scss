@@ -31,8 +31,11 @@
         margin: auto;
       }
       jdv-project {
-        max-width: $max-width;
+        max-width: 100%;
         margin: auto;
+        @media screen and (min-width: 1400px) {
+          max-width: $max-width;
+        }
         @include mobile {
           max-width: 100%;
           padding: 0 1rem;
