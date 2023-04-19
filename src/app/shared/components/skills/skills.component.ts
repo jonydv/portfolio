@@ -9,10 +9,6 @@ export class SkillsComponent implements OnInit {
   @Input() fromHome: boolean = false;
   skills = [
     {
-      icon: '../../../assets/icons/spartacus.png',
-      alt: 'Sap Spartacus Icon',
-    },
-    {
       icon: '../../../assets/icons/typescript.svg',
       alt: 'Typescript Icon',
     },
@@ -27,6 +23,10 @@ export class SkillsComponent implements OnInit {
     {
       icon: '../../../assets/icons/ngrx.svg',
       alt: 'Ngrx Icon',
+    },
+    {
+      icon: '../../../assets/icons/spartacus.png',
+      alt: 'Sap Spartacus Icon',
     },
     {
       icon: '../../../assets/icons/nodejs.svg',

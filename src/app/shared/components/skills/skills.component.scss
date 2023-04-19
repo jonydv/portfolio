@@ -77,10 +77,15 @@
       }
     }
     &-background {
+      &.spartacus {
+        max-width: 90%;
+        margin: 0 auto;
+      }
       img {
         max-width: 100%;
         transition: all ease 3ms;
         max-height: 60px;
+
         &.fab.fa-js-square {
           color: #ffef00;
         }

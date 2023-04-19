@@ -1,13 +1,24 @@
-<div class="skills" [ngClass]="{'home': fromHome}">
+<div class="skills" [ngClass]="{ home: fromHome }">
   <div class="skills__title">
-    <h3 class="skills__title-value" [ngClass]="{'home': fromHome}">Skills</h3>
+    <h3 class="skills__title-value" [ngClass]="{ home: fromHome }">Skills</h3>
   </div>
-  <div class="skills__items hide-on-init" [ngClass]="{'home': fromHome}"
-    animateOnScroll animationName="animate__animated animate__fadeInUp animate__fast"
-    *ngFor="let item of skills">
-    <div class="skills__items-background" >
-      <img [src]="item.icon" [alt]="item.alt" loading="lazy">
+  <div
+    class="skills__items hide-on-init"
+    [ngClass]="{ home: fromHome }"
+    animateOnScroll
+    animationName="animate__animated animate__fadeInUp animate__fast"
+    *ngFor="let item of skills"
+  >
+    <div
+      class="skills__items-background"
+      [ngClass]="{ spartacus: item.alt == 'Sap Spartacus Icon' }"
+    >
+      <img
+        [src]="item.icon"
+        [alt]="item.alt"
+        loading="lazy"
+        [ngClass]="{ spartacus: item.alt == 'Sap Spartacus Icon' }"
+      />
     </div>
   </div>
 </div>
-
