@@ -15,7 +15,7 @@ export class FooterComponent implements OnInit {
   copyright: Language = {es: 'Todos los derechos reservados', en: 'All rights reserved'};
   language$: Observable<string> = this.languageSelectorService.getLanguage();
   isMobile$: Observable<boolean> = this.breakpointService.isMobile$;
-  certificationUrl: string = 'https://www.mercadopago.com.ar/developers/panel/certification/cert_2d80b33ab42411ec95730242ac130004';
+  certificationUrl: string = 'https://www.mercadopago.com.ar/developers/panel/developer-program/certification/cert_2d80b33ab42411ec95730242ac130004';
   constructor(
     private breakpointService: BreakpointService,
     private languageSelectorService: LanguageSelectorService
