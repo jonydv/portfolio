@@ -25,6 +25,13 @@ export class ProjectComponent implements OnInit {
   viewSite: Language = { es: 'Ir al sitio', en: 'View' };
   projects = [
     {
+      title: 'Marchand',
+      image: '../../../assets/projects-logos/marchand-logo.svg',
+      principalImage: '../../../../assets/projects-images/marchand-mobile.webp',
+      url: 'https://www.marchand.com.mx/',
+      target: '_blank',
+    },
+    {
       title: 'Sap Spartacus Demo ',
       image: '../../../assets/projects-logos/spartacus-logo.webp',
       principalImage:
