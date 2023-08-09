@@ -13,21 +13,14 @@ export class WorksComponent implements OnInit {
     {
       title: { es: 'Marchand', en: 'Marchand' },
       paragraph: {
-        es: `Durante mi tiempo como Arquitecto de Solución Front-end en Onikom, lideré una importante migración del sistema de comercio electrónico de un cliente externo de la empresa, desde SAP Spartacus 1.5 y Angular 8 hasta la versión Sap Spartacus 4.3 y Angular 12.Mis responsabilidades y logros incluyeron:
-        Lideré y coordiné la migración de SAP Spartacus 1 a SAP Spartacus 4.3, lo que implicó una extensa planificación, la gestión de diversas partes interesadas y la resolución de desafíos técnicos complejos.
-        Diseñé y desarrollé la estrategia de migración del e-commerce con un equipo interdisciplinario, garantizando una transición fluida con interrupciones mínimas para los usuarios y operaciones del negocio.
+        es: `Diseñé y desarrollé la estrategia de migración del e-commerce con un equipo interdisciplinario, garantizando una transición fluida con interrupciones mínimas para los usuarios y operaciones del negocio.
         Trabajé estrechamente con los desarrolladores y el equipo de operaciones para implementar y optimizar las nuevas funcionalidades proporcionadas por Spartacus 4.3, mejorando la experiencia del usuario final y la eficiencia operativa.
         Proporcioné formación continua al equipo de desarrollo sobre las mejores prácticas y estándares de SAP Spartacus para garantizar un uso y mantenimiento eficaces del sistema.
-        Gracias a la estrategia de migración y planificación implementadas, se logró una mejora significativa en la experiencia de usuario, accesibilidad y seguridad del sistema de comercio electrónico.
-        Estas habilidades y experiencias han sido valiosas para desarrollar mi competencia en la arquitectura de soluciones front-end en Sap Spartacus con Angular`,
-        en: `During my time as a Front-end Solution Architect at Onikom, I led a significant migration of a client's e-commerce system from SAP Spartacus 1.5 and Angular 8 to SAP Spartacus 4.3 and Angular 12.
-        My responsibilities and achievements included:
-        I led and coordinated the migration from SAP Spartacus 1 to SAP Spartacus 4.3, which involved extensive planning, stakeholder management, and the resolution of complex technical challenges.
-        I designed and developed the e-commerce migration strategy with an interdisciplinary team, ensuring a smooth transition with minimal disruptions for users and business operations.
-        I worked closely with developers and the operations team to implement and optimize the new features provided by Spartacus 4.3, improving the end user experience and operational efficiency.
-        I provided ongoing training to the development team on SAP Spartacus best practices and standards to ensure effective use and maintenance of the system.
-        Thanks to the implemented migration strategy and planning, we achieved a significant improvement in user experience, accessibility, and security of the e-commerce system.
-        These skills and experiences have been valuable in developing my competence in front-end solution architecture using SAP Spartacus with Angular.`,
+        Gracias a la estrategia de migración y planificación implementadas, se logró una mejora significativa en la experiencia de usuario, accesibilidad y seguridad del sistema de comercio electrónico.`,
+        en: `I designed and developed the e-commerce migration strategy with an interdisciplinary team, ensuring a smooth transition with minimal disruptions for users and business operations.
+        I worked closely with the developers and the operations team to implement and optimize the new features provided by Spartacus 4.3, enhancing the end user experience and operational efficiency.
+        I provided ongoing training to the development team on best practices and standards for SAP Spartacus to ensure effective use and maintenance of the system.
+        Thanks to the migration strategy and planning implemented, a significant improvement was achieved in user experience, accessibility, and security of the e-commerce system.`,
       },
       imageUrl: '../../../../assets/projects-images/marchand.webp',
       reverse: false,
