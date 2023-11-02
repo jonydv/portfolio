@@ -20,18 +20,18 @@ export class ExperienceComponent implements OnInit {
         en: '(Period: 2021 - Currently)',
       },
       role: {
-        en: 'Front End Developer (Angular / Spartacus Sap Commerce)',
-        es: 'Front End Developer (Angular / Spartacus Sap Commerce)',
+        en: 'Sr Front End Developer (Angular / Spartacus Sap Commerce)',
+        es: 'Sr Front End Developer (Angular / Spartacus Sap Commerce)',
       },
       description: {
         es: `Desarrollo del front-end mediante el framework Angular, implementación y customización
-      de Spartacus acelerador de SAP Commerce, sitios E-commerce B2B y B2C, trabajo en equipo, code review,
+      de Spartacus | Composable storefront, acelerador de SAP Commerce, sitios E-commerce B2B y B2C, trabajo en equipo, code review,
       con metodologias agiles, estimación de requisitos, planning, control de versiones mediante
       GIT, utilización de RxJS, Typescript, HTML5, SCSS, implementación de todo tipo de diseños UX / UI,
       utilizando tanto el enfoque responsive como mobile first, teniendo en cuenta siempre la accesibilidad,
       buenas practicas de desarrollo, y la performance de los sitios, implementación de herramientas SEO para
       el posicionamiento, etc.`,
-        en: `Front-end development using the Angular framework, implementation and customization of the SAP Commerce accelerator Spartacus, B2B and B2C e-commerce sites, teamwork, code review, using agile methodologies, requirement estimation, planning, version control using GIT, use of RxJS, Typescript, HTML5, SCSS, implementation of all types of UX/UI designs, using both the responsive and mobile-first approach, always considering accessibility, good development practices, and site performance, implementation of SEO tools for positioning, etc.`,
+        en: `Front-end development using the Angular framework, implementation and customization of the SAP Commerce accelerator Spartacus | Composable storefront, B2B and B2C e-commerce sites, teamwork, code review, using agile methodologies, requirement estimation, planning, version control using GIT, use of RxJS, Typescript, HTML5, SCSS, implementation of all types of UX/UI designs, using both the responsive and mobile-first approach, always considering accessibility, good development practices, and site performance, implementation of SEO tools for positioning, etc.`,
       },
     },
     {

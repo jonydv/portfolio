@@ -13,6 +13,9 @@
       max-width: 100%;
       width: 100%;
       min-height: calc(100vh - 84px);
+      @include custom-desktop {
+        min-height: calc(100vh - 64px);
+      }
     }
   }
 }

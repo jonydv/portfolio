@@ -7,6 +7,10 @@
   width: 350px;
   height: 350px;
   @include backgroundEffect;
+  @include custom-desktop {
+    width: 300px;
+    height: 300px;
+  }
   @include mobile {
     width: 250px;
     height: 250px;
@@ -17,6 +21,10 @@
     width: 350px;
     height: 350px;
     border: 0.5rem solid transparent;
+    @include custom-desktop {
+      width: 300px;
+      height: 300px;
+    }
     @include mobile {
       width: 250px;
       height: 250px;

@@ -4,6 +4,9 @@ footer {
   max-width: 100%;
   background: $dark;
   height: 150px;
+  @include custom-desktop {
+    height: 125px;
+  }
   @include mobile {
     height: 200px;
   }
@@ -14,6 +17,9 @@ footer {
     height: 100%;
     align-items: center;
     justify-content: center;
+    @include custom-desktop {
+      max-width: 75rem; //81.25rem;
+    }
     @include mobile {
       flex-direction: column;
       padding: 1.5rem 1rem;
@@ -28,6 +34,10 @@ footer {
       line-height: 1.5rem;
       margin-left: auto;
       cursor: default;
+      @include custom-desktop {
+        font-size: 0.85rem;
+        line-height: 1.15rem;
+      }
       @include mobile {
         font-size: 0.85rem;
         line-height: 1.15rem;
@@ -38,6 +48,11 @@ footer {
     &__certification {
       justify-self: flex-end;
       margin-left: auto;
+      @include custom-desktop {
+        img {
+          max-width: 100px;
+        }
+      }
       @include mobile {
         margin-left: 0;
         justify-self: unset;

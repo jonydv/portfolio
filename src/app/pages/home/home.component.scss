@@ -29,13 +29,19 @@
       jdv-skills {
         max-width: $max-width;
         margin: auto;
+        @include custom-desktop {
+          max-width: 75rem; //81.25rem;
+        }
       }
       jdv-project {
-        max-width: 100%;
+        max-width: $max-width;
         margin: auto;
-        @media screen and (min-width: 1400px) {
-          max-width: $max-width;
+        @include custom-desktop {
+          max-width: 75rem; //81.25rem;
         }
+        // @media screen and (min-width: 1400px) {
+        //   max-width: $max-width;
+        // }
         @include mobile {
           max-width: 100%;
           padding: 0 1rem;

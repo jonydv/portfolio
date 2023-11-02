@@ -29,6 +29,9 @@
         border-bottom: none;
         width: 100%;
         text-align: center;
+        @include custom-desktop {
+          font-size: 3rem;
+        }
         @include mobile {
           font-size: 2rem;
           margin-bottom: 0;

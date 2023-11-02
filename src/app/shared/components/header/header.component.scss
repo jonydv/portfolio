@@ -8,6 +8,9 @@ header {
   position: sticky;
   top: 0;
   z-index: 10;
+  @include custom-desktop {
+    height: 64px;
+  }
   @include mobile {
     height: 64px;
   }
@@ -16,7 +19,9 @@ header {
     height: 100%;
     max-width: $max-width;
     margin: 0 auto;
-
+    @include custom-desktop {
+      max-width: 75rem; //81.25rem;
+    }
     @include mobile {
       display: flex;
       justify-content: space-between;
@@ -45,6 +50,10 @@ header {
         justify-self: flex-start;
         width: 120px;
         max-width: 120px;
+        @include custom-desktop {
+          width: 100px;
+          max-width: 100px;
+        }
         img {
           max-width: 100%;
         }
@@ -61,6 +70,10 @@ header {
           height: 100%;
           padding: 0.85rem;
           font-weight: 500;
+          @include custom-desktop {
+            padding: 0.75rem;
+            font-size: 0.875rem;
+          }
           &.active {
             color: $primary;
             border: 1px solid $primary;

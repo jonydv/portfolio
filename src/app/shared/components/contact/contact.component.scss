@@ -13,6 +13,9 @@
       width: 350px;
       margin-top: 1rem;
     }
+    @include custom-desktop {
+      width: 300px;
+    }
   }
   &__btn {
     height: 52px;
@@ -42,7 +45,9 @@
         justify-content: center;
         column-gap: 3rem;
         width: 100%;
-
+        @include custom-desktop {
+          column-gap: 2rem;
+        }
         .contact__btn__icons-item-background {
           width: 45px;
           height: 48px;
@@ -61,6 +66,9 @@
           i {
             font-size: 3.5rem;
             cursor: pointer;
+            @include custom-desktop {
+              font-size: 2.25rem;
+            }
             &:hover {
               color: $primary;
             }
