@@ -36,14 +36,14 @@ export class ProjectComponent implements OnInit {
       image: '../../../assets/projects-logos/spartacus-logo.webp',
       principalImage:
         '../../../../assets/projects-images/spartacus-demo-mobile.webp',
-      url: 'https://jdv-spartacus.netlify.app/',
+      url: 'https://spartacus-demo.vercel.app/',
       target: '_blank',
     },
     {
       title: 'Movie App',
       image: '../../../assets/projects-logos/movie-logo.webp',
       principalImage: '../../../../assets/projects-images/movie-mobile.webp',
-      url: 'https://jdvmovies.netlify.app/',
+      url: 'https://jdv-movies.vercel.app/',
       target: '_blank',
     },
     {

@@ -44,7 +44,7 @@ export class WorksComponent implements OnInit {
       },
       imageUrl: '../../../../assets/projects-images/spartacus-demo.webp',
       reverse: false,
-      link: 'https://jdv-spartacus.netlify.app/',
+      link: 'https://spartacus-demo.vercel.app/',
     },
     {
       title: { es: 'JDVM Movie', en: 'JDVM Movie' },
@@ -54,7 +54,7 @@ export class WorksComponent implements OnInit {
       },
       imageUrl: '../../../../assets/projects-images/movie-desktop.webp',
       reverse: true,
-      link: 'https://jdvmovies.netlify.app/',
+      link: 'https://jdv-movies.vercel.app/',
     },
     {
       title: { es: 'Belsport', en: 'Belsport' },
