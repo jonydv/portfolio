@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ErrorPageComponent } from './pages/error-page/error-page.component';
 import { CurriculumComponent } from './pages/curriculum/curriculum.component';
 import { WorksComponent } from './pages/works/works.component';
 
@@ -13,15 +12,13 @@ const routes: Routes = [
   {
     path: 'curriculum',
     component: CurriculumComponent,
+    title: 'Curriculum | Jonatan David Villalba',
   },
   {
     path: 'works',
     component: WorksComponent,
+    title: 'Trabajos | Works | Jonatan David Villalba',
   },
-  // {
-  //   path: '404',
-  //   component: ErrorPageComponent
-  // },
   {
     path: '**',
     redirectTo: '',
