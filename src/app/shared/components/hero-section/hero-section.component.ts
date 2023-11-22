@@ -25,7 +25,7 @@ export class HeroSectionComponent {
 
   heroInfo: Hero = {
     first: { es: 'Hola, mi nombre es', en: 'Hi, my name is' },
-    name: { es: 'Jonatan Villalba.', en: 'Jonatan Villalba.' },
+    name: { es: 'Jonatan David Villalba', en: 'Jonatan David Villalba' },
     position: { es: 'Desarrollador de software.', en: 'Software Developer' },
     resume: {
       es: `Soy analista de sistemas especializado en el desarrollo de aplicaciones web.

@@ -30,6 +30,18 @@
               "src/favicon.ico",
               "src/assets",
               "src/assets/ico/jdv-logo.ico",
+              "src/sitemap.xml",
+              {
+                "glob": "sitemap.xml",
+                "input": "src",
+                "output": "/"
+              },
+              "src/robots.txt",
+              {
+                "glob": "robots.txt",
+                "input": "src",
+                "output": "/"
+              },
               "src/_redirects",
               {
                 "glob": "_redirects",

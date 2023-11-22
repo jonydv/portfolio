@@ -116,7 +116,7 @@
           height: 470px;
         }
         @include custom-desktop {
-          height: 25rem;
+          height: 19rem;
         }
         &__icon {
           position: relative;
@@ -124,8 +124,9 @@
           max-height: 220px;
           width: 100%;
           @include custom-desktop {
-            max-width: 165px;
-            max-height: 165px;
+            max-width: 7.75rem;
+            max-height: 7.75rem;
+            margin-bottom: 0.5rem;
           }
           @include mobile {
             max-width: 150px;
@@ -168,8 +169,8 @@
             line-height: 1.25rem;
             cursor: default;
             @include custom-desktop {
-              font-size: 1rem;
-              line-height: 1.5rem;
+              font-size: 0.875rem;
+              line-height: 1.15rem;
             }
           }
         }
