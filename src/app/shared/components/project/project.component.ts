@@ -136,16 +136,20 @@ export class ProjectComponent implements OnInit {
           slidesPerGroup: 3,
         },
         696: {
-          slidesPerView: 3,
-          slidesPerGroup: 3,
+          slidesPerView: this.fromHome ? 3 : 2,
+          slidesPerGroup: this.fromHome ? 3 : 2,
         },
-        1100: {
-          slidesPerView: 4,
-          slidesPerGroup: 4,
+        768: {
+          slidesPerView: this.fromHome ? 4 : 3,
+          slidesPerGroup: this.fromHome ? 4 : 3,
         },
-        1600: {
+        1180: {
           slidesPerView: this.fromHome ? 5 : 4,
           slidesPerGroup: this.fromHome ? 5 : 4,
+        },
+        1600: {
+          slidesPerView: this.fromHome ? 6 : 5,
+          slidesPerGroup: this.fromHome ? 6 : 5,
         },
       },
     };

@@ -65,6 +65,12 @@ $mobile-width: $lg;
   }
 }
 
+@mixin custom-small-desktop {
+  @media (min-width: #{$mobile-width}) and (max-width: #{75rem}) {
+    @content;
+  }
+}
+
 @mixin custom-desktop {
   @media (min-width: #{$mobile-width}) and (max-width: #{$extra-large}) {
     @content;

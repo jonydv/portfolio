@@ -29,6 +29,7 @@
       jdv-skills {
         max-width: $max-width;
         margin: auto;
+
         @include custom-desktop {
           max-width: 75rem; //81.25rem;
         }
@@ -36,8 +37,12 @@
       jdv-project {
         max-width: $max-width;
         margin: auto;
-        @include custom-desktop {
+
+        @media screen and (min-width: 75.0625rem) and (max-width: 112.5rem) {
           max-width: 75rem; //81.25rem;
+        }
+        @include custom-small-desktop {
+          max-width: 100%;
         }
         // @media screen and (min-width: 1400px) {
         //   max-width: $max-width;
