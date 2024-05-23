@@ -106,7 +106,7 @@ export class ProjectComponent implements OnInit {
       title: 'Promesa Ecuador',
       image: '../../../assets/projects-logos/promesa-logo.webp',
       principalImage: '../../../../assets/projects-images/promesa.webp',
-      url: '',
+      url: 'https://www.promesa.com.ec/',
       target: '_blank',
     },
   ];
