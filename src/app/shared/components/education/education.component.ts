@@ -32,6 +32,30 @@ export class EducationComponent implements OnInit {
       },
     },
     {
+      icon: 'fas fa-robot',
+      school: { es: 'Anthropic', en: 'Anthropic' },
+      title: {
+        es: 'Claude 101 (Abril 2026)',
+        en: 'Claude 101 (April 2026)',
+      },
+    },
+    {
+      icon: 'fas fa-robot',
+      school: { es: 'Anthropic', en: 'Anthropic' },
+      title: {
+        es: 'Claude Code in Action (Marzo 2026)',
+        en: 'Claude Code in Action (March 2026)',
+      },
+    },
+    {
+      icon: 'fas fa-robot',
+      school: { es: 'Anthropic', en: 'Anthropic' },
+      title: {
+        es: 'Introduction to agent skills (Marzo 2026)',
+        en: 'Introduction to agent skills (March 2026)',
+      },
+    },
+    {
       icon: 'fas fa-university',
       school: { es: 'Universidad Austral', en: 'Austral University' },
       title: {
@@ -82,7 +106,7 @@ export class EducationComponent implements OnInit {
     subtitle: { es: 'Actualmente cursando', en: 'Currently studying' },
   };
   language$: Observable<string> = this.languageSelectorService.getLanguage();
-  constructor(private languageSelectorService: LanguageSelectorService) {}
+  constructor(private languageSelectorService: LanguageSelectorService) { }
 
-  ngOnInit(): void {}
+  ngOnInit(): void { }
 }

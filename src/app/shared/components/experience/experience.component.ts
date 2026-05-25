@@ -20,18 +20,28 @@ export class ExperienceComponent implements OnInit {
         en: '(Period: 2021 - Currently)',
       },
       role: {
-        en: 'Sr Front End Developer (Angular / Spartacus Sap Commerce)',
-        es: 'Sr Front End Developer (Angular / Spartacus Sap Commerce)',
+        en: 'Sr Front End Developer (Angular / Spartacus Sap Commerce / Next.js)',
+        es: 'Sr Front End Developer (Angular / Spartacus Sap Commerce / Next.js)',
       },
       description: {
-        es: `Desarrollo del front-end mediante el framework Angular, implementación y customización
-      de Spartacus | Composable storefront, acelerador de SAP Commerce, sitios E-commerce B2B y B2C, trabajo en equipo, code review,
-      con metodologias agiles, estimación de requisitos, planning, control de versiones mediante
-      GIT, utilización de RxJS, Typescript, HTML5, SCSS, implementación de todo tipo de diseños UX / UI,
-      utilizando tanto el enfoque responsive como mobile first, teniendo en cuenta siempre la accesibilidad,
-      buenas practicas de desarrollo, y la performance de los sitios, implementación de herramientas SEO para
-      el posicionamiento, etc.`,
-        en: `Front-end development using the Angular framework, implementation and customization of the SAP Commerce accelerator Spartacus | Composable storefront, B2B and B2C e-commerce sites, teamwork, code review, using agile methodologies, requirement estimation, planning, version control using GIT, use of RxJS, Typescript, HTML5, SCSS, implementation of all types of UX/UI designs, using both the responsive and mobile-first approach, always considering accessibility, good development practices, and site performance, implementation of SEO tools for positioning, etc.`,
+        es: `Desarrollo del front-end mediante el framework Angular, implementación y customización de Spartacus | Composable storefront para sitios E-commerce B2B y B2C. Además, destaco la arquitectura y construcción de bibliotecas reutilizables (tanto para SAP Spartacus como para proyectos en Next.js) alojadas en AWS CodeArtifact, con el fin de acelerar el desarrollo de nuevos proyectos desde el día uno aplicando las mejores prácticas de código. Implementación de estas librerías en múltiples proyectos de la compañía utilizando Tailwind CSS, Next-Auth, bibliotecas UI (como Hero-UI), TanStack, boilerplates rápidos, integración de librerías actuales de IA y flujos dinámicos de agentes. Todo bajo metodologías ágiles, code review, uso de RxJS, Typescript, y garantizando siempre la accesibilidad, performance, SEO y un enfoque mobile-first.`,
+        en: `Front-end development using the Angular framework, implementation and customization of the SAP Commerce accelerator Spartacus | Composable storefront for B2B and B2C e-commerce sites. Additionally, I highlight the architecture and construction of reusable libraries (for both SAP Spartacus and Next.js projects) published via AWS CodeArtifact, aiming to accelerate the development of new projects from day one by applying code best practices. Implementation of these libraries across multiple company projects using Tailwind CSS, Next-Auth, UI libraries (such as Hero-UI), TanStack, fast boilerplates, integration of current AI libraries and dynamic agent workflows. All this under agile methodologies, code review, use of RxJS, Typescript, and always ensuring accessibility, performance, SEO, and a mobile-first approach.`,
+      },
+    },
+    {
+      icon: 'fas fa-code',
+      company: { es: 'Onikom Latam', en: 'Onikom Latam' },
+      period: {
+        es: '(Período: Noviembre 2024 - Abril 2025)',
+        en: '(Period: November 2024 - April 2025)',
+      },
+      role: {
+        en: 'Solution Architect (Angular / Spartacus Sap Commerce)',
+        es: 'Arquitecto de solución (Angular / Spartacus Sap Commerce)',
+      },
+      description: {
+        es: `Como Arquitecto de Solución en el proyecto Marchand de México, diseñé y desarrollé un nuevo feature en Spartacus / SAP Composable Storefront para determinar dinámicamente la lista de precios según la ciudad del usuario mediante su código postal. El principal desafío consistió en implementar las actualizaciones necesarias y ejecutar complejas validaciones de negocio garantizando el rendimiento y las buenas prácticas, logrando desplegar exitosamente el feature en producción.`,
+        en: `As a Solution Architect for the Marchand de Mexico project, I designed and developed a new feature in Spartacus / SAP Composable Storefront to dynamically determine the price list based on the user's city via their zip code. The main challenge was to implement the necessary updates and execute complex business validations while ensuring performance and best practices, successfully deploying the feature to production.`,
       },
     },
     {

@@ -80,9 +80,33 @@ export class SkillsComponent implements OnInit {
       icon: '../../../assets/icons/jasmine.svg',
       alt: 'Jasmine Icon',
     },
+    {
+      icon: '../../../assets/icons/nextjs.svg',
+      alt: 'Next.js Icon',
+    },
+    {
+      icon: '../../../assets/icons/next-auth.png',
+      alt: 'Next.js Icon',
+    },
+    {
+      icon: '../../../assets/icons/tailwindcss.svg',
+      alt: 'Tailwind CSS Icon',
+    },
+    {
+      icon: '../../../assets/icons/aws.svg',
+      alt: 'AWS Icon',
+    },
+    {
+      icon: '../../../assets/icons/claude.svg',
+      alt: 'Claude AI Icon',
+    },
+    {
+      icon: '../../../assets/icons/tanstack.png',
+      alt: 'TanStack Icon',
+    },
   ];
 
-  constructor() {}
+  constructor() { }
 
-  ngOnInit(): void {}
+  ngOnInit(): void { }
 }

@@ -1,4 +1,5 @@
 @import "src/styles/variables/variables.scss";
+
 .skills {
   width: 100%;
   min-height: 250px;
@@ -8,21 +9,26 @@
   column-gap: 0.5rem;
   padding: 1rem 2rem 1rem 2rem;
   margin-bottom: 1rem;
+
   &.home {
     padding: 0;
     row-gap: 1rem;
     column-gap: 1.25rem;
+
     @include tablet {
       @include inner-width;
     }
+
     @include mobile {
       padding: 0 1rem;
       border-bottom: none;
     }
   }
+
   @include mobile {
     border-bottom: 4px solid $dark;
   }
+
   &__title {
     flex: 100%;
 
@@ -35,6 +41,7 @@
       border-radius: 5px;
       padding-bottom: 0.5rem;
       cursor: default;
+
       &.home {
         font-size: 4rem;
         color: #030303;
@@ -44,9 +51,11 @@
         border-bottom: none;
         width: 100%;
         text-align: center;
+
         @include custom-desktop {
           font-size: 3rem;
         }
+
         @include mobile {
           font-size: 2rem;
           margin-bottom: 0;
@@ -54,6 +63,7 @@
       }
     }
   }
+
   &__items {
     flex: calc(50% - 0.5rem);
     margin-top: 1rem;
@@ -61,46 +71,66 @@
     align-items: center;
     justify-content: center;
     column-gap: 0.75rem;
-    background: $text;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(100, 255, 218, 0.15);
+    }
+
     border-radius: 20px;
     padding: 0.75rem;
     box-shadow: 5px 16px 39px 0px rgba(3, 3, 3, 0.6);
     -webkit-box-shadow: 5px 16px 39px 0px rgba(3, 3, 3, 0.6);
     -moz-box-shadow: 5px 16px 39px 0px rgba(3, 3, 3, 0.6);
+
     &.home {
       flex: calc(25% - 2.5rem);
       box-shadow: 0px 10px 10px 0px rgb(3 3 3 / 60%);
       -webkit-box-shadow: 0px 10px 10px 0px rgb(3 3 3 / 60%);
       -moz-box-shadow: 0px 10px 10px 0px rgb(3 3 3 / 60%);
+
       @include desktop {
         max-width: calc(25% - 1.25rem);
       }
+
       @include mobile {
         flex: calc(50% - 2rem);
       }
     }
+
     &-background {
       &.spartacus {
         max-width: 90%;
         margin: 0 auto;
       }
+
       img {
         max-width: 100%;
         transition: all ease 3ms;
         max-height: 60px;
+        min-width: 40px;
+        filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.7));
 
         &.fab.fa-js-square {
           color: #ffef00;
         }
+
         &:hover {
           transform: scale(1.1);
         }
       }
     }
+
     &-text {
       color: $title;
       font-size: 1.25rem;
       cursor: pointer;
+
       &:hover {
         color: $text;
       }

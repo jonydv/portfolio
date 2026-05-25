@@ -26,14 +26,10 @@ export class HeroSectionComponent {
   heroInfo: Hero = {
     first: { es: 'Hola, mi nombre es', en: 'Hi, my name is' },
     name: { es: 'Jonatan David Villalba', en: 'Jonatan David Villalba' },
-    position: { es: 'Desarrollador de software.', en: 'Software Developer' },
+    position: { es: 'Senior Front-End Developer & Solution Architect.', en: 'Senior Front-End Developer & Solution Architect.' },
     resume: {
-      es: `Soy analista de sistemas especializado en el desarrollo de aplicaciones web.
-      Actualmente me encuentro enfocado en la utilización de los últimos frameworks,
-      para obtener aplicaciones escalables y eficientes.
-      Me consideró un apasionado por la tecnologia, el trabajo en equipo y me entusiasman
-      los nuevos desafios `,
-      en: `I am a systems analyst specialized in web application development. Currently, I am focused on using the latest frameworks to create scalable and efficient applications. I consider myself passionate about technology, teamwork, and new challenges.`,
+      es: `Soy Analista de Sistemas especializado en la arquitectura y desarrollo de aplicaciones web escalables. Actualmente me enfoco en liderar proyectos con Next.js, Angular, SAP Spartacus y flujos dinámicos con Inteligencia Artificial (Agentes / Claude). Me apasiona crear bibliotecas reutilizables, optimizar la experiencia de usuario (UX/UI) y llevar soluciones innovadoras a producción bajo las mejores prácticas.`,
+      en: `I am a Systems Analyst specializing in the architecture and development of scalable web applications. Currently, I focus on leading projects with Next.js, Angular, SAP Spartacus, and dynamic Artificial Intelligence workflows (Agents / Claude). I am passionate about creating reusable libraries, optimizing the user experience (UX/UI), and bringing innovative solutions to production using best practices.`,
     },
     callToAction: { es: 'Ver proyectos', en: 'See projects' },
     imageUrl: '../../../../assets/images/profile.png',
