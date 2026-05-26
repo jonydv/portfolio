@@ -22,8 +22,8 @@ export class GridBannersComponent implements OnInit {
     {
       title: { es: 'Desarrollo integral', en: 'Integral development' },
       paragraph: {
-        es: 'Desarrollo de aplicaciones en distintas escalas, a medida, analisis de los requerimientos, estimación de tiempos, implementación de Apis de terceros, optimización SEO para el posicionamiento, utilización de los últimos frameworks del mercado, lo que permite escalabilidad, previsibilidad y mantenimiento a largo plazo.',
-        en: 'Development of applications on different scales, custom, analysis of requirements, time estimation, implementation of third-party APIs, SEO optimization for positioning, use of the latest market frameworks, which allows scalability, predictability and long-term maintenance.',
+        es: 'Desarrollo de aplicaciones a medida en distintas escalas: análisis de requerimientos, estimación de tiempos, integración de APIs de terceros, optimización SEO y uso de los frameworks más actuales del mercado, lo que garantiza escalabilidad y mantenimiento a largo plazo.',
+        en: 'Custom application development at any scale: requirements analysis, time estimation, third-party API integration, SEO optimization, and use of the latest industry frameworks — ensuring scalability and long-term maintainability.',
       },
       imageUrl: '../../../../assets/images/developer.webp',
       reverse: false,
@@ -31,8 +31,8 @@ export class GridBannersComponent implements OnInit {
     {
       title: { es: 'Trabajo en equipo', en: 'Teamwork' },
       paragraph: {
-        es: 'Utilización de metodologias de trabajo agiles, Scrum, Kanban, control de versionado de código, "Code review" entre partners de las mismas areas del equipo, utilización de herramientas para gestión de proyectos, "Brainstorming".',
-        en: 'Use of agile work methodologies, Scrum, Kanban, code version control, "Code review" between partners from the same areas of the team, use of project management tools, "Brainstorming".',
+        es: 'Trabajo bajo metodologías ágiles (Scrum, Kanban), control de versiones del código, code review entre miembros del equipo, uso de herramientas de gestión de proyectos y sesiones de brainstorming para la resolución colaborativa de problemas.',
+        en: 'Working under agile methodologies (Scrum, Kanban), code version control, peer code review, use of project management tools, and collaborative brainstorming sessions for problem-solving.',
       },
       imageUrl: '../../../../assets/images/teamwork.webp',
       reverse: true,

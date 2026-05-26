@@ -175,3 +175,15 @@ jdv-curriculum {
 .neon-glow:hover {
   box-shadow: 0 0 15px rgba(100, 255, 218, 0.35), 0 0 30px rgba(167, 139, 250, 0.2);
 }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    animation-play-state: running !important;
+    transition-duration: 0.01ms !important;
+  }
+  .hide-on-init {
+    visibility: visible !important;
+  }
+}

@@ -1,44 +1,42 @@
- <ng-container *ngIf="{language: language$ | async} as info">
+<ng-container *ngIf="{language: language$ | async} as info">
 
   <div class="education">
-    <div class="education__info">
-      <h3 class="education__info-title">
+    <div class="education__info hide-on-init" animateOnScroll animationName="animate__animated">
+      <h2 class="education__info-title">
         {{title[info?.language!]}}
-      </h3>
-      <ng-container *ngFor="let course of courses">
-        <div class="education-card glass-panel hover-lift hide-on-init" animateOnScroll animationName="animate__animated animate__fadeInUp animate__fast" style="padding: 1.5rem; margin-bottom: 1.5rem; border-radius: 12px;">
-          <h4 class="education__info-subtitle" style="margin-top: 0; color: #64ffda;">
-            <i [class]="course.icon"></i>
+      </h2>
+      <ng-container *ngFor="let course of courses; let i = index">
+        <div class="education-card glass-panel hover-lift" [style.transition-delay]="(i * 80) + 'ms'">
+          <h3 class="education__info-subtitle">
+            <i [class]="course.icon" aria-hidden="true"></i>
             {{course?.school![info?.language!]}}
-          </h4>
-          <p class="education__info-paragraph" *ngIf="course?.title" style="color: #ffffff; font-weight: bold; font-size: 1.1rem; margin-top: 0.5rem; margin-bottom: 0.5rem;">
+          </h3>
+          <p class="education__info-course-title" *ngIf="course?.title">
             {{course?.title![info?.language!]}}
           </p>
-          <p class="education__info-paragraph" *ngIf="course?.subtitle" style="color: #cecece; opacity: 0.9;">
+          <p class="education__info-paragraph" *ngIf="course?.subtitle">
             {{course?.subtitle![info?.language!]}}
           </p>
-          <a *ngIf="course?.link" class="education__info-link neon-glow" [href]="course.link" target="_blank" style="display: inline-block; margin-top: 0.5rem; padding: 0.5rem 1rem; border: 1px solid #64ffda; border-radius: 4px; color: #64ffda; text-decoration: none;">
-            {{viewCertificate[info.language!]}} <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          <a *ngIf="course?.link" class="education__info-link neon-glow" [href]="course.link" target="_blank" rel="noopener noreferrer">
+            {{viewCertificate[info.language!]}} <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
           </a>
         </div>
       </ng-container>
 
-      <div class="education-card glass-panel hover-lift hide-on-init" animateOnScroll animationName="animate__animated animate__fadeInUp animate__fast" style="padding: 1.5rem; margin-bottom: 1.5rem; border-radius: 12px; border-left: 4px solid #64ffda;">
-        <h3 class="education__info-title" style="margin-top: 0; color: #64ffda; font-size: 1.5rem;">
+      <div class="education-card education-card--accent glass-panel hover-lift" [style.transition-delay]="(courses.length * 80) + 'ms'">
+        <h3 class="education__info-card-title">
           {{englishLevel.title[info?.language!]}}
         </h3>
-        <h4 class="education__info-subtitle" style="margin-top: 0.5rem; color: #ffffff;">
-          <i [class]="englishLevel.icon"></i>
+        <h3 class="education__info-subtitle">
+          <i [class]="englishLevel.icon" aria-hidden="true"></i>
           {{englishLevel.school[info?.language!]}}
-        </h4>
-        <p class="education__info-paragraph" style="color: #cecece; opacity: 0.9;">
+        </h3>
+        <p class="education__info-paragraph">
           {{englishLevel.subtitle![info.language!]}}
         </p>
       </div>
 
     </div>
-
-
   </div>
 
 </ng-container>

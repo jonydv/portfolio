@@ -17,7 +17,7 @@ export class ProjectComponent implements OnInit {
   @Input() fromHome: boolean = false;
   title: Language = {
     es: 'Proyectos donde he colaborado',
-    en: 'Projects where I have collaborated',
+    en: "Projects I've worked on",
   };
   homeTitle: Language = {
     es: 'Proyectos',
@@ -33,7 +33,7 @@ export class ProjectComponent implements OnInit {
       target: '_blank',
     },
     {
-      title: 'Sap Spartacus Demo ',
+      title: 'SAP Spartacus Demo',
       image: '../../../assets/projects-logos/spartacus-logo.webp',
       principalImage:
         '../../../../assets/projects-images/spartacus-demo-mobile.webp',

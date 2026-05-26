@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewInit, ChangeDetectionStrategy, Component, ElementRef } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Language } from 'src/app/models/language.interface';
 import { LanguageSelectorService } from 'src/app/services/language-selector.service';
@@ -8,8 +8,9 @@ import { Education } from '../../../models/education.interface';
   selector: 'jdv-education',
   templateUrl: './education.component.html',
   styleUrls: ['./education.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class EducationComponent implements OnInit {
+export class EducationComponent implements AfterViewInit {
   title: Language = { es: 'Educación', en: 'Education' };
   viewCertificate: Language = {
     es: 'Ver Certificado en linea',
@@ -24,10 +25,10 @@ export class EducationComponent implements OnInit {
       },
       title: {
         es: 'Licenciatura en gestión de tecnologías de la información (Cursando actualmente)',
-        en: 'Bachelors Degree in Information Technology Management (Currently studying)',
+        en: "Bachelor's Degree in Information Technology Management (Currently studying)",
       },
       subtitle: {
-        es: 'Analista de sistemas (Titulo de pre-grado)',
+        es: 'Analista de sistemas (Título de pregrado)',
         en: 'Systems Analyst',
       },
     },
@@ -51,16 +52,16 @@ export class EducationComponent implements OnInit {
       icon: 'fas fa-robot',
       school: { es: 'Anthropic', en: 'Anthropic' },
       title: {
-        es: 'Introduction to agent skills (Marzo 2026)',
-        en: 'Introduction to agent skills (March 2026)',
+        es: 'Introduction to Agent Skills (Marzo 2026)',
+        en: 'Introduction to Agent Skills (March 2026)',
       },
     },
     {
       icon: 'fas fa-university',
       school: { es: 'Universidad Austral', en: 'Austral University' },
       title: {
-        es: 'Desarrollo del lado servidor: NodeJs, Express y MongoDb',
-        en: 'Server-side development: NodeJs, Express and MongoDb',
+        es: 'Desarrollo del lado servidor: Node.js, Express y MongoDB',
+        en: 'Server-side development: Node.js, Express and MongoDB',
       },
       link: 'https://www.coursera.org/account/accomplishments/certificate/VHFUMEB7WBXN',
     },
@@ -100,13 +101,22 @@ export class EducationComponent implements OnInit {
   ];
 
   englishLevel: Education = {
-    title: { es: 'Nivel de ingles', en: 'English level' },
+    title: { es: 'Nivel de inglés', en: 'English level' },
     icon: 'fas fa-flag',
-    school: { es: 'B1 / B2 Pre intermedio', en: 'B1 / B2 Pre intermediate' },
+    school: { es: 'B1/B2 Pre-Intermedio', en: 'B1/B2 Pre-Intermediate' },
     subtitle: { es: 'Actualmente cursando', en: 'Currently studying' },
   };
   language$: Observable<string> = this.languageSelectorService.getLanguage();
-  constructor(private languageSelectorService: LanguageSelectorService) { }
 
-  ngOnInit(): void { }
+  constructor(
+    private languageSelectorService: LanguageSelectorService,
+    private el: ElementRef
+  ) {}
+
+  ngAfterViewInit(): void {
+    const container: HTMLElement = this.el.nativeElement.querySelector('.education__info');
+    if (container) {
+      setTimeout(() => container.classList.add('animate__animated'), 50);
+    }
+  }
 }

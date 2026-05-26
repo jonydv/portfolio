@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { AfterViewInit, ChangeDetectionStrategy, Component, ElementRef } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Language } from 'src/app/models/language.interface';
 import { LanguageSelectorService } from 'src/app/services/language-selector.service';
@@ -10,7 +10,7 @@ import { Experience } from '../../../models/experience.interface';
   styleUrls: ['./experience.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class ExperienceComponent {
+export class ExperienceComponent implements AfterViewInit {
   title: Language = { es: 'Experiencia', en: 'Experience' };
   positions: Experience[] = [
     {
@@ -25,8 +25,8 @@ export class ExperienceComponent {
         es: 'Sr Front End Developer (Angular / Spartacus Sap Commerce / Next.js)',
       },
       description: {
-        es: `Desarrollo del front-end mediante el framework Angular, implementación y customización de Spartacus | Composable storefront para sitios E-commerce B2B y B2C. Además, destaco la arquitectura y construcción de bibliotecas reutilizables (tanto para SAP Spartacus como para proyectos en Next.js) alojadas en AWS CodeArtifact, con el fin de acelerar el desarrollo de nuevos proyectos desde el día uno aplicando las mejores prácticas de código. Implementación de estas librerías en múltiples proyectos de la compañía utilizando Tailwind CSS, Next-Auth, bibliotecas UI (como Hero-UI), TanStack, boilerplates rápidos, integración de librerías actuales de IA y flujos dinámicos de agentes. Todo bajo metodologías ágiles, code review, uso de RxJS, Typescript, y garantizando siempre la accesibilidad, performance, SEO y un enfoque mobile-first.`,
-        en: `Front-end development using the Angular framework, implementation and customization of the SAP Commerce accelerator Spartacus | Composable storefront for B2B and B2C e-commerce sites. Additionally, I highlight the architecture and construction of reusable libraries (for both SAP Spartacus and Next.js projects) published via AWS CodeArtifact, aiming to accelerate the development of new projects from day one by applying code best practices. Implementation of these libraries across multiple company projects using Tailwind CSS, Next-Auth, UI libraries (such as Hero-UI), TanStack, fast boilerplates, integration of current AI libraries and dynamic agent workflows. All this under agile methodologies, code review, use of RxJS, Typescript, and always ensuring accessibility, performance, SEO, and a mobile-first approach.`,
+        es: `Desarrollo front-end con Angular e implementación y customización de SAP Spartacus | Composable Storefront para sitios E-commerce B2B y B2C. Arquitecté y construí bibliotecas reutilizables (para SAP Spartacus y Next.js) publicadas en AWS CodeArtifact, lo que permite a nuevos proyectos arrancar desde una base sólida y lista para producción desde el primer día. Estas librerías se adoptaron en múltiples proyectos internos e incluyen integración con Tailwind CSS, Next-Auth, Hero-UI, TanStack, boilerplates y flujos de agentes con IA. Bajo metodologías ágiles, code review y siempre con foco en accesibilidad, performance, SEO y mobile-first.`,
+        en: `Front-end development with Angular and implementation and customization of SAP Spartacus | Composable Storefront for B2B and B2C e-commerce sites. Architected and built reusable libraries (for both SAP Spartacus and Next.js projects) published via AWS CodeArtifact, enabling new projects to launch from a solid, production-ready foundation from day one. These libraries were adopted across multiple company projects and include Tailwind CSS, Next-Auth, Hero-UI, TanStack, boilerplates, and AI agent workflow integrations. All under agile methodologies, code review, and with a consistent focus on accessibility, performance, SEO, and mobile-first development.`,
       },
     },
     {
@@ -41,8 +41,8 @@ export class ExperienceComponent {
         es: 'Arquitecto de solución (Angular / Spartacus Sap Commerce)',
       },
       description: {
-        es: `Como Arquitecto de Solución en el proyecto Marchand de México, diseñé y desarrollé un nuevo feature en Spartacus / SAP Composable Storefront para determinar dinámicamente la lista de precios según la ciudad del usuario mediante su código postal. El principal desafío consistió en implementar las actualizaciones necesarias y ejecutar complejas validaciones de negocio garantizando el rendimiento y las buenas prácticas, logrando desplegar exitosamente el feature en producción.`,
-        en: `As a Solution Architect for the Marchand de Mexico project, I designed and developed a new feature in Spartacus / SAP Composable Storefront to dynamically determine the price list based on the user's city via their zip code. The main challenge was to implement the necessary updates and execute complex business validations while ensuring performance and best practices, successfully deploying the feature to production.`,
+        es: `Como Arquitecto de Solución en el proyecto Marchand de México, diseñé y desarrollé una nueva funcionalidad en Spartacus / SAP Composable Storefront para determinar dinámicamente la lista de precios según la ciudad del usuario a partir de su código postal. El principal desafío fue implementar las actualizaciones necesarias y ejecutar validaciones de negocio complejas garantizando rendimiento y buenas prácticas. La funcionalidad fue desplegada exitosamente en producción.`,
+        en: `As a Solution Architect for the Marchand de Mexico project, I designed and developed a new feature in Spartacus / SAP Composable Storefront to dynamically determine the price list based on the user's city via their zip code. The main challenge was implementing the required updates and handling complex business validations while maintaining performance and best practices. The feature was successfully deployed to production.`,
       },
     },
     {
@@ -57,21 +57,8 @@ export class ExperienceComponent {
         es: 'Arquitecto de solución Front End (Angular / Spartacus Sap Commerce)',
       },
       description: {
-        es: `Durante mi tiempo como Arquitecto de Solución Front-end en Onikom, lideré una importante migración del sistema de comercio electrónico de un cliente externo de la empresa, desde SAP Spartacus 1.5 y Angular 8 hasta la versión Sap Spartacus 4.3 y Angular 12.Mis responsabilidades y logros incluyeron:
-        Lideré y coordiné la migración de SAP Spartacus 1 a SAP Spartacus 4.3, lo que implicó una extensa planificación, la gestión de diversas partes interesadas y la resolución de desafíos técnicos complejos.
-        Diseñé y desarrollé la estrategia de migración del e-commerce con un equipo interdisciplinario, garantizando una transición fluida con interrupciones mínimas para los usuarios y operaciones del negocio.
-        Trabajé estrechamente con los desarrolladores y el equipo de operaciones para implementar y optimizar las nuevas funcionalidades proporcionadas por Spartacus 4.3, mejorando la experiencia del usuario final y la eficiencia operativa.
-        Proporcioné formación continua al equipo de desarrollo sobre las mejores prácticas y estándares de SAP Spartacus para garantizar un uso y mantenimiento eficaces del sistema.
-        Gracias a la estrategia de migración y planificación implementadas, se logró una mejora significativa en la experiencia de usuario, accesibilidad y seguridad del sistema de comercio electrónico.
-        Estas habilidades y experiencias han sido valiosas para desarrollar mi competencia en la arquitectura de soluciones front-end en Sap Spartacus con Angular`,
-        en: `During my time as a Front-end Solution Architect at Onikom, I led a significant migration of a client's e-commerce system from SAP Spartacus 1.5 and Angular 8 to SAP Spartacus 4.3 and Angular 12.
-        My responsibilities and achievements included:
-        I led and coordinated the migration from SAP Spartacus 1 to SAP Spartacus 4.3, which involved extensive planning, stakeholder management, and the resolution of complex technical challenges.
-        I designed and developed the e-commerce migration strategy with an interdisciplinary team, ensuring a smooth transition with minimal disruptions for users and business operations.
-        I worked closely with developers and the operations team to implement and optimize the new features provided by Spartacus 4.3, improving the end user experience and operational efficiency.
-        I provided ongoing training to the development team on SAP Spartacus best practices and standards to ensure effective use and maintenance of the system.
-        Thanks to the implemented migration strategy and planning, we achieved a significant improvement in user experience, accessibility, and security of the e-commerce system.
-        These skills and experiences have been valuable in developing my competence in front-end solution architecture using SAP Spartacus with Angular.`,
+        es: `Lideré la migración del sistema de comercio electrónico de un cliente desde SAP Spartacus 1.5 y Angular 8 hasta SAP Spartacus 4.3 y Angular 12. Diseñé la estrategia de migración con un equipo interdisciplinario, coordiné la gestión de stakeholders y resolví desafíos técnicos complejos a lo largo del proceso. Trabajé junto a los equipos de desarrollo y operaciones para implementar y optimizar las nuevas funcionalidades de Spartacus 4.3, y capacité al equipo en buenas prácticas y estándares del framework. Como resultado, se logró una mejora significativa en la experiencia de usuario, accesibilidad y seguridad del sistema.`,
+        en: `Led the migration of a client's e-commerce system from SAP Spartacus 1.5 and Angular 8 to SAP Spartacus 4.3 and Angular 12. Designed the migration strategy with an interdisciplinary team, managed stakeholder coordination, and resolved complex technical challenges throughout the process. Collaborated with development and operations teams to implement and optimize new Spartacus 4.3 features, and trained the team on framework best practices and standards. The migration resulted in a significant improvement in user experience, accessibility, and system security.`,
       },
     },
     {
@@ -83,18 +70,23 @@ export class ExperienceComponent {
         en: 'Full Stack Developer (MERN & MEAN Stack)',
       },
       description: {
-        es: `Desarrollo de aplicaciones web, tanto del lado del servidor como del lado del cliente, utilización de
-      los frameworks Javascript más robustos y populares, diseño e implementación de bases de datos relacionales
-      y no relacionales (SQL Server, MySql, MongoDb, Postgre), back-end desarrollados en NodeJs con ExpressJs utilizando
-      Javascript y también Typescript, desarrollo del front-end utilizando ReactJs con Typescript, Redux, Context Api, también
-      utilizando el framework Angular con RxJs, Typescript, NgRX, HTML5, CSS, SCSS, Bootstrap, Angular Material, etc.
-      Implementación de Apis externas como plataformas de pago, MercadoPago, WebPay. SEO mediante la implementación de herramientas
-      de Google Analytics, Retail Rocket para recomendación mediante IA según la recopilación de datos del usuario, etc.`,
-        en: `Development of web applications, both on the server side and on the client side, using the most robust and popular Javascript frameworks, design and implementation of relational and non-relational databases (SQL Server, MySql, MongoDb, Postgre), back-end developed in NodeJs with ExpressJs using Javascript and also Typescript, front-end development using ReactJs with Typescript, Redux, Context Api, also using the Angular framework with RxJs, Typescript, NgRX, HTML5, CSS, SCSS, Bootstrap, Angular Material, etc. Implementation of external Apis such as payment platforms, MercadoPago, WebPay. SEO through the implementation of tools such as Google Analytics, Retail Rocket for recommendation through AI based on user data collection, etc.`,
+        es: `Desarrollo fullstack de aplicaciones web a medida, cubriendo front-end y back-end. Front-end con Angular (RxJS, NgRx, Angular Material) y React (TypeScript, Redux, Context API). Back-end con Node.js y Express en JavaScript y TypeScript. Bases de datos relacionales (MySQL, SQL Server, PostgreSQL) y no relacionales (MongoDB). Integración de APIs de pago (MercadoPago, WebPay), optimización SEO con Google Analytics y estrategias de personalización basadas en datos de usuario.`,
+        en: `Full-stack development of custom web applications covering both front-end and back-end. Front-end with Angular (RxJS, NgRx, Angular Material) and React (TypeScript, Redux, Context API). Back-end with Node.js and Express in JavaScript and TypeScript. Relational (MySQL, SQL Server, PostgreSQL) and non-relational (MongoDB) databases. Integration of payment APIs (MercadoPago, WebPay), SEO optimization with Google Analytics, and user-data-driven personalization strategies.`,
       },
     },
   ];
 
   language$: Observable<string> = this.languageSelectorService.getLanguage();
-  constructor(private languageSelectorService: LanguageSelectorService) {}
+
+  constructor(
+    private languageSelectorService: LanguageSelectorService,
+    private el: ElementRef
+  ) {}
+
+  ngAfterViewInit(): void {
+    const container: HTMLElement = this.el.nativeElement.querySelector('.experience__info');
+    if (container) {
+      setTimeout(() => container.classList.add('animate__animated'), 50);
+    }
+  }
 }

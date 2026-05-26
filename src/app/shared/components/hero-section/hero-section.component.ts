@@ -25,12 +25,12 @@ export class HeroSectionComponent {
   isMobile$: Observable<boolean> = this.breakpointService.isMobile$;
 
   heroInfo: Hero = {
-    first: { es: 'Hola, mi nombre es', en: 'Hi, my name is' },
+    first: { es: 'Hola, soy', en: "Hi, I'm" },
     name: { es: 'Jonatan David Villalba', en: 'Jonatan David Villalba' },
     position: { es: 'Senior Frontend Engineer — Angular · Next.js · AI Workflows', en: 'Senior Frontend Engineer — Angular · Next.js · AI Workflows' },
     resume: {
-      es: `Soy Analista de Sistemas especializado en la arquitectura y desarrollo de aplicaciones web escalables. Actualmente me enfoco en liderar proyectos con Next.js, Angular, SAP Spartacus y flujos dinámicos con Inteligencia Artificial (Agentes / Claude). Me apasiona crear bibliotecas reutilizables, optimizar la experiencia de usuario (UX/UI) y llevar soluciones innovadoras a producción bajo las mejores prácticas.`,
-      en: `I am a Systems Analyst specializing in the architecture and development of scalable web applications. Currently, I focus on leading projects with Next.js, Angular, SAP Spartacus, and dynamic Artificial Intelligence workflows (Agents / Claude). I am passionate about creating reusable libraries, optimizing the user experience (UX/UI), and bringing innovative solutions to production using best practices.`,
+      es: `Soy Senior Frontend Engineer especializado en la arquitectura y desarrollo de aplicaciones web escalables. Actualmente lidero proyectos con Next.js, Angular y SAP Spartacus, con foco en flujos de trabajo potenciados por IA y agentes autónomos. Me apasiona construir bibliotecas reutilizables, elevar el estándar de UX/UI y llevar soluciones a producción que equilibren rendimiento, accesibilidad y experiencia de desarrollo.`,
+      en: `I'm a Senior Frontend Engineer specializing in the architecture and development of scalable web applications. Currently leading projects built on Next.js, Angular, and SAP Spartacus, with a strong focus on AI-powered workflows and autonomous agents. Passionate about building reusable libraries, raising the bar on UX/UI, and shipping production-ready solutions that balance performance, accessibility, and developer experience.`,
     },
     callToAction: { es: 'Ver proyectos', en: 'See projects' },
     imageUrl: '../../../../assets/images/profile.png',

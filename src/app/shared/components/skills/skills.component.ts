@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
+import { AfterViewInit, ChangeDetectionStrategy, Component, ElementRef, Input } from '@angular/core';
 
 @Component({
   selector: 'jdv-skills',
@@ -6,8 +6,17 @@ import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
   styleUrls: ['./skills.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SkillsComponent {
+export class SkillsComponent implements AfterViewInit {
   @Input() fromHome: boolean = false;
+
+  constructor(private el: ElementRef) {}
+
+  ngAfterViewInit(): void {
+    const container: HTMLElement = this.el.nativeElement.querySelector('.skills');
+    if (container) {
+      setTimeout(() => container.classList.add('animate__animated'), 50);
+    }
+  }
   skills = [
     // Angular ecosystem (primary identity)
     { icon: '../../../assets/icons/typescript.svg',    alt: 'Typescript Icon',    label: 'TypeScript'      },

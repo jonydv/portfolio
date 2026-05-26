@@ -29,11 +29,10 @@
           </p>
           <a
             *ngIf="item?.link"
-            class="grid__item-info-link hide-on-init"
-            animateOnScroll
-            animationName="animate__animated animate__fadeInUp animate__fast"
+            class="grid__item-info-link"
             [href]="item.link"
             target="_blank"
+            rel="noopener noreferrer"
           >
             {{ viewPage[data.language!] }}
             <i class="fa-solid fa-arrow-up-right-from-square"></i>

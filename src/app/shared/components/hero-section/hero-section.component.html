@@ -7,15 +7,15 @@
   <div class="hero">
     <div class="hero__container">
       <div class="hero__container__content" *ngIf="heroInfo">
-        <h5 class="hero__container__content-name">
+        <p class="hero__container__content-name">
           {{ heroInfo.first[info.language!] }}
-        </h5>
+        </p>
         <h1 class="hero__container__content-title">
           {{ heroInfo.name[info.language!] }}
         </h1>
-        <h3 class="hero__container__content-subtitle">
+        <h2 class="hero__container__content-subtitle">
           {{ heroInfo.position[info.language!] }}
-        </h3>
+        </h2>
         <ng-container *ngIf="info.isMobile">
           <ng-container *ngTemplateOutlet="profileImage"></ng-container>
         </ng-container>

@@ -12,7 +12,10 @@
       "PowerShell(cd c:\\\\protfolio-project; npm run build 2>&1; Write-Host \"EXIT_CODE: $LASTEXITCODE\")",
       "PowerShell(cd c:\\\\protfolio-project; npx ng build --configuration=production 2>&1; Write-Host \"EXIT_CODE: $LASTEXITCODE\")",
       "PowerShell($file = Get-Item \"c:\\\\protfolio-project\\\\src\\\\assets\\\\og-preview.png\"; [PSCustomObject]@{ Name=$file.Name; SizeKB=[math]::Round\\($file.Length/1KB,1\\); LastModified=$file.LastWriteTime })",
-      "PowerShell(Test-Path \"c:\\\\protfolio-project\\\\src\\\\assets\\\\og-preview.png\"; \\(Get-Item \"c:\\\\protfolio-project\\\\src\\\\assets\\\\og-preview.png\"\\).Length)"
+      "PowerShell(Test-Path \"c:\\\\protfolio-project\\\\src\\\\assets\\\\og-preview.png\"; \\(Get-Item \"c:\\\\protfolio-project\\\\src\\\\assets\\\\og-preview.png\"\\).Length)",
+      "PowerShell(cd c:\\\\protfolio-project; npm run build 2>&1; Write-Host \"EXIT: $LASTEXITCODE\")",
+      "Bash(Get-ChildItem -Path \"c:\\\\protfolio-project\\\\src\\\\app\" -Recurse -Include \"*.directive.ts\")",
+      "Bash(npm run *)"
     ]
   }
 }

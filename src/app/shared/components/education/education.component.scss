@@ -10,15 +10,34 @@
       font-size: 1.5rem;
       border-radius: 5px;
       padding-bottom: 0.5rem;
+      margin-bottom: 1.5rem;
       cursor: default;
       &.mt-2 {
         margin-top: 2rem;
       }
     }
-    &-subtitle {
-      margin-top: 1rem;
-      width: fit-content;
+
+    &-card-title {
+      margin-top: 0;
+      color: $primary;
+      font-size: 1.5rem;
+      font-weight: bold;
+      cursor: default;
+    }
+
+    &-course-title {
       color: $title;
+      font-weight: bold;
+      font-size: 1.1rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      cursor: default;
+    }
+
+    &-subtitle {
+      margin-top: 0;
+      width: fit-content;
+      color: $primary;
       font-weight: 500;
       font-size: 1.25rem;
       padding-bottom: 0.5rem;
@@ -27,6 +46,7 @@
         margin-right: 0.5rem;
       }
     }
+
     &-paragraph {
       text-align: justify;
       width: fit-content;
@@ -34,25 +54,53 @@
       font-size: 1rem;
       line-height: 1.5rem;
       padding-bottom: 0.5rem;
+      opacity: 0.9;
       cursor: default;
     }
 
     &-link {
-      text-align: justify;
-      text-decoration: underline;
-      width: fit-content;
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.5rem 1rem;
+      border: 1px solid $primary;
+      border-radius: 4px;
       color: $primary;
+      text-decoration: none;
       font-size: 1rem;
-      padding-bottom: 0.5rem;
       cursor: pointer;
-      display: block;
-      margin-bottom: 1rem;
+      transition: color 0.2s ease, border-color 0.2s ease;
       &:hover {
         color: $primary-dark;
+        border-color: $primary-dark;
       }
       i {
         margin-left: 0.5rem;
       }
     }
   }
+}
+
+.education-card {
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 12px;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+              transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+
+  &--accent {
+    border-left: 4px solid $primary;
+  }
+
+  @include mobile {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    background: rgba(15, 21, 34, 0.95);
+  }
+}
+
+.education__info.animate__animated .education-card {
+  opacity: 1;
+  transform: translateY(0);
 }

@@ -9,11 +9,11 @@
       >
         {{ name }}
       </h1>
-      <h3
+      <h2
         class="curriculum__header-personal__position animate__animated animate__fadeInDown"
       >
         {{ position[info.language!] }}
-      </h3>
+      </h2>
     </div>
   </div>
   <div class="curriculum">
@@ -22,13 +22,13 @@
       <jdv-skills></jdv-skills>
     </section>
     <section class="curriculum__right">
-      <jdv-education></jdv-education>
       <jdv-experience></jdv-experience>
+      <jdv-education></jdv-education>
 
       <jdv-project [isMobile]="(isMobile$ | async)!"></jdv-project>
 
       <div class="curriculum__goals">
-        <h3 class="curriculum__goals-title">{{ goalsTitle[info.language!] }}</h3>
+        <h2 class="curriculum__goals-title">{{ goalsTitle[info.language!] }}</h2>
         <div class="curriculum__goals-grid">
           <div
             class="curriculum__goals-item glass-panel"

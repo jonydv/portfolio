@@ -6,13 +6,14 @@
 >
   <footer class="footer">
     <div class="footer-container">
-      <h5 class="footer-container__copyright">
+      <p class="footer-container__copyright">
         {{ copyright[info.language!] + " " }}&#174;
         {{ " " + date + " " + name }}
-      </h5>
+      </p>
       <a
         [href]="certificationUrl"
         [target]="'_blank'"
+        rel="noopener noreferrer"
         class="footer-container__certification"
       >
         <img

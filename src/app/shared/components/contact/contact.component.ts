@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 import { Observable } from 'rxjs';
 import { LanguageSelectorService } from 'src/app/services/language-selector.service';
 import { Language } from '../../../models/language.interface';
@@ -7,18 +7,19 @@ import { Language } from '../../../models/language.interface';
   selector: 'jdv-contact',
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class ContactComponent implements OnInit {
+export class ContactComponent {
   contactTitle: Language = {
     es: 'Contacto',
     en: 'Contact',
   };
   contact = [
-    // {
-    //   icon: 'fab fa-facebook-square',
-    //   url: 'https://www.facebook.com/jonatan.villalba.14/',
-    //   displayName: 'Facebook',
-    // },
+    {
+      icon: 'fab fa-github',
+      url: 'https://github.com/jonydv',
+      displayName: 'GitHub',
+    },
     {
       icon: 'fab fa-linkedin',
       url: 'https://www.linkedin.com/in/jonatan-david-villalba/',
@@ -34,6 +35,4 @@ export class ContactComponent implements OnInit {
   language$: Observable<string> = this.languageSelectorService.getLanguage();
 
   constructor(private languageSelectorService: LanguageSelectorService) {}
-
-  ngOnInit(): void {}
 }
