@@ -26,6 +26,21 @@
       <jdv-experience></jdv-experience>
 
       <jdv-project [isMobile]="(isMobile$ | async)!"></jdv-project>
+
+      <div class="curriculum__goals">
+        <h3 class="curriculum__goals-title">{{ goalsTitle[info.language!] }}</h3>
+        <div class="curriculum__goals-grid">
+          <div
+            class="curriculum__goals-item glass-panel hide-on-init"
+            animateOnScroll
+            animationName="animate__animated animate__fadeInUp animate__fast"
+            *ngFor="let goal of goals"
+          >
+            <i [class]="goal.icon"></i>
+            <p>{{ goal.text[info.language!] }}</p>
+          </div>
+        </div>
+      </div>
     </section>
   </div>
 </ng-container>

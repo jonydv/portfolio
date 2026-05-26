@@ -106,7 +106,7 @@
         @include mobile {
           font-size: 1.25rem;
           line-height: 1.75rem;
-          letter-spacing: 0.1rem;
+          letter-spacing: 0;
           text-align: left;
         }
       }
@@ -128,7 +128,7 @@
         @include mobile {
           font-size: 1.25rem;
           line-height: 1.75rem;
-          letter-spacing: 0.1rem;
+          letter-spacing: 0;
           text-align: left;
         }
       }

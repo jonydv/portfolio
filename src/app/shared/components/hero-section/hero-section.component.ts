@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import { Hero } from 'src/app/models/hero.interface';
@@ -19,6 +19,7 @@ interface Item {
   selector: 'jdv-hero-section',
   templateUrl: './hero-section.component.html',
   styleUrls: ['./hero-section.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class HeroSectionComponent {
   isMobile$: Observable<boolean> = this.breakpointService.isMobile$;
@@ -26,7 +27,7 @@ export class HeroSectionComponent {
   heroInfo: Hero = {
     first: { es: 'Hola, mi nombre es', en: 'Hi, my name is' },
     name: { es: 'Jonatan David Villalba', en: 'Jonatan David Villalba' },
-    position: { es: 'Senior Front-End Developer & Solution Architect.', en: 'Senior Front-End Developer & Solution Architect.' },
+    position: { es: 'Senior Frontend Engineer — Angular · Next.js · AI Workflows', en: 'Senior Frontend Engineer — Angular · Next.js · AI Workflows' },
     resume: {
       es: `Soy Analista de Sistemas especializado en la arquitectura y desarrollo de aplicaciones web escalables. Actualmente me enfoco en liderar proyectos con Next.js, Angular, SAP Spartacus y flujos dinámicos con Inteligencia Artificial (Agentes / Claude). Me apasiona crear bibliotecas reutilizables, optimizar la experiencia de usuario (UX/UI) y llevar soluciones innovadoras a producción bajo las mejores prácticas.`,
       en: `I am a Systems Analyst specializing in the architecture and development of scalable web applications. Currently, I focus on leading projects with Next.js, Angular, SAP Spartacus, and dynamic Artificial Intelligence workflows (Agents / Claude). I am passionate about creating reusable libraries, optimizing the user experience (UX/UI), and bringing innovative solutions to production using best practices.`,

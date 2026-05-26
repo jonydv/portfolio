@@ -4,15 +4,16 @@
       <div class="experience__info">
         <h3 class="experience__info-title mt-2">{{title[info.language!]}}</h3>
         <ng-container *ngFor="let position of positions">
-        <div class="experience-card glass-panel hover-lift hide-on-init" animateOnScroll animationName="animate__animated animate__fadeInUp animate__fast" style="padding: 1.5rem; margin-bottom: 1.5rem; border-radius: 12px;">
-          <h4 class="experience__info-subtitle" style="margin-top: 0;">
-            <i [class]="position.icon" style="color: #64ffda;"></i>
-            {{position.company[info.language!]}} <span class="experience__info-subtitle-emphasis" style="font-size: 0.9em; opacity: 0.8;">{{position.period[info.language!]}}</span>
+        <div class="experience-card glass-panel hover-lift hide-on-init" animateOnScroll animationName="animate__animated animate__fadeInUp animate__fast">
+          <h4 class="experience__info-subtitle">
+            <i [class]="position.icon"></i>
+            {{position.company[info.language!]}}
+            <span class="experience__info-subtitle-emphasis">{{position.period[info.language!]}}</span>
           </h4>
-          <h4 class="experience__info-subtitle" style="color: #64ffda; font-weight: bold; margin-bottom: 1rem;">
+          <h4 class="experience__info-role">
             {{position.role[info.language!]}}
           </h4>
-          <div class="experience__info-paragraph" style="line-height: 1.6; opacity: 0.9;">
+          <div class="experience__info-paragraph">
             {{position.description[info.language!]}}
           </div>
         </div>

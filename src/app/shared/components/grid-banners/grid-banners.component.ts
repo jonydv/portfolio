@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Input, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Language } from 'src/app/models/language.interface';
 import { BreakpointService } from 'src/app/services/breakpoint.service';
@@ -9,6 +9,7 @@ import { Grid } from '../../../models/grid.interface';
   selector: 'jdv-grid-banners',
   templateUrl: './grid-banners.component.html',
   styleUrls: ['./grid-banners.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class GridBannersComponent implements OnInit {
   viewPage: Language = {

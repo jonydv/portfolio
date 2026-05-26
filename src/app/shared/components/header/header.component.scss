@@ -1,9 +1,11 @@
 @import "src/styles/variables/variables.scss";
 header {
   height: 84px;
-  background: $dark;
-  box-shadow: 0 3px 4px 0 rgb(0 0 0 / 50%);
-  -webkit-box-shadow: 0 3px 4px 0 rgb(0 0 0 / 50%);
+  background: rgba(8, 12, 20, 0.8);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(167, 139, 250, 0.08);
+  box-shadow: 0 1px 0 rgba(100, 255, 218, 0.04);
   max-width: 100%;
   position: sticky;
   top: 0;
@@ -76,11 +78,20 @@ header {
           }
           &.active {
             color: $primary;
-            border: 1px solid $primary;
-            border-radius: 5px;
             font-weight: bold;
+            position: relative;
+            &::after {
+              content: '';
+              position: absolute;
+              bottom: -2px;
+              left: 0.85rem;
+              right: 0.85rem;
+              height: 2px;
+              background: linear-gradient(90deg, #a78bfa, #64ffda);
+              border-radius: 1px;
+            }
             &:hover {
-              background: rgba(100, 255, 218, 0.1);
+              color: $primary-purple;
             }
           }
           &:hover {
@@ -122,7 +133,10 @@ header {
   max-width: 100%;
   width: 70%;
   height: calc(100% - 64px);
-  background: $dark;
+  background: rgba(8, 12, 20, 0.95);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-left: 1px solid rgba(167, 139, 250, 0.1);
   position: absolute;
   top: 64px;
   left: 30%;

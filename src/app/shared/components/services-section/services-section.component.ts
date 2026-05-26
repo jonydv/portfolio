@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 import { BreakpointService } from '../../../services/breakpoint.service';
 import { Observable } from 'rxjs';
 import { Language } from '../../../models/language.interface';
@@ -9,6 +9,7 @@ import { LanguageSelectorService } from 'src/app/services/language-selector.serv
   selector: 'jdv-services-section',
   templateUrl: './services-section.component.html',
   styleUrls: ['./services-section.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ServicesSectionComponent implements OnInit {
   serviceTitle: Language = { es: 'Servicios', en: 'Services' };

@@ -23,8 +23,8 @@
       background: $background-alt;
     }
     &.skills {
-      background: $title;
-      padding: 2rem 0;
+      background: $background-alt;
+      padding: 2rem 0 3rem;
       flex-direction: column;
       jdv-skills {
         max-width: $max-width;

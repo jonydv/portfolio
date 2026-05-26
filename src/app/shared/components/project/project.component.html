@@ -25,6 +25,7 @@
               <div class="principal-image__logo">
                 <div class="principal-image__logo-container">
                   <img [src]="item.image" [alt]="item.title" loading="lazy" />
+                  <p class="principal-image__logo-container-title">{{ item.title }}</p>
                   <a
                     [href]="item.url"
                     [target]="item.target"

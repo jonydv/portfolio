@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Language } from 'src/app/models/language.interface';
 import { LanguageSelectorService } from 'src/app/services/language-selector.service';
@@ -8,8 +8,9 @@ import { Experience } from '../../../models/experience.interface';
   selector: 'jdv-experience',
   templateUrl: './experience.component.html',
   styleUrls: ['./experience.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class ExperienceComponent implements OnInit {
+export class ExperienceComponent {
   title: Language = { es: 'Experiencia', en: 'Experience' };
   positions: Experience[] = [
     {
@@ -96,6 +97,4 @@ export class ExperienceComponent implements OnInit {
 
   language$: Observable<string> = this.languageSelectorService.getLanguage();
   constructor(private languageSelectorService: LanguageSelectorService) {}
-
-  ngOnInit(): void {}
 }

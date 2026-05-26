@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { ChangeDetectionStrategy, Component, OnInit, Input } from '@angular/core';
 import { Observable } from 'rxjs';
 import { LanguageSelectorService } from 'src/app/services/language-selector.service';
 import SwiperCore, { Autoplay, Navigation, SwiperOptions } from 'swiper';
@@ -10,6 +10,7 @@ SwiperCore.use([Navigation, Autoplay]);
   selector: 'jdv-project',
   templateUrl: './project.component.html',
   styleUrls: ['./project.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ProjectComponent implements OnInit {
   @Input() isMobile: boolean = false;

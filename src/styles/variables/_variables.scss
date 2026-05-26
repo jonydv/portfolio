@@ -1,16 +1,20 @@
 $primary: #64ffda !default;
 $primary-hover: rgba(100, 255, 218, 0.1);
 $primary-dark: #09fcbf;
+$primary-purple: #a78bfa;
+$accent-gradient: linear-gradient(135deg, #a78bfa 0%, #64ffda 100%);
+$accent-glow-purple: rgba(167, 139, 250, 0.35);
+$accent-glow-cyan: rgba(100, 255, 218, 0.35);
 $secondary: #747881 !default;
 $success: #5dac06 !default;
 $danger: #db0002 !default;
 $warning: #ffc107 !default;
 $info: #17a2b8 !default;
 $light: #d3d6db !default;
-$dark: #030303; //#121f3d !default;
-$background: #0b0b0b; //#121f3d !default;
-$background-secondary: #0a0a0a; //#172A45 !default;
-$background-alt: #252424;
+$dark: #060910;
+$background: #080c14;
+$background-secondary: #080c14;
+$background-alt: #0f1522;
 $background-light: #0953fd !default;
 $inverse: #ffffff !default;
 $text: #cecece !default;
@@ -109,4 +113,11 @@ $mobile-width: $lg;
   ::-webkit-scrollbar {
     width: 0px;
   }
+}
+
+:root {
+  --color-bg: #{$background};
+  --color-primary: #{$primary};
+  --color-purple: #{$primary-purple};
+  --accent-gradient: #{$accent-gradient};
 }

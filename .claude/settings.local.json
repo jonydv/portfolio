@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"C:\\\\protfolio-project\" -Force)",
+      "Bash(Select-Object Name, Mode)",
+      "Bash(Get-ChildItem -Path \"c:\\\\protfolio-project\\\\src\\\\assets\" -Recurse -Force)",
+      "Bash(Select-Object -ExpandProperty FullName)",
+      "Bash(Sort-Object)",
+      "Bash(dir \"C:\\\\protfolio-project\")",
+      "Bash(npx ng *)",
+      "PowerShell(cd c:\\\\protfolio-project; npm run build 2>&1 | Where-Object { $_ -match \"error|Error|Built|success|✓|✗\" } | Select-Object -Last 20)",
+      "PowerShell(cd c:\\\\protfolio-project; npm run build 2>&1; Write-Host \"EXIT_CODE: $LASTEXITCODE\")",
+      "PowerShell(cd c:\\\\protfolio-project; npx ng build --configuration=production 2>&1; Write-Host \"EXIT_CODE: $LASTEXITCODE\")",
+      "PowerShell($file = Get-Item \"c:\\\\protfolio-project\\\\src\\\\assets\\\\og-preview.png\"; [PSCustomObject]@{ Name=$file.Name; SizeKB=[math]::Round\\($file.Length/1KB,1\\); LastModified=$file.LastWriteTime })",
+      "PowerShell(Test-Path \"c:\\\\protfolio-project\\\\src\\\\assets\\\\og-preview.png\"; \\(Get-Item \"c:\\\\protfolio-project\\\\src\\\\assets\\\\og-preview.png\"\\).Length)"
+    ]
+  }
+}
