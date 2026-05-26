@@ -12,77 +12,77 @@ import { LanguageSelectorService } from 'src/app/services/language-selector.serv
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ServicesSectionComponent implements OnInit {
-  serviceTitle: Language = { es: 'Servicios', en: 'Services' };
+  serviceTitle: Language = { es: 'Áreas de Expertise', en: 'Areas of Expertise' };
   serviceIntro: Language = {
-    es: 'Realizo soluciones a medida porque cada empresa tiene particularidades y necesidades únicas. Trabajando en equipo, relevamos, estudiamos y ajustamos las herramientas para que se adapten a lo que buscas: crear un sitio web, abrir una tienda online, posicionar tu marca en Google, aumentar el rendimiento de tu sitio, incluir mejoras, nuevas funcionalidades, manteniendo los mejores estandares de la industria.',
-    en: 'I provide custom solutions because each company has unique characteristics and needs. Working as a team, we identify, study and adjust the tools to fit what you are looking for: create a website, open an online store, position your brand on Google, increase the performance of your site, include improvements, new features, all while maintaining the best industry standards.',
+    es: 'Aporto valor a los equipos de producto combinando arquitectura sólida, metodologías ágiles y las mejores prácticas de la industria para construir software escalable. Me enfoco en resolver problemas complejos de negocio mediante tecnología moderna, siempre priorizando el rendimiento, la accesibilidad y la experiencia de usuario.',
+    en: 'I bring value to product teams by combining solid architecture, agile methodologies, and industry best practices to build scalable software. I focus on solving complex business problems through modern technology, always prioritizing performance, accessibility, and user experience.',
   };
   services: Service[] = [
     {
       title: {
-        es: 'Desarrollo Web',
-        en: 'Web Development',
+        es: 'Frontend Architecture',
+        en: 'Frontend Architecture',
       },
       imgUrl: '../../../../assets/images/web.webp',
       text: {
-        es: 'Desarrollo de sitios web responsive para la mejor experiencia de usuario, adaptable a distintos dispositivos y cada uno con su propia identidad.',
-        en: 'Development of responsive websites for the best user experience, adaptable to different devices and each one with its own identity.',
+        es: 'Diseño y desarrollo de interfaces escalables y de alto rendimiento, optimizando el estado global y asegurando código mantenible a largo plazo.',
+        en: 'Design and development of highly scalable and performant interfaces, optimizing global state and ensuring long-term maintainable code.',
       },
     },
     {
-      title: { es: 'Comercio electrónico', en: 'E-commerce' },
+      title: { es: 'E-commerce Enterprise', en: 'E-commerce Enterprise' },
       imgUrl: '../../../../assets/images/commerce.webp',
       text: {
-        es: 'Sitios e-commerce administrables y con la implementación de plataformas de pago.',
-        en: 'Manageable e-commerce sites with the implementation of payment platforms.',
+        es: 'Experiencia profunda en SAP Spartacus y plataformas transaccionales de alto volumen con integraciones de pasarelas de pago.',
+        en: 'Deep expertise in SAP Spartacus and high-volume transactional platforms with seamless payment gateway integrations.',
       },
     },
     {
-      title: { es: 'Trabajo en equipo', en: 'Teamwork' },
+      title: { es: 'Liderazgo Técnico', en: 'Technical Leadership' },
       imgUrl: '../../../../assets/images/team.webp',
       text: {
-        es: 'Trabajo en equipo con metodologias agiles para conseguir los objetivos o prototipos del software que su empresa necesita, mediante desarrollo iterativo e incremental.',
-        en: 'Teamwork with agile methodologies to achieve the software goals or prototypes that your company needs, through iterative and incremental development.',
+        es: 'Gestión técnica de equipos en entornos ágiles, code reviews y mentoría para garantizar los más altos estándares de calidad de software.',
+        en: 'Technical team management in agile environments, conducting code reviews, and providing mentorship to ensure the highest software quality standards.',
       },
     },
     {
-      title: { es: 'Posicionamiento', en: 'Positioning' },
+      title: { es: 'Optimización y SEO', en: 'Optimization & SEO' },
       imgUrl: '../../../../assets/images/rocket.webp',
       text: {
-        es: 'Integración de las aplicaciones web con las mejores herramientas para el posicionamiento de su sitio, teniendo en cuenta las mejores prácticas para SEO.',
-        en: 'Integration of web applications with the best tools for positioning your site, taking into account the best practices for SEO.',
+        es: 'Implementación de Server-Side Rendering (SSR) y mejores prácticas Core Web Vitals para maximizar el posicionamiento y rendimiento.',
+        en: 'Implementation of Server-Side Rendering (SSR) and Core Web Vitals best practices to maximize positioning and performance.',
       },
     },
     {
-      title: { es: 'Bases de datos', en: 'Databases' },
+      title: { es: 'Integración Fullstack', en: 'Fullstack Integration' },
       imgUrl: '../../../../assets/images/database.webp',
       text: {
-        es: 'Dependiendo de las necesidades del software, desarrollamos con bases de datos relacionales y no relacionales, siguiendo los estandares de seguridad.',
-        en: 'Depending on the software needs, we develop with both relational and non-relational databases, following security standards.',
+        es: 'Diseño de arquitecturas completas conectando el frontend con bases de datos relacionales y no relacionales mediante APIs robustas.',
+        en: 'Designing end-to-end architectures connecting the frontend with relational and non-relational databases through robust APIs.',
       },
     },
     {
-      title: { es: 'Ideas', en: 'Ideas' },
+      title: { es: 'De Concepto a Producción', en: 'Concept to Production' },
       imgUrl: '../../../../assets/images/idea.webp',
       text: {
-        es: 'Tenés una idea, podemos analizar la factibilidad de desarrollar un software que la satisfaga.',
-        en: 'You have an idea, we can analyze the feasibility of developing software that satisfies it.',
+        es: 'Análisis de viabilidad, diseño de arquitectura y liderazgo técnico continuo desde la concepción del producto hasta su despliegue exitoso.',
+        en: 'Feasibility analysis, architecture design, and continuous technical leadership from product conception to successful deployment.',
       },
     },
     {
-      title: { es: 'Seguridad', en: 'Security' },
+      title: { es: 'Seguridad y Calidad', en: 'Security & Quality' },
       imgUrl: '../../../../assets/images/security.webp',
       text: {
-        es: 'A la hora de iniciar un proyecto se tiene en cuenta la seguridad del software desde el analisis inicial hasta la implementación.',
-        en: 'When starting a project, software security is considered from the initial analysis to implementation.',
+        es: 'Foco transversal en la seguridad, autenticación (ej. Next-Auth) y cobertura de pruebas para mitigar riesgos en entornos de producción.',
+        en: 'Transversal focus on security, authentication (e.g. Next-Auth), and test coverage to mitigate risks in production environments.',
       },
     },
     {
-      title: { es: 'Crecimiento', en: 'Growth' },
+      title: { es: 'Flujos de IA', en: 'AI Workflows' },
       imgUrl: '../../../../assets/images/achievement.webp',
       text: {
-        es: 'Las metas de tu organización son importantes, y las tenemos en cuenta a la hora de empezar un proyecto para poder ayudarte a cumplirlas.',
-        en: 'The goals of your organization are important and we take them into account when starting a project to help you achieve them.',
+        es: 'Integración de agentes autónomos y copilots en el ciclo de desarrollo para acelerar entregas sin comprometer la arquitectura y legibilidad.',
+        en: 'Integration of autonomous agents and copilots in the development cycle to accelerate delivery without compromising architecture and readability.',
       },
     },
   ];

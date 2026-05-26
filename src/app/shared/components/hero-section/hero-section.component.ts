@@ -29,8 +29,8 @@ export class HeroSectionComponent {
     name: { es: 'Jonatan David Villalba', en: 'Jonatan David Villalba' },
     position: { es: 'Senior Frontend Engineer — Angular · Next.js · AI Workflows', en: 'Senior Frontend Engineer — Angular · Next.js · AI Workflows' },
     resume: {
-      es: `Soy Senior Frontend Engineer especializado en la arquitectura y desarrollo de aplicaciones web escalables. Actualmente lidero proyectos con Next.js, Angular y SAP Spartacus, con foco en flujos de trabajo potenciados por IA y agentes autónomos. Me apasiona construir bibliotecas reutilizables, elevar el estándar de UX/UI y llevar soluciones a producción que equilibren rendimiento, accesibilidad y experiencia de desarrollo.`,
-      en: `I'm a Senior Frontend Engineer specializing in the architecture and development of scalable web applications. Currently leading projects built on Next.js, Angular, and SAP Spartacus, with a strong focus on AI-powered workflows and autonomous agents. Passionate about building reusable libraries, raising the bar on UX/UI, and shipping production-ready solutions that balance performance, accessibility, and developer experience.`,
+      es: `Senior Frontend Engineer especializado en arquitectura de aplicaciones web escalables. Lidero proyectos enterprise con Angular, Next.js y SAP Spartacus, integrando flujos de trabajo potenciados por IA. Me apasiona construir bibliotecas reutilizables, elevar la experiencia de desarrollo (DX) y entregar productos con alto rendimiento y accesibilidad.`,
+      en: `Senior Frontend Engineer specializing in scalable web architecture. I lead enterprise projects using Angular, Next.js, and SAP Spartacus, integrating AI-powered workflows. Passionate about building reusable libraries, optimizing Developer Experience (DX), and shipping high-performance, accessible products.`,
     },
     callToAction: { es: 'Ver proyectos', en: 'See projects' },
     imageUrl: '../../../../assets/images/profile.png',
