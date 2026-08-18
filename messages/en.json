@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "siteName": "Jonatan David Villalba",
+    "titleTemplate": "%s — Jonatan David Villalba",
+    "home": {
+      "title": "Senior Front-End Engineer and Frontend Architect",
+      "description": "Enterprise e-commerce architecture with Angular, React, and Next.js. Over 8 years building scalable, high-performance interfaces."
+    },
+    "work": {
+      "title": "Work",
+      "description": "Enterprise e-commerce case studies and personal projects built with Angular, SAP Composable Storefront, and Next.js."
+    },
+    "about": {
+      "title": "About",
+      "description": "Experience, education, and technical stack of Jonatan David Villalba, Senior Front-End Engineer and Frontend Architect."
+    },
+    "cv": {
+      "title": "Resume",
+      "description": "Full resume of Jonatan David Villalba: experience, certifications, languages, and technical stack."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Get in touch with Jonatan David Villalba for frontend, architecture, and e-commerce projects."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "work": "Work",
+    "about": "About",
+    "cv": "Resume",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "toggleTheme": "Toggle theme",
+    "skipToContent": "Skip to content",
+    "menu": "Menu"
+  },
+  "home": {
+    "featuredIndex": "01",
+    "featuredTitle": "Selected work",
+    "expertiseIndex": "02",
+    "expertiseTitle": "Areas of expertise",
+    "skillsIndex": "03",
+    "skillsTitle": "Technical stack",
+    "viewAllWork": "View all work"
+  },
+  "work": {
+    "index": "Work index",
+    "allProjects": "All projects",
+    "filterByTag": "Filter by technology",
+    "clearFilters": "Clear filters",
+    "empty": "No projects match that filter.",
+    "showing": "{count, plural, =1 {# project} other {# projects}}",
+    "visitSite": "Visit site",
+    "viewCode": "View code",
+    "backToWork": "Back to work",
+    "nextProject": "Next project",
+    "previousProject": "Previous project",
+    "role": "Role",
+    "year": "Year",
+    "client": "Client",
+    "stack": "Stack"
+  },
+  "about": {
+    "experienceIndex": "01",
+    "experienceTitle": "Experience",
+    "credentialsIndex": "02",
+    "credentialsTitle": "Education and certifications",
+    "skillsIndex": "03",
+    "skillsTitle": "Technical stack",
+    "goalsIndex": "04",
+    "goalsTitle": "Professional goals",
+    "present": "Present",
+    "viewCredential": "View credential"
+  },
+  "skills": {
+    "frameworks": "Frontend frameworks and architecture",
+    "state": "State management and reactivity",
+    "languages": "Languages, UI and backend integration",
+    "quality": "Testing, quality and DevOps",
+    "ecommerce": "E-commerce and SAP Commerce",
+    "ai": "AI tooling"
+  },
+  "cv": {
+    "download": "Download PDF",
+    "downloadInEnglish": "Download PDF (in English)",
+    "print": "Print",
+    "languages": "Languages"
+  },
+  "contact": {
+    "index": "Contact",
+    "title": "Let's talk",
+    "intro": "Have a frontend, architecture, or e-commerce project in mind? Email me directly and we can talk it through.",
+    "mailSubject": "Enquiry from your portfolio",
+    "mailBody": "Hi Jonatan,\n\n",
+    "copyEmail": "Copy email",
+    "emailCopied": "Email copied",
+    "responseTime": "I usually reply within two business days.",
+    "channels": "Other channels"
+  },
+  "error": {
+    "title": "Something went wrong",
+    "description": "An unexpected error occurred while loading this page.",
+    "retry": "Retry",
+    "notFoundTitle": "Page not found",
+    "notFoundDescription": "The page you are looking for does not exist or has moved.",
+    "backHome": "Back to home"
+  },
+  "footer": {
+    "copyright": "All rights reserved.",
+    "builtWith": "Built with Next.js and Tailwind CSS."
+  }
+}

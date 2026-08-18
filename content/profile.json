@@ -1,0 +1,49 @@
+{
+  "name": "Jonatan David Villalba",
+  "greeting": {
+    "es": "Hola, soy",
+    "en": "Hi, I'm"
+  },
+  "headline": {
+    "es": "Senior Frontend Developer & Tech Lead",
+    "en": "Senior Frontend Developer & Tech Lead"
+  },
+  "focus": {
+    "es": "SAP Composable Storefront (Spartacus)",
+    "en": "SAP Composable Storefront (Spartacus)"
+  },
+  "specialties": ["Angular", "React", "Next.js", "TypeScript", "SSR", "Microfrontends"],
+  "summary": {
+    "es": "Analista de Sistemas, Senior Frontend Engineer y Tech Lead con más de 8 años diseñando y escalando aplicaciones web empresariales de alto tráfico, plataformas de e-commerce y capas Backend-for-Frontend en Next.js y Node.js. Especialista en React/Next.js y Angular, con tres años dedicados a SAP Composable Storefront para storefronts B2B y B2C.",
+    "en": "Systems Analyst, Senior Frontend Engineer, and Technical Lead with 8+ years architecting and delivering high-traffic web applications, enterprise e-commerce platforms, and Backend-for-Frontend layers with Next.js and Node.js. Expert in React/Next.js and Angular, with three years specializing in SAP Composable Storefront for B2B and B2C storefronts."
+  },
+  "bio": {
+    "es": "Especialista en el ecosistema moderno de React/Next.js (v14/v15 App Router, SSR/SSG, TanStack Query, Zustand) y Angular (v8–v21, Signals, NgRx, monorepos con Nx y Lerna). Sólida trayectoria en diseño de sistemas de componentes reutilizables con Tailwind CSS, Angular Material y PrimeNG, orquestación de APIs RESTful y GraphQL, testing automatizado bajo TDD con Vitest, Jest, Jasmine y Cypress, y optimización de Core Web Vitals y accesibilidad WCAG. Integro herramientas de IA como Cursor y Claude Code en flujos de producción e ingeniería. Nivel de inglés C1 certificado por EF SET.",
+    "en": "Expert in the modern React/Next.js ecosystem (v14/v15 App Router, SSR/SSG, TanStack Query, Zustand) and Angular (v8–v21, Signals, NgRx, Nx and Lerna monorepos). Proven record designing reusable component systems with Tailwind CSS, Angular Material, and PrimeNG, orchestrating RESTful and GraphQL APIs, running TDD pipelines with Vitest, Jest, Jasmine, and Cypress, and optimizing Core Web Vitals and WCAG accessibility. I integrate AI tooling such as Cursor and Claude Code into production engineering workflows. English at C1 level, certified by EF SET."
+  },
+  "expertiseIntro": {
+    "es": "Aporto valor a los equipos de producto combinando arquitectura sólida, metodologías ágiles y las mejores prácticas de la industria para construir software escalable. Me enfoco en resolver problemas complejos de negocio mediante tecnología moderna, siempre priorizando el rendimiento, la accesibilidad y la experiencia de usuario.",
+    "en": "I bring value to product teams by combining solid architecture, agile methodologies, and industry best practices to build scalable software. I focus on solving complex business problems through modern technology, always prioritizing performance, accessibility, and user experience."
+  },
+  "location": {
+    "es": "Buenos Aires, Argentina",
+    "en": "Buenos Aires, Argentina"
+  },
+  "availability": {
+    "es": "Abierto a remoto — LATAM, EEUU y Europa (UTC-3)",
+    "en": "Open to remote — LATAM, US and EU (UTC-3)"
+  },
+  "email": "jonatandavidvillalba@gmail.com",
+  "yearsOfExperience": 8,
+  "image": "/images/profile.webp",
+  "cv": {
+    "es": {
+      "href": "/cv-es-jonatan-villalba.pdf",
+      "language": "es"
+    },
+    "en": {
+      "href": "/cv-en-jonatan-villalba.pdf",
+      "language": "en"
+    }
+  }
+}

@@ -1,0 +1,154 @@
+[
+  {
+    "id": "qubik-commerce",
+    "company": "Qubik Commerce",
+    "companyUrl": null,
+    "role": {
+      "es": "Senior Front-End Engineer",
+      "en": "Senior Front-End Engineer"
+    },
+    "start": "2021-03",
+    "end": "2026-06",
+    "location": {
+      "es": "Buenos Aires, Argentina · Remoto",
+      "en": "Buenos Aires, Argentina · Remote"
+    },
+    "employmentType": "full-time",
+    "order": 0,
+    "highlights": {
+      "es": [
+        "Diseñé y desarrollé aplicaciones web empresariales y storefronts de e-commerce de alto rendimiento con Next.js (App Router, SSR, SSG), Angular (v8 a v21) y SAP Composable Storefront (Spartacus), sobre TypeScript y Tailwind CSS.",
+        "Construí y mantuve servicios Backend-for-Frontend (BFF) y API Route Handlers en Next.js y Node.js, apoyándome en herramientas de IA para acelerar la orquestación, la validación de esquemas y la agregación de microservicios distribuidos, APIs REST y GraphQL.",
+        "Diseñé arquitecturas de estado predecibles combinando TanStack Query, Zustand, Redux Toolkit, NgRx y Angular Signals, optimizando la detección de cambios y eliminando peticiones redundantes mediante deduplicación y caché en servidor.",
+        "Estructuré monorepos modulares con Nx y Lerna y publiqué librerías NPM internas con Design Systems reutilizables (Tailwind CSS, Angular Material, PrimeNG), acelerando el ciclo de entrega de varios equipos en un 40%.",
+        "Implementé estrategias de Test-Driven Development con Vitest, Jest, Jasmine y Cypress, y mantuve pipelines de CI/CD (GitHub Actions, Jenkins) con controles de lint, build y calidad en cada despliegue, con cobertura de regresión sobre los flujos críticos de checkout y catálogo.",
+        "Optimicé el rendimiento y los Core Web Vitals (LCP, CLS, INP) mediante streaming SSR, carga diferida y optimización de bundles, mejorando la velocidad de carga inicial en un 35%.",
+        "Garanticé el cumplimiento de accesibilidad WCAG 2.1 AA, interfaces responsive mobile-first y flujos seguros de autenticación y autorización con OAuth2 y JWT.",
+        "Integré desarrollo asistido por IA (Cursor, Claude Code) para acelerar refactorizaciones y entregas de sprint, y lideré code reviews bajo principios SOLID y Clean Architecture.",
+        "Desarrollé aplicaciones móviles híbridas para iOS y Android con Capacitor e Ionic integradas con frontends Angular, y di soporte técnico al ecosistema mobile en React Native."
+      ],
+      "en": [
+        "Architected and delivered high-performance enterprise web applications and e-commerce storefronts using Next.js (App Router, SSR, SSG), Angular (v8–v21), and SAP Composable Storefront (Spartacus) with TypeScript and Tailwind CSS.",
+        "Built and maintained Backend-for-Frontend (BFF) services and API Route Handlers in Next.js and Node.js, leveraging AI-assisted development to orchestrate, validate schemas, and aggregate distributed microservices, REST APIs, and GraphQL endpoints.",
+        "Designed scalable client and server-state architectures with TanStack Query, Zustand, Redux Toolkit, NgRx, and Angular Signals, optimizing change detection and eliminating redundant fetches through request deduplication and server-side caching.",
+        "Engineered modular monorepos with Nx and Lerna and published internal NPM component libraries and Design Systems (Tailwind CSS, Angular Material, PrimeNG), accelerating multi-squad delivery by 40%.",
+        "Implemented Test-Driven Development pipelines with Vitest, Jest, Jasmine, and Cypress, and maintained CI/CD workflows (GitHub Actions, Jenkins) enforcing lint, build, and quality gates on every deployment, with regression coverage across checkout and catalog funnels.",
+        "Optimized runtime performance and Core Web Vitals (LCP, CLS, INP) through SSR streaming, dynamic imports, and bundle optimization, resulting in a 35% improvement in initial load speed.",
+        "Audited and enforced WCAG 2.1 AA accessibility, responsive mobile-first UI patterns, and robust authentication and authorization workflows with OAuth2 and JWT.",
+        "Leveraged AI-assisted development (Cursor, Claude Code) to accelerate refactors and sprint deliverables, while leading code reviews grounded in SOLID and Clean Architecture principles.",
+        "Developed hybrid mobile experiences for iOS and Android with Capacitor and Ionic integrated with Angular frontends, and supported the React Native mobile ecosystem."
+      ]
+    },
+    "stack": [
+      "nextjs",
+      "angular",
+      "sap-spartacus",
+      "typescript",
+      "tailwind-css",
+      "tanstack-query",
+      "ngrx",
+      "angular-signals"
+    ]
+  },
+  {
+    "id": "onikom-2024",
+    "company": "Onikom LATAM",
+    "companyUrl": null,
+    "role": {
+      "es": "Tech Lead Front-End & Arquitecto de Solución",
+      "en": "Tech Lead Front-End & Solution Architect"
+    },
+    "start": "2024-11",
+    "end": "2025-04",
+    "location": {
+      "es": "Remoto · México · Contrato en paralelo",
+      "en": "Remote · Mexico · Concurrent contract"
+    },
+    "employmentType": "contract",
+    "order": 1,
+    "highlights": {
+      "es": [
+        "Lideré la dirección arquitectónica y técnica de soluciones frontend empresariales con SAP Composable Storefront (Spartacus), Angular 17+ y TypeScript.",
+        "Definí la gobernanza arquitectónica, los patrones de microfrontends y las convenciones de estado reactivo (NgRx / Signals), actuando como referente técnico ante producto, backend (Java/Node.js) y UX/UI.",
+        "Resolví cuellos de botella de renderizado, optimicé la hidratación SSR y aseguré una integración desacoplada entre los servicios frontend y los microservicios empresariales.",
+        "Coordiné plannings técnicos, definí contratos de interfaz y conduje revisiones de código garantizando altos estándares de calidad."
+      ],
+      "en": [
+        "Directed the architectural and technical delivery of enterprise frontend solutions using SAP Composable Storefront (Spartacus), Angular 17+, and TypeScript.",
+        "Defined architectural governance, microfrontend patterns, and reactive state conventions (NgRx / Signals), acting as technical point of contact across product, backend (Java/Node.js), and UX/UI teams.",
+        "Eliminated rendering bottlenecks, optimized SSR hydration, and ensured decoupled integration between frontend services and enterprise microservices.",
+        "Led technical sprint plannings, defined service contracts, and conducted code reviews enforcing strict enterprise coding standards."
+      ]
+    },
+    "stack": ["angular", "sap-spartacus", "typescript", "ngrx", "microfrontends"]
+  },
+  {
+    "id": "onikom-2023",
+    "company": "Onikom LATAM",
+    "companyUrl": null,
+    "role": {
+      "es": "Tech Lead Front-End & Arquitecto de Solución",
+      "en": "Tech Lead Front-End & Solution Architect"
+    },
+    "start": "2023-02",
+    "end": "2023-07",
+    "location": {
+      "es": "Remoto · México · Contrato en paralelo",
+      "en": "Remote · Mexico · Concurrent contract"
+    },
+    "employmentType": "contract",
+    "order": 2,
+    "highlights": {
+      "es": [
+        "Diseñé las bases arquitectónicas frontend para storefronts de alto tráfico, estableciendo sistemas de componentes reutilizables en Angular y capas robustas de consumo de APIs.",
+        "Redacté Documentos de Diseño Técnico (TDD), traduje requerimientos de negocio en contratos de servicios mantenibles y supervisé las entregas de los sprints.",
+        "Capacité a los equipos de desarrollo en programación reactiva con RxJS, estructuras modulares y buenas prácticas de pruebas unitarias automatizadas."
+      ],
+      "en": [
+        "Architected the baseline frontend foundation for high-traffic storefronts, establishing reusable Angular component systems and robust API integration layers.",
+        "Penned Technical Design Documents (TDD), mapped business requirements to maintainable service contracts, and oversaw sprint execution.",
+        "Coached engineering squads on reactive programming with RxJS, modular folder structures, and automated unit testing best practices."
+      ]
+    },
+    "stack": ["angular", "sap-spartacus", "typescript", "rxjs"]
+  },
+  {
+    "id": "jdv-developer",
+    "company": "JDV Developer",
+    "companyUrl": null,
+    "role": {
+      "es": "Full Stack Engineer (Freelance)",
+      "en": "Full Stack Engineer (Freelance)"
+    },
+    "start": "2018-03",
+    "end": "2021-03",
+    "location": {
+      "es": "Buenos Aires, Argentina · Remoto",
+      "en": "Buenos Aires, Argentina · Remote"
+    },
+    "employmentType": "freelance",
+    "order": 3,
+    "highlights": {
+      "es": [
+        "Desarrollé aplicaciones full-stack web y móviles a medida utilizando React, Next.js, Angular, Node.js, Express, PostgreSQL, MySQL y MongoDB.",
+        "Construí interfaces responsive y progresivas (PWA) con JavaScript moderno (ES6+), CSS3/SCSS, Tailwind CSS y consumo seguro de APIs RESTful.",
+        "Integré pasarelas de pago y flujos de checkout con la API de Mercado Pago Checkout Pro, garantizando alta confiabilidad transaccional y optimización de conversiones."
+      ],
+      "en": [
+        "Developed custom full-stack web and mobile applications using React, Next.js, Angular, Node.js, Express, PostgreSQL, MySQL, and MongoDB.",
+        "Engineered responsive, mobile-first interfaces and progressive web apps with modern JavaScript (ES6+), CSS3/SCSS, Tailwind CSS, and secure RESTful endpoints.",
+        "Integrated end-to-end checkout and payment workflows with the Mercado Pago Checkout Pro API, ensuring transactional integrity and optimal conversion rates."
+      ]
+    },
+    "stack": [
+      "react",
+      "nextjs",
+      "angular",
+      "nodejs",
+      "express",
+      "postgresql",
+      "mysql",
+      "mongodb"
+    ]
+  }
+]

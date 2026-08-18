@@ -1,0 +1,60 @@
+@media print {
+  :root,
+  :root[data-theme='dark'] {
+    --color-canvas: #ffffff;
+    --color-surface: #ffffff;
+    --color-elevated: #ffffff;
+    --color-ink: #000000;
+    --color-ink-muted: #333333;
+    --color-ink-faint: #666666;
+    --color-hairline: #cccccc;
+    --color-accent: #000000;
+    --color-accent-ink: #ffffff;
+    color-scheme: light;
+  }
+
+  html,
+  body {
+    background: #ffffff;
+    color: #000000;
+  }
+
+  @page {
+    margin: 14mm;
+  }
+
+  header[data-site-header],
+  footer,
+  nav,
+  [data-print-hidden] {
+    display: none;
+  }
+
+  section {
+    padding-block: 0;
+  }
+
+  h1,
+  h2,
+  h3 {
+    break-after: avoid;
+  }
+
+  li,
+  article,
+  [data-print-entry] {
+    break-inside: avoid;
+  }
+
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  a[href^='http']::after {
+    content: ' (' attr(href) ')';
+    font-size: 0.7em;
+    color: #555555;
+    word-break: break-all;
+  }
+}
