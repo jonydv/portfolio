@@ -209,6 +209,12 @@
     "height": 172,
     "bytes": 9165
   },
+  "/og-cover.png": {
+    "width": 1200,
+    "height": 630,
+    "bytes": 66184,
+    "blurDataURL": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAACwAQCdASoMAAYAA4BaJaQAAxblUawAAP71007o08KS+pOThoRTJWb8QAA="
+  },
   "/projects-images/antihuman-desktop.webp": {
     "width": 962,
     "height": 796,
@@ -328,6 +334,18 @@
     "height": 672,
     "bytes": 41112,
     "blurDataURL": "data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAABQBACdASoMABoAPu1orU6ppiSiMAgBMB2JYgAjzMCX7RjdKilQ1cZ5BryAAP7bxnTZfqY3uE1frA+h/zDca+MMwecxQ2T5ZIS/CoWHKreqtMRWo90/bs9w7dnnVPMUiG8UGwlNuNCag5JScdm4RUtrApE+Yz9q+Sz8IqwTMU46SG/BPiU0f9BuYaF5+OUkFQhsP8MOtLHpCDmzuAtj/+zcQaEYzgOxntxAAA=="
+  },
+  "/projects-images/portfolio-desktop.webp": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 39412,
+    "blurDataURL": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAADQAQCdASoMAAcAA4BaJaQAAq4OtxloAAD+9dsiCMOAZ3il38oCIQAAAAA="
+  },
+  "/projects-images/portfolio-mobile.webp": {
+    "width": 414,
+    "height": 896,
+    "bytes": 28092,
+    "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAwAwCdASoMABoAPu1iqk2ppaQiMAgBMB2JZwAAeriZ6cwAAP7wXIDxUespp1klkrXeTeoONJBNFMLA2w9trA90e5/JgEIWg3X2+b6F4uTWuO/ebXJAF0gAAAA="
   },
   "/projects-images/promesa-desktop.webp": {
     "width": 962,

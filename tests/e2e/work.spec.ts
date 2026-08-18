@@ -1,6 +1,6 @@
 import { expect, test } from '@playwright/test';
 
-const EXPECTED_PROJECT_COUNT = 11;
+const EXPECTED_PROJECT_COUNT = 12;
 const OFFLINE_SLUGS = ['spartacus-demo', 'k-one', 'tupemesa'];
 
 test('el indice lista todos los proyectos publicados en el HTML servido', async ({ page }) => {

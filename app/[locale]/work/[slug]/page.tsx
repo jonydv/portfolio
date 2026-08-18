@@ -30,6 +30,7 @@ export async function generateMetadata({ params }: PageProps<'/[locale]/work/[sl
     path: project.path,
     title: project.title,
     description: project.summary,
+    hasOwnOpenGraphImage: true,
   });
 }
 

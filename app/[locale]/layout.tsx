@@ -6,6 +6,7 @@ import { fontVariables } from '@/lib/fonts';
 import { THEME_INIT_SCRIPT } from '@/lib/theme/theme-script';
 import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import { ThemePersistence } from '@/components/layout/theme-persistence';
 import { SiteHeader } from '@/components/layout/site-header';
 import { SiteFooter } from '@/components/layout/site-footer';
 import { SITE_URL } from '@/lib/seo/site';
@@ -36,6 +37,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps<'/[
       </head>
       <body className="flex min-h-dvh flex-col antialiased">
         <NextIntlClientProvider>
+          <ThemePersistence />
           <a
             href="#main"
             className="metaline sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:bg-surface focus:px-4 focus:py-2"
