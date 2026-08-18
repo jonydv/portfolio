@@ -1,12 +1,13 @@
 import type { Metadata } from 'next';
 import { LOCALES, type Locale } from '@/lib/i18n/routing';
-import { canonicalUrl, OG_LOCALES, SITE_NAME } from './site';
+import { canonicalUrl, OG_COVER, OG_LOCALES, SITE_NAME } from './site';
 
 type BuildMetadataInput = {
   locale: Locale;
   path: string;
   title: string;
   description: string;
+  hasOwnOpenGraphImage?: boolean;
 };
 
 function alternateLanguages(path: string): Record<string, string> {
@@ -20,8 +21,20 @@ function alternateLanguages(path: string): Record<string, string> {
   return languages;
 }
 
-export function buildMetadata({ locale, path, title, description }: BuildMetadataInput): Metadata {
+export function buildMetadata({
+  locale,
+  path,
+  title,
+  description,
+  hasOwnOpenGraphImage = false,
+}: BuildMetadataInput): Metadata {
   const canonical = canonicalUrl(locale, path);
+  const coverImages = hasOwnOpenGraphImage
+    ? {}
+    : {
+        openGraph: { images: [{ ...OG_COVER, alt: title }] },
+        twitter: { images: [OG_COVER.url] },
+      };
   const alternateLocale = LOCALES.filter((candidate) => candidate !== locale).map(
     (candidate) => OG_LOCALES[candidate],
   );
@@ -41,11 +54,13 @@ export function buildMetadata({ locale, path, title, description }: BuildMetadat
       description,
       locale: OG_LOCALES[locale],
       alternateLocale,
+      ...coverImages.openGraph,
     },
     twitter: {
       card: 'summary_large_image',
       title,
       description,
+      ...coverImages.twitter,
     },
   };
 }

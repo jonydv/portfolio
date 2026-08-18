@@ -6,7 +6,7 @@ import { LOCALES } from '@/lib/i18n/routing';
 import { ICON_NAMES } from '@/lib/content/schema/primitives';
 
 const PUBLIC_ROOT = join(process.cwd(), 'public');
-const EXPECTED_PROJECT_COUNT = 11;
+const EXPECTED_PROJECT_COUNT = 12;
 const EXPECTED_GENERATED_MEDIA_COUNT = 1;
 const OFFLINE_PROJECT_SLUGS = ['spartacus-demo', 'k-one', 'tupemesa'];
 

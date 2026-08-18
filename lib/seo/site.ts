@@ -12,6 +12,12 @@ export const OG_LOCALES: Record<Locale, string> = {
 
 export const OG_IMAGE_SIZE = { width: 1200, height: 630 } as const;
 
+export const OG_COVER = {
+  url: '/og-cover.png',
+  type: 'image/png',
+  ...OG_IMAGE_SIZE,
+} as const;
+
 export function canonicalUrl(locale: Locale, path: string): string {
   return `${SITE_URL}/${locale}${path}`;
 }

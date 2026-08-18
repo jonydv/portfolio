@@ -2,7 +2,7 @@ import { expect, test } from '@playwright/test';
 
 const LOCALE_COUNT = 2;
 const STATIC_PATH_COUNT = 5;
-const PUBLISHED_PROJECT_COUNT = 11;
+const PUBLISHED_PROJECT_COUNT = 12;
 const EXPECTED_SITEMAP_URL_COUNT = LOCALE_COUNT * (STATIC_PATH_COUNT + PUBLISHED_PROJECT_COUNT);
 
 test('el sitemap lista todas las URLs con alternates', async ({ request }) => {

@@ -59,10 +59,81 @@
     }
   },
   {
+    "slug": "portfolio-enterprise",
+    "name": "Portfolio Frontend Enterprise",
+    "displayNameOverride": null,
+    "order": 1,
+    "featured": true,
+    "startYear": 2026,
+    "endYear": null,
+    "country": "XX",
+    "client": null,
+    "role": {
+      "es": "Autor · Arquitectura y desarrollo",
+      "en": "Author · Architecture and development"
+    },
+    "summary": {
+      "es": "Migración completa de mi portfolio de Angular 15 a Next.js 16 con App Router, ejecutada con ingeniería asistida por IA agéntica para comprimir drásticamente los tiempos.",
+      "en": "Complete migration of my portfolio from Angular 15 to Next.js 16 with the App Router, executed through agentic AI engineering to compress delivery time dramatically."
+    },
+    "body": {
+      "es": [
+        "Este sitio es la reescritura completa de mi portfolio anterior, construido en Angular 15 con SSR de Angular Universal. La migración a Next.js 16 se ejecutó con ingeniería asistida por IA agéntica, lo que permitió completar en días un trabajo que de forma manual habría tomado semanas: extracción de contenido, rediseño, capa de datos, API, suite de tests y despliegue.",
+        "El punto de partida fue el problema estructural del proyecto viejo: los textos vivían hardcodeados como propiedades de clase dentro de nueve componentes Angular, con los proyectos duplicados en dos arrays con formas y órdenes distintos. Todo ese contenido se extrajo mediante la API del compilador de TypeScript hacia JSON versionado, validado con Zod y con integridad referencial verificada en cada build.",
+        "La arquitectura de datos usa un repositorio tipado único como fuente de verdad. Los Server Components lo consumen directamente, sin latencia de red, y los Route Handlers de /api/{locale}/* exponen exactamente los mismos datos como API pública cacheada. Un test compara ambas salidas para garantizar que nunca diverjan.",
+        "El bilingüe pasó de un toggle client-side sin persistencia a rutas reales /es y /en con next-intl, con hreflang, canonical por idioma y sitemap con alternates. El resultado son 105 rutas prerenderizadas y cero funciones serverless en el camino de lectura, verificado por un gate que falla el build si alguna ruta pierde el renderizado estático en silencio.",
+        "La interfaz se rediseñó por completo en dirección editorial técnica con Tailwind CSS v4: tokens duales de tema claro y oscuro, tipografía display, y animaciones basadas en scroll-driven CSS que caen a un único IntersectionObserver compartido. Se eliminaron Swiper, animate.css y todas las dependencias muertas del proyecto anterior.",
+        "La calidad se sostiene con 79 tests unitarios y de componente más 75 end-to-end en Playwright, y un contrato explícito de cero comentarios en el código: cada explicación se convierte en un nombre, una constante o un test, verificado por CI en cada commit."
+      ],
+      "en": [
+        "This site is the complete rewrite of my previous portfolio, originally built with Angular 15 and Angular Universal SSR. The migration to Next.js 16 was executed through agentic AI engineering, compressing into days what would have taken weeks by hand: content extraction, redesign, data layer, API, test suite, and deployment.",
+        "The starting point was the old project structural flaw: all copy lived hardcoded as class properties across nine Angular components, with projects duplicated in two arrays that had different shapes and orderings. That content was extracted through the TypeScript compiler API into versioned JSON, validated with Zod and checked for referential integrity on every build.",
+        "The data architecture uses a single typed repository as the source of truth. Server Components consume it directly with zero network latency, while the /api/{locale}/* route handlers expose exactly the same data as a cached public API. A test compares both outputs to guarantee they never drift apart.",
+        "Bilingual support moved from a client-side toggle with no persistence to real /es and /en routes powered by next-intl, with hreflang, per-locale canonicals, and a sitemap with alternates. The result is 105 prerendered routes and zero serverless functions on the read path, enforced by a gate that fails the build if any route silently loses static rendering.",
+        "The interface was fully redesigned in an editorial-technical direction with Tailwind CSS v4: dual light and dark theme tokens, display typography, and scroll-driven CSS animations that fall back to a single shared IntersectionObserver. Swiper, animate.css, and every dead dependency from the previous project were removed.",
+        "Quality is held by 79 unit and component tests plus 75 Playwright end-to-end specs, alongside an explicit zero-comment contract: every explanation becomes a name, a constant, or a test, verified by CI on every commit."
+      ]
+    },
+    "highlight": null,
+    "stack": [
+      "nextjs",
+      "react",
+      "typescript",
+      "tailwind-css",
+      "i18n",
+      "ssr-ssg",
+      "vitest",
+      "github-actions",
+      "claude-code",
+      "core-web-vitals",
+      "wcag",
+      "design-systems"
+    ],
+    "tags": [
+      "nextjs",
+      "migration",
+      "architecture",
+      "ai",
+      "personal"
+    ],
+    "url": "https://www.jonatandvillalbaweb.com.ar",
+    "repoUrl": "https://github.com/jonydv/portfolio",
+    "media": {
+      "kind": "screenshots",
+      "logo": null,
+      "desktopImage": "/projects-images/portfolio-desktop.webp",
+      "mobileImage": "/projects-images/portfolio-mobile.webp",
+      "alt": {
+        "es": "Portada del portfolio con titular editorial, retrato y navegación bilingüe",
+        "en": "Portfolio landing page with editorial headline, portrait, and bilingual navigation"
+      }
+    }
+  },
+  {
     "slug": "promesa",
     "name": "Promesa",
     "displayNameOverride": null,
-    "order": 1,
+    "order": 2,
     "featured": false,
     "startYear": 2022,
     "endYear": null,
@@ -113,7 +184,7 @@
     "slug": "cinescope",
     "name": "CineScope",
     "displayNameOverride": null,
-    "order": 2,
+    "order": 3,
     "featured": false,
     "startYear": 2026,
     "endYear": null,
@@ -173,7 +244,7 @@
     "slug": "jdvm-movie",
     "name": "JDVM Movie",
     "displayNameOverride": null,
-    "order": 4,
+    "order": 5,
     "featured": false,
     "startYear": 2022,
     "endYear": null,
@@ -225,7 +296,7 @@
     "slug": "belsport",
     "name": "Belsport",
     "displayNameOverride": null,
-    "order": 5,
+    "order": 6,
     "featured": true,
     "startYear": 2023,
     "endYear": null,
@@ -278,7 +349,7 @@
     "slug": "bamers",
     "name": "Bamers",
     "displayNameOverride": null,
-    "order": 6,
+    "order": 7,
     "featured": false,
     "startYear": 2023,
     "endYear": null,
@@ -329,7 +400,7 @@
     "slug": "antihuman",
     "name": "Antihuman",
     "displayNameOverride": null,
-    "order": 7,
+    "order": 8,
     "featured": false,
     "startYear": 2023,
     "endYear": null,
@@ -380,7 +451,7 @@
     "slug": "aufbau",
     "name": "Aufbau",
     "displayNameOverride": null,
-    "order": 8,
+    "order": 9,
     "featured": false,
     "startYear": 2023,
     "endYear": null,
@@ -432,7 +503,7 @@
     "slug": "bold",
     "name": "Bold",
     "displayNameOverride": null,
-    "order": 9,
+    "order": 10,
     "featured": true,
     "startYear": 2024,
     "endYear": null,
@@ -483,7 +554,7 @@
     "slug": "crocs",
     "name": "Crocs",
     "displayNameOverride": null,
-    "order": 11,
+    "order": 12,
     "featured": true,
     "startYear": 2024,
     "endYear": null,
@@ -534,7 +605,7 @@
     "slug": "medusa-storefront",
     "name": "Medusa.js Enterprise Storefront",
     "displayNameOverride": null,
-    "order": 13,
+    "order": 14,
     "featured": false,
     "startYear": 2026,
     "endYear": null,
