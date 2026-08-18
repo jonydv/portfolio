@@ -1,0 +1,854 @@
+{
+  "src/app/shared/components/experience/experience.component.ts": {
+    "title": {
+      "es": "Experiencia",
+      "en": "Experience"
+    },
+    "positions": [
+      {
+        "icon": "fas fa-code",
+        "company": {
+          "es": "Qubik Digital",
+          "en": "Qubik Digital"
+        },
+        "period": {
+          "es": "(Período: 2021 - Actualidad)",
+          "en": "(Period: 2021 - Currently)"
+        },
+        "role": {
+          "en": "Sr Front End Developer (Angular / Spartacus Sap Commerce / Next.js)",
+          "es": "Sr Front End Developer (Angular / Spartacus Sap Commerce / Next.js)"
+        },
+        "description": {
+          "es": "• Liderazgo técnico en desarrollo Frontend e implementación de SAP Spartacus para plataformas e-commerce B2B/B2C.\n• Arquitectura y desarrollo de librerías reutilizables (Angular/Next.js) publicadas en AWS CodeArtifact, reduciendo el time-to-market de nuevos proyectos.\n• Integración de tecnologías modernas: Tailwind CSS, Next-Auth, TanStack y flujos de agentes con IA.\n• Foco continuo en accesibilidad, performance, SEO y metodologías ágiles.",
+          "en": "• Technical leadership in Frontend development and SAP Spartacus implementation for B2B/B2C e-commerce platforms.\n• Architected and developed reusable libraries (Angular/Next.js) published on AWS CodeArtifact, reducing time-to-market for new projects.\n• Integration of modern technologies: Tailwind CSS, Next-Auth, TanStack, and AI agent workflows.\n• Continuous focus on accessibility, performance, SEO, and agile methodologies."
+        }
+      },
+      {
+        "icon": "fas fa-code",
+        "company": {
+          "es": "Onikom Latam",
+          "en": "Onikom Latam"
+        },
+        "period": {
+          "es": "(Período: Noviembre 2024 - Abril 2025)",
+          "en": "(Period: November 2024 - April 2025)"
+        },
+        "role": {
+          "en": "Solution Architect (Angular / Spartacus Sap Commerce)",
+          "es": "Arquitecto de solución (Angular / Spartacus Sap Commerce)"
+        },
+        "description": {
+          "es": "• Diseño y desarrollo de una nueva funcionalidad en SAP Composable Storefront para la determinación dinámica de precios según el código postal del usuario.\n• Implementación de validaciones de negocio complejas, garantizando rendimiento y buenas prácticas.\n• Colaboración en el diseño de arquitectura y despliegue exitoso de la solución en producción.",
+          "en": "• Designed and developed a new feature in SAP Composable Storefront for dynamic pricing determination based on user zip code.\n• Implemented complex business validations, ensuring optimal performance and best practices.\n• Collaborated in architecture design and successfully deployed the solution to production."
+        }
+      },
+      {
+        "icon": "fas fa-code",
+        "company": {
+          "es": "Onikom Latam",
+          "en": "Onikom Latam"
+        },
+        "period": {
+          "es": "(Período: Febrero 2023 - Julio 2023)",
+          "en": "(Period: February 2023 - July 2023)"
+        },
+        "role": {
+          "en": "Solution Architect Front End (Angular / Spartacus Sap Commerce)",
+          "es": "Arquitecto de solución Front End (Angular / Spartacus Sap Commerce)"
+        },
+        "description": {
+          "es": "• Liderazgo en la migración del sistema e-commerce desde SAP Spartacus 1.5/Angular 8 hacia SAP Spartacus 4.3/Angular 12.\n• Diseño de la estrategia de migración colaborando con un equipo interdisciplinario y resolviendo desafíos técnicos complejos.\n• Capacitación del equipo en nuevas funcionalidades de Spartacus, buenas prácticas y estándares del framework.\n• Logro: Mejora significativa en la experiencia de usuario, accesibilidad y seguridad del sistema.",
+          "en": "• Led the migration of the e-commerce system from SAP Spartacus 1.5/Angular 8 to SAP Spartacus 4.3/Angular 12.\n• Designed the migration strategy, collaborating with an interdisciplinary team and resolving complex technical challenges.\n• Trained the team on new Spartacus features, framework best practices, and standards.\n• Achievement: Significant improvement in user experience, system accessibility, and security."
+        }
+      },
+      {
+        "icon": "fas fa-code",
+        "company": {
+          "es": "Desarrollador Freelance",
+          "en": "Freelance Developer"
+        },
+        "period": {
+          "es": "(Período: 2019 - 2021)",
+          "en": "(Period: 2019 - 2021)"
+        },
+        "role": {
+          "es": "Full Stack Developer (MERN & MEAN Stack)",
+          "en": "Full Stack Developer (MERN & MEAN Stack)"
+        },
+        "description": {
+          "es": "• Desarrollo fullstack a medida (MERN/MEAN stack) para múltiples clientes y proyectos.\n• Frontend: Arquitectura e implementación con Angular (RxJS, NgRx) y React (Redux, Context API).\n• Backend: Node.js y Express con bases de datos relacionales y no relacionales.\n• Integración de pasarelas de pago (MercadoPago, WebPay) y optimización SEO (Google Analytics).",
+          "en": "• Custom fullstack development (MERN/MEAN stack) for multiple clients and projects.\n• Frontend: Architecture and implementation using Angular (RxJS, NgRx) and React (Redux, Context API).\n• Backend: Node.js and Express with relational and non-relational databases.\n• Integration of payment gateways (MercadoPago, WebPay) and SEO optimization (Google Analytics)."
+        }
+      }
+    ]
+  },
+  "src/app/shared/components/education/education.component.ts": {
+    "title": {
+      "es": "Educación",
+      "en": "Education"
+    },
+    "viewCertificate": {
+      "es": "Ver Certificado en linea",
+      "en": "View Online Certificate"
+    },
+    "courses": [
+      {
+        "icon": "fas fa-university",
+        "school": {
+          "es": "Universidad Nacional De José C. Paz",
+          "en": "National University Of José C. Paz"
+        },
+        "title": {
+          "es": "Licenciatura en gestión de tecnologías de la información (Cursando actualmente)",
+          "en": "Bachelor's Degree in Information Technology Management (Currently studying)"
+        },
+        "subtitle": {
+          "es": "Analista de sistemas (Título de pregrado)",
+          "en": "Systems Analyst"
+        }
+      },
+      {
+        "icon": "fas fa-robot",
+        "school": {
+          "es": "Anthropic",
+          "en": "Anthropic"
+        },
+        "title": {
+          "es": "Claude 101 (Abril 2026)",
+          "en": "Claude 101 (April 2026)"
+        }
+      },
+      {
+        "icon": "fas fa-robot",
+        "school": {
+          "es": "Anthropic",
+          "en": "Anthropic"
+        },
+        "title": {
+          "es": "Claude Code in Action (Marzo 2026)",
+          "en": "Claude Code in Action (March 2026)"
+        }
+      },
+      {
+        "icon": "fas fa-robot",
+        "school": {
+          "es": "Anthropic",
+          "en": "Anthropic"
+        },
+        "title": {
+          "es": "Introduction to Agent Skills (Marzo 2026)",
+          "en": "Introduction to Agent Skills (March 2026)"
+        }
+      },
+      {
+        "icon": "fas fa-university",
+        "school": {
+          "es": "Universidad Austral",
+          "en": "Austral University"
+        },
+        "title": {
+          "es": "Desarrollo del lado servidor: Node.js, Express y MongoDB",
+          "en": "Server-side development: Node.js, Express and MongoDB"
+        },
+        "link": "https://www.coursera.org/account/accomplishments/certificate/VHFUMEB7WBXN"
+      },
+      {
+        "icon": "fas fa-university",
+        "school": {
+          "es": "Mercado Pago Developers",
+          "en": "Mercado Pago Developers"
+        },
+        "title": {
+          "es": "Certificación Checkout Pro (Implementación de la plataforma de pagos)",
+          "en": "Checkout Pro Certification (Implementation of the payment platform)"
+        },
+        "link": "https://www.mercadopago.com.ar/developers/panel/certification/cert_2d80b33ab42411ec95730242ac130004"
+      },
+      {
+        "icon": "fas fa-university",
+        "school": {
+          "es": "Angular Intermedio (HackerRank)",
+          "en": "Angular Intermediate (HackerRank)"
+        },
+        "title": {
+          "es": "Certificación Angular intermedio (Apis, inyección de dependencias, modulos, ruteo, observables, programación reactiva, transmisión y manejo de eventos)",
+          "en": "Angular Intermediate Certificate (Apis, dependency injections, modules, routing, observables, data transmission and event handling)"
+        },
+        "link": "https://www.hackerrank.com/certificates/435d6f395e81"
+      },
+      {
+        "icon": "fas fa-university",
+        "school": {
+          "es": "Angular Básico (HackerRank)",
+          "en": "Angular Basic (HackerRank)"
+        },
+        "title": {
+          "es": "Certificación Angular básico (Bibliotecas MVC, componentes, estilizado dinámico, typescript, enlace de datos bidireccional, validación de formularios)",
+          "en": "Angular Basic Certificate (MVC frameworks, components, dynamic styling, typescript, two way data binding, form validation)"
+        },
+        "link": "https://www.hackerrank.com/certificates/f26b96c24b52"
+      }
+    ],
+    "englishLevel": {
+      "title": {
+        "es": "Nivel de inglés",
+        "en": "English level"
+      },
+      "icon": "fas fa-flag",
+      "school": {
+        "es": "B1/B2 Pre-Intermedio",
+        "en": "B1/B2 Pre-Intermediate"
+      },
+      "subtitle": {
+        "es": "Actualmente cursando",
+        "en": "Currently studying"
+      }
+    }
+  },
+  "src/app/shared/components/project/project.component.ts": {
+    "isMobile": false,
+    "fromHome": false,
+    "title": {
+      "es": "Proyectos donde he colaborado",
+      "en": "Projects I've worked on"
+    },
+    "homeTitle": {
+      "es": "Proyectos",
+      "en": "Projects"
+    },
+    "viewSite": {
+      "es": "Ir al sitio",
+      "en": "View"
+    },
+    "projects": [
+      {
+        "title": "Marchand",
+        "image": "../../../assets/projects-logos/marchand-logo.svg",
+        "principalImage": "../../../../assets/projects-images/marchand-mobile.webp",
+        "url": "https://www.marchand.com.mx/",
+        "target": "_blank"
+      },
+      {
+        "title": "SAP Spartacus Demo",
+        "image": "../../../assets/projects-logos/spartacus-logo.webp",
+        "principalImage": "../../../../assets/projects-images/spartacus-demo-mobile.webp",
+        "url": "https://spartacus-demo.vercel.app/",
+        "target": "_blank"
+      },
+      {
+        "title": "Movie App",
+        "image": "../../../assets/projects-logos/movie-logo.webp",
+        "principalImage": "../../../../assets/projects-images/movie-mobile.webp",
+        "url": "https://jdv-movies.vercel.app/",
+        "target": "_blank"
+      },
+      {
+        "title": "Tupemesa Peru",
+        "image": "../../../assets/projects-logos/tupemesa-logo.webp",
+        "principalImage": "../../../../assets/projects-images/tupemesa.webp",
+        "url": "https://tienda.tupemesa.com.pe/",
+        "target": "_blank"
+      },
+      {
+        "title": "K-One Chile",
+        "image": "../../../assets/projects-logos/k1.webp",
+        "principalImage": "../../../../assets/projects-images/kone.webp",
+        "url": "https://www.k1.cl",
+        "target": "_blank"
+      },
+      {
+        "title": "Antihuman Chile",
+        "image": "../../../assets/projects-logos/antihuman.webp",
+        "principalImage": "../../../../assets/projects-images/antihuman.webp",
+        "url": "https://www.antihuman.cl",
+        "target": "_blank"
+      },
+      {
+        "title": "Bold Chile",
+        "image": "../../../assets/projects-logos/bold.webp",
+        "principalImage": "../../../../assets/projects-images/bold.webp",
+        "url": "https://www.bold.cl",
+        "target": "_blank"
+      },
+      {
+        "title": "Belsport Chile",
+        "image": "../../../assets/projects-logos/belsport.webp",
+        "principalImage": "../../../../assets/projects-images/belsport.webp",
+        "url": "https://www.belsport.cl",
+        "target": "_blank"
+      },
+      {
+        "title": "Bamers Chile",
+        "image": "../../../assets/projects-logos/bamers.webp",
+        "principalImage": "../../../../assets/projects-images/bamers.webp",
+        "url": "https://www.bamers.cl",
+        "target": "_blank"
+      },
+      {
+        "title": "Crocs Chile",
+        "image": "../../../assets/projects-logos/crocs.webp",
+        "principalImage": "../../../../assets/projects-images/crocs.webp",
+        "url": "https://www.crocs.cl",
+        "target": "_blank"
+      },
+      {
+        "title": "Aufbau Chile",
+        "image": "../../../assets/projects-logos/aufbau.webp",
+        "principalImage": "../../../../assets/projects-images/aufbau.webp",
+        "url": "https://www.aufbau.cl",
+        "target": "_blank"
+      },
+      {
+        "title": "Promesa Ecuador",
+        "image": "../../../assets/projects-logos/promesa-logo.webp",
+        "principalImage": "../../../../assets/projects-images/promesa.webp",
+        "url": "https://www.promesa.com.ec/",
+        "target": "_blank"
+      }
+    ],
+    "swiperConfig": {}
+  },
+  "src/app/shared/components/skills/skills.component.ts": {
+    "fromHome": false,
+    "skills": [
+      {
+        "icon": "../../../assets/icons/typescript.svg",
+        "alt": "Typescript Icon",
+        "label": "TypeScript"
+      },
+      {
+        "icon": "../../../assets/icons/angular.svg",
+        "alt": "Angular Icon",
+        "label": "Angular"
+      },
+      {
+        "icon": "../../../assets/icons/rxjs.png",
+        "alt": "RxJS Icon",
+        "label": "RxJS"
+      },
+      {
+        "icon": "../../../assets/icons/ngrx.svg",
+        "alt": "Ngrx Icon",
+        "label": "NgRx"
+      },
+      {
+        "icon": "../../../assets/icons/spartacus.png",
+        "alt": "Sap Spartacus Icon",
+        "label": "SAP Spartacus"
+      },
+      {
+        "icon": "../../../assets/icons/nextjs.svg",
+        "alt": "Next.js Icon",
+        "label": "Next.js"
+      },
+      {
+        "icon": "../../../assets/icons/reactjs.svg",
+        "alt": "React Icon",
+        "label": "React"
+      },
+      {
+        "icon": "../../../assets/icons/nodejs.svg",
+        "alt": "NodeJs Icon",
+        "label": "Node.js"
+      },
+      {
+        "icon": "../../../assets/icons/expressjs.svg",
+        "alt": "ExpressJs Icon",
+        "label": "Express"
+      },
+      {
+        "icon": "../../../assets/icons/tanstack.png",
+        "alt": "TanStack Icon",
+        "label": "TanStack Query"
+      },
+      {
+        "icon": "../../../assets/icons/nextauth.svg",
+        "alt": "Next-Auth Icon",
+        "label": "NextAuth"
+      },
+      {
+        "icon": "../../../assets/icons/sass.svg",
+        "alt": "Sass Icon",
+        "label": "SCSS / Sass"
+      },
+      {
+        "icon": "../../../assets/icons/tailwindcss.svg",
+        "alt": "Tailwind CSS Icon",
+        "label": "Tailwind CSS"
+      },
+      {
+        "icon": "../../../assets/icons/javascript.svg",
+        "alt": "Javascript Icon",
+        "label": "JavaScript"
+      },
+      {
+        "icon": "../../../assets/icons/mongodb.svg",
+        "alt": "MongoDb Icon",
+        "label": "MongoDB"
+      },
+      {
+        "icon": "../../../assets/icons/mysql.svg",
+        "alt": "MySql Icon",
+        "label": "MySQL"
+      },
+      {
+        "icon": "../../../assets/icons/claude.svg",
+        "alt": "Claude AI Icon",
+        "label": "Claude AI"
+      },
+      {
+        "icon": "../../../assets/icons/github-copilot.svg",
+        "alt": "GitHub Copilot Icon",
+        "label": "GitHub Copilot"
+      },
+      {
+        "icon": "../../../assets/icons/cursor-ai.svg",
+        "alt": "Cursor AI Icon",
+        "label": "Cursor AI"
+      },
+      {
+        "icon": "../../../assets/icons/aws.svg",
+        "alt": "AWS Icon",
+        "label": "AWS"
+      },
+      {
+        "icon": "../../../assets/icons/git.svg",
+        "alt": "Git Icon",
+        "label": "Git"
+      },
+      {
+        "icon": "../../../assets/icons/jira.svg",
+        "alt": "Jira Icon",
+        "label": "Jira"
+      },
+      {
+        "icon": "../../../assets/icons/karma.webp",
+        "alt": "Karma Icon",
+        "label": "Karma"
+      },
+      {
+        "icon": "../../../assets/icons/jasmine.svg",
+        "alt": "Jasmine Icon",
+        "label": "Jasmine"
+      }
+    ]
+  },
+  "src/app/shared/components/services-section/services-section.component.ts": {
+    "serviceTitle": {
+      "es": "Áreas de Expertise",
+      "en": "Areas of Expertise"
+    },
+    "serviceIntro": {
+      "es": "Aporto valor a los equipos de producto combinando arquitectura sólida, metodologías ágiles y las mejores prácticas de la industria para construir software escalable. Me enfoco en resolver problemas complejos de negocio mediante tecnología moderna, siempre priorizando el rendimiento, la accesibilidad y la experiencia de usuario.",
+      "en": "I bring value to product teams by combining solid architecture, agile methodologies, and industry best practices to build scalable software. I focus on solving complex business problems through modern technology, always prioritizing performance, accessibility, and user experience."
+    },
+    "services": [
+      {
+        "title": {
+          "es": "Frontend Architecture",
+          "en": "Frontend Architecture"
+        },
+        "imgUrl": "../../../../assets/images/web.webp",
+        "text": {
+          "es": "Diseño y desarrollo de interfaces escalables y de alto rendimiento, optimizando el estado global y asegurando código mantenible a largo plazo.",
+          "en": "Design and development of highly scalable and performant interfaces, optimizing global state and ensuring long-term maintainable code."
+        }
+      },
+      {
+        "title": {
+          "es": "E-commerce Enterprise",
+          "en": "E-commerce Enterprise"
+        },
+        "imgUrl": "../../../../assets/images/commerce.webp",
+        "text": {
+          "es": "Experiencia profunda en SAP Spartacus y plataformas transaccionales de alto volumen con integraciones de pasarelas de pago.",
+          "en": "Deep expertise in SAP Spartacus and high-volume transactional platforms with seamless payment gateway integrations."
+        }
+      },
+      {
+        "title": {
+          "es": "Liderazgo Técnico",
+          "en": "Technical Leadership"
+        },
+        "imgUrl": "../../../../assets/images/team.webp",
+        "text": {
+          "es": "Gestión técnica de equipos en entornos ágiles, code reviews y mentoría para garantizar los más altos estándares de calidad de software.",
+          "en": "Technical team management in agile environments, conducting code reviews, and providing mentorship to ensure the highest software quality standards."
+        }
+      },
+      {
+        "title": {
+          "es": "Optimización y SEO",
+          "en": "Optimization & SEO"
+        },
+        "imgUrl": "../../../../assets/images/rocket.webp",
+        "text": {
+          "es": "Implementación de Server-Side Rendering (SSR) y mejores prácticas Core Web Vitals para maximizar el posicionamiento y rendimiento.",
+          "en": "Implementation of Server-Side Rendering (SSR) and Core Web Vitals best practices to maximize positioning and performance."
+        }
+      },
+      {
+        "title": {
+          "es": "Integración Fullstack",
+          "en": "Fullstack Integration"
+        },
+        "imgUrl": "../../../../assets/images/database.webp",
+        "text": {
+          "es": "Diseño de arquitecturas completas conectando el frontend con bases de datos relacionales y no relacionales mediante APIs robustas.",
+          "en": "Designing end-to-end architectures connecting the frontend with relational and non-relational databases through robust APIs."
+        }
+      },
+      {
+        "title": {
+          "es": "De Concepto a Producción",
+          "en": "Concept to Production"
+        },
+        "imgUrl": "../../../../assets/images/idea.webp",
+        "text": {
+          "es": "Análisis de viabilidad, diseño de arquitectura y liderazgo técnico continuo desde la concepción del producto hasta su despliegue exitoso.",
+          "en": "Feasibility analysis, architecture design, and continuous technical leadership from product conception to successful deployment."
+        }
+      },
+      {
+        "title": {
+          "es": "Seguridad y Calidad",
+          "en": "Security & Quality"
+        },
+        "imgUrl": "../../../../assets/images/security.webp",
+        "text": {
+          "es": "Foco transversal en la seguridad, autenticación (ej. Next-Auth) y cobertura de pruebas para mitigar riesgos en entornos de producción.",
+          "en": "Transversal focus on security, authentication (e.g. Next-Auth), and test coverage to mitigate risks in production environments."
+        }
+      },
+      {
+        "title": {
+          "es": "Flujos de IA",
+          "en": "AI Workflows"
+        },
+        "imgUrl": "../../../../assets/images/achievement.webp",
+        "text": {
+          "es": "Integración de agentes autónomos y copilots en el ciclo de desarrollo para acelerar entregas sin comprometer la arquitectura y legibilidad.",
+          "en": "Integration of autonomous agents and copilots in the development cycle to accelerate delivery without compromising architecture and readability."
+        }
+      }
+    ]
+  },
+  "src/app/shared/components/hero-section/hero-section.component.ts": {
+    "heroInfo": {
+      "first": {
+        "es": "Hola, soy",
+        "en": "Hi, I'm"
+      },
+      "name": {
+        "es": "Jonatan David Villalba",
+        "en": "Jonatan David Villalba"
+      },
+      "position": {
+        "es": "Senior Frontend Engineer — Angular · Next.js · AI Workflows",
+        "en": "Senior Frontend Engineer — Angular · Next.js · AI Workflows"
+      },
+      "resume": {
+        "es": "Senior Frontend Engineer especializado en arquitectura de aplicaciones web escalables. Lidero proyectos enterprise con Angular, Next.js y SAP Spartacus, integrando flujos de trabajo potenciados por IA. Me apasiona construir bibliotecas reutilizables, elevar la experiencia de desarrollo (DX) y entregar productos con alto rendimiento y accesibilidad.",
+        "en": "Senior Frontend Engineer specializing in scalable web architecture. I lead enterprise projects using Angular, Next.js, and SAP Spartacus, integrating AI-powered workflows. Passionate about building reusable libraries, optimizing Developer Experience (DX), and shipping high-performance, accessible products."
+      },
+      "callToAction": {
+        "es": "Ver proyectos",
+        "en": "See projects"
+      },
+      "imageUrl": "../../../../assets/images/profile.png"
+    }
+  },
+  "src/app/shared/components/contact/contact.component.ts": {
+    "contactTitle": {
+      "es": "Contacto",
+      "en": "Contact"
+    },
+    "contact": [
+      {
+        "icon": "fab fa-github",
+        "url": "https://github.com/jonydv",
+        "displayName": "GitHub"
+      },
+      {
+        "icon": "fab fa-linkedin",
+        "url": "https://www.linkedin.com/in/jonatan-david-villalba/",
+        "displayName": "LinkedIn"
+      },
+      {
+        "icon": "fas fa-envelope",
+        "url": "mailto:jonatandavidvillalba@gmail.com?subject=Contacto desde tu página web&body=Hola me contacto por tu página web",
+        "displayName": "Gmail"
+      }
+    ],
+    "fromHome": false
+  },
+  "src/app/shared/components/header/header.component.ts": {
+    "showNav": false,
+    "navItems": [
+      {
+        "title": {
+          "es": "Inicio",
+          "en": "Home"
+        },
+        "link": "/"
+      },
+      {
+        "title": {
+          "es": "Trabajos",
+          "en": "Works"
+        },
+        "link": "/works"
+      },
+      {
+        "title": {
+          "es": "Curriculum",
+          "en": "Curriculum"
+        },
+        "link": "/curriculum"
+      }
+    ]
+  },
+  "src/app/shared/components/footer/footer.component.ts": {
+    "name": "Jonatan David Villalba",
+    "copyright": {
+      "es": "Todos los derechos reservados",
+      "en": "All rights reserved"
+    },
+    "certificationUrl": "https://www.mercadopago.com.ar/developers/panel/developer-program/certification/cert_2d80b33ab42411ec95730242ac130004"
+  },
+  "src/app/shared/components/grid-banners/grid-banners.component.ts": {
+    "viewPage": {
+      "es": "Ir al sitio",
+      "en": "Go to site"
+    },
+    "fromWorks": false,
+    "gridItems": [
+      {
+        "title": {
+          "es": "Desarrollo integral",
+          "en": "Integral development"
+        },
+        "paragraph": {
+          "es": "Desarrollo de aplicaciones a medida en distintas escalas: análisis de requerimientos, estimación de tiempos, integración de APIs de terceros, optimización SEO y uso de los frameworks más actuales del mercado, lo que garantiza escalabilidad y mantenimiento a largo plazo.",
+          "en": "Custom application development at any scale: requirements analysis, time estimation, third-party API integration, SEO optimization, and use of the latest industry frameworks — ensuring scalability and long-term maintainability."
+        },
+        "imageUrl": "../../../../assets/images/developer.webp",
+        "reverse": false
+      },
+      {
+        "title": {
+          "es": "Trabajo en equipo",
+          "en": "Teamwork"
+        },
+        "paragraph": {
+          "es": "Trabajo bajo metodologías ágiles (Scrum, Kanban), control de versiones del código, code review entre miembros del equipo, uso de herramientas de gestión de proyectos y sesiones de brainstorming para la resolución colaborativa de problemas.",
+          "en": "Working under agile methodologies (Scrum, Kanban), code version control, peer code review, use of project management tools, and collaborative brainstorming sessions for problem-solving."
+        },
+        "imageUrl": "../../../../assets/images/teamwork.webp",
+        "reverse": true
+      }
+    ]
+  },
+  "src/app/pages/works/works.component.ts": {
+    "gridItems": [
+      {
+        "title": {
+          "es": "Marchand",
+          "en": "Marchand"
+        },
+        "paragraph": {
+          "es": "Diseñé y desarrollé la estrategia de migración del e-commerce con un equipo interdisciplinario, garantizando una transición fluida con interrupciones mínimas para los usuarios y operaciones del negocio.\n        Trabajé estrechamente con los desarrolladores y el equipo de operaciones para implementar y optimizar las nuevas funcionalidades proporcionadas por Spartacus 4.3, mejorando la experiencia del usuario final y la eficiencia operativa.\n        Proporcioné formación continua al equipo de desarrollo sobre las mejores prácticas y estándares de SAP Spartacus para garantizar un uso y mantenimiento eficaces del sistema.\n        Gracias a la estrategia de migración y planificación implementadas, se logró una mejora significativa en la experiencia de usuario, accesibilidad y seguridad del sistema de comercio electrónico.",
+          "en": "I designed and developed the e-commerce migration strategy with an interdisciplinary team, ensuring a smooth transition with minimal disruptions for users and business operations.\n        I worked closely with the developers and the operations team to implement and optimize the new features provided by Spartacus 4.3, enhancing the end user experience and operational efficiency.\n        I provided ongoing training to the development team on best practices and standards for SAP Spartacus to ensure effective use and maintenance of the system.\n        Thanks to the migration strategy and planning implemented, a significant improvement was achieved in user experience, accessibility, and security of the e-commerce system."
+        },
+        "imageUrl": "../../../../assets/projects-images/marchand.webp",
+        "reverse": false,
+        "link": "https://www.marchand.com.mx/"
+      },
+      {
+        "title": {
+          "es": "Promesa",
+          "en": "Promesa"
+        },
+        "paragraph": {
+          "es": "Analisis de requerimientos del front-end, implementación de Google Recaptcha para registro de usuarios, desarrollo general del front-end con principios responsive para la correcta visualización en todo el sitio, conección con la API de twilio para la devolución de PIN de activación en los celulares de los usuarios, comercio eléctronico B2B.",
+          "en": "Analysis of front-end requirements, implementation of Google Recaptcha for user registration, general front-end development with responsive principles for correct display throughout the site, connection with the Twilio API for returning activation PINs to users cellphones, B2B e-commerce."
+        },
+        "imageUrl": "../../../../assets/projects-images/promesa-desktop.webp",
+        "reverse": true,
+        "link": "https://www.promesa.com.ec/"
+      },
+      {
+        "title": {
+          "es": "Spartacus Demo",
+          "en": "JDV Spartacus Demo"
+        },
+        "paragraph": {
+          "es": "He creado este proyecto desde cero utilizando el framework Angular y el acelerador Sap Spartacus/Sap Composable Storefront en su versión 4.x. El objetivo de este proyecto es servir como inducción a la tecnología del acelerador para un equipo de trabajo que se encuentra dando sus primeros pasos en este ámbito. En este proyecto se pueden observar diversas personalizaciones de componentes y la estilización de la interfaz de usuario, todo ello con el fin de asemejarla a un e-commerce referente en Argentina y América Latina. Además, he implementado el Server Side Rendering utilizando Angular Universal y las metodologías utilizadas por Spartacus.        Este proyecto incluye también la implementación de modales, personalización de los flujos de listado de productos, página de detalle de productos, buscador y mucho más.",
+          "en": "I have created this project from scratch using the Angular framework and the Sap Spartacus/Sap Composable Storefront accelerator in version 4.x. The objective of this project is to serve as an introduction to the accelerator technology for a team that is taking its first steps in this field. This project showcases various component customizations and user interface styling aimed at resembling a leading e-commerce site in Argentina and Latin America. Additionally, I have implemented Server Side Rendering using Angular Universal and the methodologies used by Spartacus. This project also includes the implementation of modals, customization of product listing flows, product detail page, search engine, and much more"
+        },
+        "imageUrl": "../../../../assets/projects-images/spartacus-demo.webp",
+        "reverse": false,
+        "link": "https://spartacus-demo.vercel.app/"
+      },
+      {
+        "title": {
+          "es": "JDVM Movie",
+          "en": "JDVM Movie"
+        },
+        "paragraph": {
+          "es": "Este proyecto lo he creado desde cero utilizando la última versión del framework Angular y la API de TheMovieDB. Implementé carga perezosa y renderizado del lado del servidor para lograr un mejor rendimiento y una optimización del SEO. En esta aplicación, se pueden encontrar filtros avanzados, meta-resolvers para cargar datos de manera anticipada, búsquedas mediante queries, scroll infinito para una mejor experiencia del usuario, rutas dinámicas y la implementación de la API de YouTube para la visualización de trailers de películas. Además, cuenta con un diseño responsivo y muchas otras características.",
+          "en": "I created this project from scratch using the latest version of the Angular framework and TheMovieDB API. I implemented lazy loading and server-side rendering to achieve better performance and SEO optimization. This application features advanced filters, meta-resolvers for preloading data, query-based searching, infinite scrolling for a better user experience, dynamic routes, and implementation of the YouTube API for viewing movie trailers. It also has a responsive design and many other features."
+        },
+        "imageUrl": "../../../../assets/projects-images/movie-desktop.webp",
+        "reverse": true,
+        "link": "https://jdv-movies.vercel.app/"
+      },
+      {
+        "title": {
+          "es": "Belsport",
+          "en": "Belsport"
+        },
+        "paragraph": {
+          "es": "Participe en el proyecto en la customización del look and feel de la página, implementación de Apis externas, SEO con google analitycs, diseño responsivo para la correcta visualización en diferentes dispositivos, utilización de carga perezosa de componentes y modulos, implementación de scroll infinito administrable, optimización de performance.",
+          "en": "I participated in the project in customizing the look and feel of the page, implementing external APIs, SEO with google analytics, responsive design for correct visualization on different devices, using lazy loading of components and modules, implementing manageable infinite scroll, performance optimization."
+        },
+        "imageUrl": "../../../../assets/projects-images/belsport-desktop.webp",
+        "reverse": false,
+        "link": "https://belsport.cl/"
+      },
+      {
+        "title": {
+          "es": "Bamers",
+          "en": "Bamers"
+        },
+        "paragraph": {
+          "es": "Desarrollo de grids personalizados y administrable, SEO, adaptable a distintos dispositivos, mantenimiento, estimación de nuevos requisitos del front-end, páginas estáticas y administrables.",
+          "en": "Development of custom and manageable grids, SEO, adaptable to different devices, maintenance, estimation of new front-end requirements, static and manageable pages."
+        },
+        "imageUrl": "../../../../assets/projects-images/bamers-desktop.webp",
+        "reverse": true,
+        "link": "https://bamers.cl/"
+      },
+      {
+        "title": {
+          "es": "Antihuman",
+          "en": "Antihuman"
+        },
+        "paragraph": {
+          "es": "Implementación de carruseles de productos recomendados, customización del look and feel, diseño orientado a la marca, adaptable a distintos dispositivos, optimización de performance y SEO.",
+          "en": "Development of custom and manageable product carousels, customization of look and feel, brand-oriented design, adaptable to different devices, performance optimization and SEO."
+        },
+        "imageUrl": "../../../../assets/projects-images/antihuman-desktop.webp",
+        "reverse": false,
+        "link": "https://www.antihuman.cl/"
+      },
+      {
+        "title": {
+          "es": "Aufbau",
+          "en": "Aufbau"
+        },
+        "paragraph": {
+          "es": "Personalización de rutas, implementación de modales dinámicos, administración de promociones en los productos, visualización y personalización segun resolución de dispositivos, activación de campañas, seguimiento de actividades de navegación de usuarios en las distintas rutas del sitio.",
+          "en": "Customization of routes, implementation of dynamic modals, management of product promotions, visualization and customization according to device resolution, activation of campaigns, tracking of user navigation activities on different site routes."
+        },
+        "imageUrl": "../../../../assets/projects-images/aufbau-desktop.webp",
+        "reverse": true,
+        "link": "https://aufbau.cl/"
+      },
+      {
+        "title": {
+          "es": "Bold",
+          "en": "Bold"
+        },
+        "paragraph": {
+          "es": "Implementación de formularios reactivos con distintas funcionalidades, login de usuario, registro, implementación y customización de plataformas de pago en el checkout de la aplicación, activación de compras para usuarios invitados.",
+          "en": "Implementation of reactive forms with various functionalities, user login, registration, implementation and customization of payment platforms in the application checkout, activation of purchases for guest users."
+        },
+        "imageUrl": "../../../../assets/projects-images/bold-desktop.webp",
+        "reverse": false,
+        "link": "https://bold.cl/"
+      },
+      {
+        "title": {
+          "es": "K-one",
+          "en": "K-one"
+        },
+        "paragraph": {
+          "es": "Personalización de toda la visual del sitio, mejoras en la landing page principal, customización de resultados de búsqueda, mejoras en la visualización del checkout del sitio para dispositivos mobiles.",
+          "en": "Customization of the entire websites visual, improvements in the main landing page, customization of search results, improvements in the checkout pages display for mobile devices."
+        },
+        "imageUrl": "../../../../assets/projects-images/kone-desktop.webp",
+        "reverse": true,
+        "link": "https://k1.cl/"
+      },
+      {
+        "title": {
+          "es": "Crocs",
+          "en": "Crocs"
+        },
+        "paragraph": {
+          "es": "Estimación de nuevos requerimientos a nivel de front-end, customización general del sitio y visualización del header, implementación de Google analytics.",
+          "en": "I estimate new front-end requirements, customize the overall look and feel of the site and display the header, and implement Google Analytics"
+        },
+        "imageUrl": "../../../../assets/projects-images/crocs-desktop.webp",
+        "reverse": false,
+        "link": "https://crocs.cl/"
+      },
+      {
+        "title": {
+          "es": "Tupemesa",
+          "en": "Tupemesa"
+        },
+        "paragraph": {
+          "es": "Customización de vista 360 para asesor comercial del sitio, SEO, implementación de Google analytics.",
+          "en": "Customization of 360 view for the commercial advisor of the site, SEO, implementation of Google analytics."
+        },
+        "imageUrl": "../../../../assets/projects-images/tupemesa-desktop.webp",
+        "reverse": true,
+        "link": "https://tienda.tupemesa.com.pe/"
+      }
+    ]
+  },
+  "src/app/pages/curriculum/curriculum.component.ts": {
+    "name": "Jonatan David Villalba",
+    "position": {
+      "es": "Senior Frontend Engineer",
+      "en": "Senior Frontend Engineer"
+    },
+    "goalsTitle": {
+      "es": "Objetivos Profesionales",
+      "en": "Professional Goals"
+    },
+    "goals": [
+      {
+        "icon": "fas fa-layer-group",
+        "text": {
+          "es": "Consolidarme como un referente Senior Frontend, liderando el desarrollo de aplicaciones web escalables y de alto rendimiento. Profundizar mi dominio de Angular, Next.js y SAP Spartacus para mentorear equipos, definir estándares técnicos y elevar la calidad del código en cada proyecto que integre.",
+          "en": "Establish myself as a Senior Frontend reference, leading the development of scalable, high-performance web applications. Deepen my expertise in Angular, Next.js, and SAP Spartacus to mentor teams, define technical standards, and raise the code quality bar on every project I'm part of."
+        }
+      },
+      {
+        "icon": "fas fa-robot",
+        "text": {
+          "es": "Liderar la adopción de flujos de desarrollo potenciados por IA — desde agentes autónomos con Claude hasta copilots integrados en el ciclo de desarrollo — para entregar software de mayor calidad en menor tiempo, sin sacrificar arquitectura ni legibilidad de código.",
+          "en": "Lead the adoption of AI-powered development workflows — from autonomous Claude agents to copilots integrated in the dev cycle — shipping higher quality software faster without sacrificing architecture or code readability."
+        }
+      },
+      {
+        "icon": "fas fa-box-open",
+        "text": {
+          "es": "Publicar una biblioteca open source de componentes y utilidades que extienda el trabajo que vengo construyendo internamente, para que otros equipos puedan arrancar proyectos Angular o Next.js desde una base sólida, bien documentada y lista para producción.",
+          "en": "Publish an open-source component and utility library that extends the internal work I've been building, giving other teams a solid, well-documented, production-ready foundation for their Angular and Next.js projects."
+        }
+      },
+      {
+        "icon": "fas fa-handshake",
+        "text": {
+          "es": "Continuar expandiendo mi trabajo freelance y de consultoría, aportando expertise en e-commerce B2B/B2C con SAP Spartacus, arquitectura de soluciones y desarrollo fullstack para startups y empresas que quieren crecer con tecnología de primer nivel.",
+          "en": "Keep expanding my freelance and consulting work, bringing expertise in B2B/B2C e-commerce with SAP Spartacus, solution architecture, and fullstack development to startups and companies looking to scale with top-tier technology."
+        }
+      }
+    ]
+  }
+}

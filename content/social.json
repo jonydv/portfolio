@@ -1,0 +1,23 @@
+[
+  {
+    "id": "github",
+    "order": 0,
+    "label": "GitHub",
+    "icon": "github",
+    "url": "https://github.com/jonydv"
+  },
+  {
+    "id": "linkedin",
+    "order": 1,
+    "label": "LinkedIn",
+    "icon": "linkedin",
+    "url": "https://www.linkedin.com/in/jonatan-david-villalba/"
+  },
+  {
+    "id": "email",
+    "order": 2,
+    "label": "Gmail",
+    "icon": "mail",
+    "url": "mailto:jonatandavidvillalba@gmail.com?subject=Contacto desde tu página web&body=Hola me contacto por tu página web"
+  }
+]

@@ -1,0 +1,549 @@
+{
+  "projects": [
+    {
+      "slug": "marchand",
+      "name": "Marchand",
+      "carouselIndex": 0,
+      "worksIndex": 0,
+      "order": 0,
+      "featured": true,
+      "client": "Marchand",
+      "country": "MX",
+      "startYear": 2022,
+      "endYear": null,
+      "logo": "/projects-logos/marchand-logo.svg",
+      "mobileImage": "/projects-images/marchand-mobile.webp",
+      "desktopImage": "/projects-images/marchand.webp",
+      "role": {
+        "es": "Arquitecto de solución y líder de migración",
+        "en": "Solution architect and migration lead"
+      },
+      "summary": {
+        "es": "Migración completa de un e-commerce a SAP Spartacus 4.3 con equipo interdisciplinario, formación del equipo y mejoras medibles en accesibilidad y seguridad.",
+        "en": "Full e-commerce migration to SAP Spartacus 4.3 with a cross-functional team, team training, and measurable gains in accessibility and security."
+      },
+      "tags": [
+        "ecommerce",
+        "sap-spartacus",
+        "migration",
+        "architecture"
+      ],
+      "stack": [
+        "angular",
+        "sap-spartacus",
+        "typescript",
+        "rxjs",
+        "ngrx"
+      ]
+    },
+    {
+      "slug": "promesa",
+      "name": "Promesa",
+      "carouselIndex": 11,
+      "worksIndex": 1,
+      "order": 1,
+      "featured": false,
+      "client": "Promesa",
+      "country": "EC",
+      "startYear": 2022,
+      "endYear": null,
+      "logo": "/projects-logos/promesa-logo.webp",
+      "mobileImage": "/projects-images/promesa.webp",
+      "desktopImage": "/projects-images/promesa-desktop.webp",
+      "role": {
+        "es": "Desarrollo front-end e integraciones",
+        "en": "Front-end development and integrations"
+      },
+      "summary": {
+        "es": "E-commerce B2B con registro protegido por Google reCAPTCHA e integración con la API de Twilio para envío de PIN de activación por SMS.",
+        "en": "B2B e-commerce with Google reCAPTCHA-protected signup and Twilio API integration for SMS activation PINs."
+      },
+      "tags": [
+        "ecommerce",
+        "sap-spartacus",
+        "angular"
+      ],
+      "stack": [
+        "angular",
+        "sap-spartacus",
+        "typescript",
+        "rxjs"
+      ]
+    },
+    {
+      "slug": "spartacus-demo",
+      "name": "Spartacus Demo",
+      "offline": true,
+      "displayNameOverride": {
+        "es": "Spartacus Demo",
+        "en": "JDV Spartacus Demo"
+      },
+      "carouselIndex": 1,
+      "worksIndex": 2,
+      "order": 3,
+      "featured": false,
+      "client": null,
+      "country": "XX",
+      "startYear": 2022,
+      "endYear": null,
+      "logo": "/projects-logos/spartacus-logo.webp",
+      "mobileImage": "/projects-images/spartacus-demo-mobile.webp",
+      "desktopImage": "/projects-images/spartacus-demo.webp",
+      "role": {
+        "es": "Autor",
+        "en": "Author"
+      },
+      "summary": {
+        "es": "Storefront construido desde cero con SAP Composable Storefront 4.x y Angular Universal, creado como inducción técnica para un equipo que empezaba con el acelerador.",
+        "en": "Storefront built from scratch with SAP Composable Storefront 4.x and Angular Universal, created as technical onboarding for a team new to the accelerator."
+      },
+      "bodyOverride": {
+        "en": [
+          "I have created this project from scratch using the Angular framework and the Sap Spartacus/Sap Composable Storefront accelerator in version 4.x. The objective of this project is to serve as an introduction to the accelerator technology for a team that is taking its first steps in this field. This project showcases various component customizations and user interface styling aimed at resembling a leading e-commerce site in Argentina and Latin America. Additionally, I have implemented Server Side Rendering using Angular Universal and the methodologies used by Spartacus.",
+          "This project also includes the implementation of modals, customization of product listing flows, product detail page, search engine, and much more."
+        ]
+      },
+      "tags": [
+        "sap-spartacus",
+        "angular",
+        "personal",
+        "architecture"
+      ],
+      "stack": [
+        "angular",
+        "sap-spartacus",
+        "typescript",
+        "rxjs",
+        "ssr-ssg",
+        "sass"
+      ]
+    },
+    {
+      "slug": "jdvm-movie",
+      "name": "JDVM Movie",
+      "carouselIndex": 2,
+      "worksIndex": 3,
+      "order": 4,
+      "featured": false,
+      "client": null,
+      "country": "XX",
+      "startYear": 2022,
+      "endYear": null,
+      "logo": "/projects-logos/movie-logo.webp",
+      "mobileImage": "/projects-images/movie-mobile.webp",
+      "desktopImage": "/projects-images/movie-desktop.webp",
+      "role": {
+        "es": "Autor",
+        "en": "Author"
+      },
+      "summary": {
+        "es": "Aplicación Angular sobre la API de TheMovieDB con SSR, carga perezosa, resolvers de precarga, filtros avanzados y scroll infinito.",
+        "en": "Angular application on the TheMovieDB API with SSR, lazy loading, prefetch resolvers, advanced filtering, and infinite scroll."
+      },
+      "tags": [
+        "angular",
+        "personal",
+        "architecture"
+      ],
+      "stack": [
+        "angular",
+        "typescript",
+        "rxjs",
+        "ssr-ssg",
+        "sass"
+      ]
+    },
+    {
+      "slug": "belsport",
+      "name": "Belsport",
+      "carouselIndex": 7,
+      "worksIndex": 4,
+      "order": 5,
+      "featured": true,
+      "client": "Belsport",
+      "country": "CL",
+      "startYear": 2023,
+      "endYear": null,
+      "logo": "/projects-logos/belsport.webp",
+      "mobileImage": "/projects-images/belsport.webp",
+      "desktopImage": "/projects-images/belsport-desktop.webp",
+      "role": {
+        "es": "Desarrollo front-end y performance",
+        "en": "Front-end development and performance"
+      },
+      "summary": {
+        "es": "Customización del look and feel, integración de APIs externas, carga perezosa de módulos, scroll infinito administrable y optimización de performance y SEO.",
+        "en": "Look-and-feel customization, external API integration, lazy-loaded modules, configurable infinite scroll, and performance and SEO optimization."
+      },
+      "tags": [
+        "ecommerce",
+        "sap-spartacus",
+        "angular"
+      ],
+      "stack": [
+        "angular",
+        "sap-spartacus",
+        "typescript",
+        "rxjs",
+        "ga4",
+        "sass"
+      ]
+    },
+    {
+      "slug": "bamers",
+      "name": "Bamers",
+      "carouselIndex": 8,
+      "worksIndex": 5,
+      "order": 6,
+      "featured": false,
+      "client": "Bamers",
+      "country": "CL",
+      "startYear": 2023,
+      "endYear": null,
+      "logo": "/projects-logos/bamers.webp",
+      "mobileImage": "/projects-images/bamers.webp",
+      "desktopImage": "/projects-images/bamers-desktop.webp",
+      "role": {
+        "es": "Desarrollo front-end",
+        "en": "Front-end development"
+      },
+      "summary": {
+        "es": "Grids personalizados y administrables por contenido, páginas estáticas gestionables, SEO y estimación de nuevos requerimientos de front-end.",
+        "en": "Custom content-managed grids, editable static pages, SEO work, and estimation of new front-end requirements."
+      },
+      "tags": [
+        "ecommerce",
+        "sap-spartacus",
+        "angular"
+      ],
+      "stack": [
+        "angular",
+        "sap-spartacus",
+        "typescript",
+        "sass"
+      ]
+    },
+    {
+      "slug": "antihuman",
+      "name": "Antihuman",
+      "carouselIndex": 5,
+      "worksIndex": 6,
+      "order": 7,
+      "featured": false,
+      "client": "Antihuman",
+      "country": "CL",
+      "startYear": 2023,
+      "endYear": null,
+      "logo": "/projects-logos/antihuman.webp",
+      "mobileImage": "/projects-images/antihuman.webp",
+      "desktopImage": "/projects-images/antihuman-desktop.webp",
+      "role": {
+        "es": "Desarrollo front-end y UI",
+        "en": "Front-end and UI development"
+      },
+      "summary": {
+        "es": "Carruseles de productos recomendados, diseño orientado a la identidad de marca, adaptación multidispositivo y optimización de performance y SEO.",
+        "en": "Recommended-product carousels, brand-driven visual design, multi-device adaptation, and performance and SEO optimization."
+      },
+      "tags": [
+        "ecommerce",
+        "sap-spartacus",
+        "design-system"
+      ],
+      "stack": [
+        "angular",
+        "sap-spartacus",
+        "typescript",
+        "sass"
+      ]
+    },
+    {
+      "slug": "aufbau",
+      "name": "Aufbau",
+      "carouselIndex": 10,
+      "worksIndex": 7,
+      "order": 8,
+      "featured": false,
+      "client": "Aufbau",
+      "country": "CL",
+      "startYear": 2023,
+      "endYear": null,
+      "logo": "/projects-logos/aufbau.webp",
+      "mobileImage": "/projects-images/aufbau.webp",
+      "desktopImage": "/projects-images/aufbau-desktop.webp",
+      "role": {
+        "es": "Desarrollo front-end",
+        "en": "Front-end development"
+      },
+      "summary": {
+        "es": "Personalización de rutas, modales dinámicos, administración de promociones, activación de campañas y seguimiento de navegación por ruta.",
+        "en": "Custom routing, dynamic modals, promotion management, campaign activation, and per-route navigation tracking."
+      },
+      "tags": [
+        "ecommerce",
+        "sap-spartacus",
+        "angular"
+      ],
+      "stack": [
+        "angular",
+        "sap-spartacus",
+        "typescript",
+        "rxjs",
+        "ga4"
+      ]
+    },
+    {
+      "slug": "bold",
+      "name": "Bold",
+      "carouselIndex": 6,
+      "worksIndex": 8,
+      "order": 9,
+      "featured": true,
+      "client": "Bold",
+      "country": "CL",
+      "startYear": 2024,
+      "endYear": null,
+      "logo": "/projects-logos/bold.webp",
+      "mobileImage": "/projects-images/bold.webp",
+      "desktopImage": "/projects-images/bold-desktop.webp",
+      "role": {
+        "es": "Desarrollo front-end y checkout",
+        "en": "Front-end and checkout development"
+      },
+      "summary": {
+        "es": "Formularios reactivos para login y registro, integración y customización de plataformas de pago en el checkout, y habilitación de compra como invitado.",
+        "en": "Reactive forms for login and signup, payment platform integration and customization in checkout, and guest purchase enablement."
+      },
+      "tags": [
+        "ecommerce",
+        "sap-spartacus",
+        "angular"
+      ],
+      "stack": [
+        "angular",
+        "sap-spartacus",
+        "typescript",
+        "rxjs"
+      ]
+    },
+    {
+      "slug": "k-one",
+      "name": "K-one",
+      "offline": true,
+      "carouselIndex": 4,
+      "worksIndex": 9,
+      "order": 10,
+      "featured": false,
+      "client": "K-one",
+      "country": "CL",
+      "startYear": 2024,
+      "endYear": null,
+      "logo": "/projects-logos/k1.webp",
+      "mobileImage": "/projects-images/kone.webp",
+      "desktopImage": "/projects-images/kone-desktop.webp",
+      "role": {
+        "es": "Desarrollo front-end y UI",
+        "en": "Front-end and UI development"
+      },
+      "summary": {
+        "es": "Rediseño visual completo del sitio, mejoras en la landing principal, customización de resultados de búsqueda y del checkout en dispositivos móviles.",
+        "en": "Full visual redesign, main landing page improvements, search results customization, and mobile checkout refinement."
+      },
+      "tags": [
+        "ecommerce",
+        "sap-spartacus",
+        "design-system"
+      ],
+      "stack": [
+        "angular",
+        "sap-spartacus",
+        "typescript",
+        "sass"
+      ]
+    },
+    {
+      "slug": "crocs",
+      "name": "Crocs",
+      "carouselIndex": 9,
+      "worksIndex": 10,
+      "order": 11,
+      "featured": true,
+      "client": "Crocs",
+      "country": "CL",
+      "startYear": 2024,
+      "endYear": null,
+      "logo": "/projects-logos/crocs.webp",
+      "mobileImage": "/projects-images/crocs.webp",
+      "desktopImage": "/projects-images/crocs-desktop.webp",
+      "role": {
+        "es": "Desarrollo front-end",
+        "en": "Front-end development"
+      },
+      "summary": {
+        "es": "Customización general del storefront y del header, estimación de nuevos requerimientos de front-end e implementación de analítica con Google Analytics.",
+        "en": "Storefront and header customization, estimation of new front-end requirements, and Google Analytics implementation."
+      },
+      "tags": [
+        "ecommerce",
+        "sap-spartacus",
+        "angular"
+      ],
+      "stack": [
+        "angular",
+        "sap-spartacus",
+        "typescript",
+        "ga4"
+      ]
+    },
+    {
+      "slug": "tupemesa",
+      "name": "Tupemesa",
+      "offline": true,
+      "carouselIndex": 3,
+      "worksIndex": 11,
+      "order": 12,
+      "featured": false,
+      "client": "Tupemesa",
+      "country": "PE",
+      "startYear": 2024,
+      "endYear": null,
+      "logo": "/projects-logos/tupemesa-logo.webp",
+      "mobileImage": "/projects-images/tupemesa.webp",
+      "desktopImage": "/projects-images/tupemesa-desktop.webp",
+      "role": {
+        "es": "Desarrollo front-end",
+        "en": "Front-end development"
+      },
+      "summary": {
+        "es": "Vista 360 para el asesor comercial del sitio, trabajo de SEO técnico e implementación de analítica con Google Analytics.",
+        "en": "360-degree view for the site's sales advisor, technical SEO work, and Google Analytics implementation."
+      },
+      "tags": [
+        "ecommerce",
+        "sap-spartacus",
+        "angular"
+      ],
+      "stack": [
+        "angular",
+        "sap-spartacus",
+        "typescript",
+        "ga4"
+      ]
+    }
+  ],
+  "additionalProjects": [
+    {
+      "slug": "cinescope",
+      "name": "CineScope",
+      "order": 2,
+      "featured": false,
+      "client": null,
+      "country": "XX",
+      "startYear": 2026,
+      "endYear": null,
+      "url": "https://cinemascope-jdv.vercel.app",
+      "repoUrl": null,
+      "media": {
+        "kind": "screenshots",
+        "logo": null,
+        "desktopImage": "/projects-images/cinescope-desktop.webp",
+        "mobileImage": "/projects-images/cinescope-mobile.webp",
+        "alt": {
+          "es": "Catálogo de películas populares de CineScope con filtros por género y año",
+          "en": "CineScope popular movie catalogue with genre and year filters"
+        }
+      },
+      "role": {
+        "es": "Autor",
+        "en": "Author"
+      },
+      "summary": {
+        "es": "Aplicación Angular 21 con Clean Architecture en cinco capas, Angular Signals y @ngrx/signals para el estado reactivo, SSR y empaquetado PWA con Capacitor.",
+        "en": "Angular 21 application with five-layer Clean Architecture, Angular Signals and @ngrx/signals for reactive state, SSR, and PWA packaging with Capacitor."
+      },
+      "body": {
+        "es": [
+          "CineScope es una aplicación de catálogo cinematográfico construida con Angular 21 aplicando Clean Architecture de forma estricta: capas de dominio, aplicación e infraestructura separadas, con el dominio libre de dependencias del framework.",
+          "El estado reactivo se resuelve con Angular Signals para las actualizaciones de grano fino de la interfaz, reservando RxJS para la composición de flujos asíncronos y los efectos secundarios sobre la API. La frontera entre ambos modelos es explícita y está documentada por los tipos.",
+          "El acceso a datos se encapsula tras puertos definidos en el dominio e implementados en infraestructura mediante el patrón Adapter, de modo que la fuente de datos puede sustituirse sin tocar ni el dominio ni la capa de presentación."
+        ],
+        "en": [
+          "CineScope is a film catalogue application built with Angular 21, applying Clean Architecture strictly: separate domain, application, and infrastructure layers, with the domain free of framework dependencies.",
+          "Reactive state is handled with Angular Signals for fine-grained UI updates, reserving RxJS for asynchronous stream composition and API side effects. The boundary between both models is explicit and enforced by the types.",
+          "Data access is encapsulated behind ports defined in the domain and implemented in infrastructure via the Adapter pattern, so the data source can be swapped without touching either the domain or the presentation layer."
+        ]
+      },
+      "tags": [
+        "angular",
+        "personal",
+        "architecture"
+      ],
+      "stack": [
+        "angular",
+        "angular-signals",
+        "signalstore",
+        "typescript",
+        "rxjs",
+        "clean-architecture",
+        "ssr-ssg",
+        "pwa",
+        "capacitor"
+      ]
+    },
+    {
+      "slug": "medusa-storefront",
+      "name": "Medusa.js Enterprise Storefront",
+      "order": 13,
+      "featured": false,
+      "client": null,
+      "country": "XX",
+      "startYear": 2026,
+      "endYear": null,
+      "url": null,
+      "repoUrl": "https://github.com/jonydv/medusa_portfolio",
+      "media": {
+        "kind": "generated",
+        "gradientFrom": "#64ffda",
+        "gradientTo": "#a78bfa",
+        "gradientAngle": 135,
+        "monogram": "M"
+      },
+      "role": {
+        "es": "Autor",
+        "en": "Author"
+      },
+      "summary": {
+        "es": "Storefront headless con Next.js 15 App Router y React 19 sobre Medusa.js v2, con patrón Backend-for-Frontend y TanStack Query para el estado de servidor.",
+        "en": "Headless storefront with Next.js 15 App Router and React 19 on Medusa.js v2, using a Backend-for-Frontend pattern and TanStack Query for server state."
+      },
+      "body": {
+        "es": [
+          "Storefront de comercio headless construido con Next.js 15 y App Router contra un backend Medusa.js v2, aprovechando Server Components para mantener la lógica de catálogo y carrito en el servidor y reducir al mínimo el JavaScript enviado al cliente.",
+          "El catálogo, las páginas de producto y las de categoría se generan de forma estática con revalidación, mientras que las superficies dependientes de sesión, como el carrito y el checkout, se resuelven de forma dinámica. La interfaz está construida con Tailwind CSS y TypeScript en modo estricto.",
+          "El despliegue corre en Vercel, apoyándose en su capa de caché en el edge para servir el catálogo estático y en Server Actions para las mutaciones de carrito."
+        ],
+        "en": [
+          "Headless commerce storefront built with Next.js 15 and the App Router against a Medusa.js v2 backend, leveraging Server Components to keep catalogue and cart logic on the server and minimize JavaScript shipped to the client.",
+          "Catalogue, product, and category pages are statically generated with revalidation, while session-dependent surfaces such as cart and checkout resolve dynamically. The interface is built with Tailwind CSS and TypeScript in strict mode.",
+          "Deployment runs on Vercel, relying on its edge cache layer to serve the static catalogue and on Server Actions for cart mutations."
+        ]
+      },
+      "tags": [
+        "ecommerce",
+        "nextjs",
+        "react",
+        "personal"
+      ],
+      "stack": [
+        "nextjs",
+        "react",
+        "typescript",
+        "tailwind-css",
+        "tanstack-query",
+        "bff-pattern",
+        "medusajs",
+        "ssr-ssg"
+      ]
+    }
+  ]
+}

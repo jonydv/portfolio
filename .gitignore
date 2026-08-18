@@ -9,7 +9,6 @@ lerna-debug.log*
 .angular
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
-package-lock.json
 # Runtime data
 pids
 *.pid
@@ -76,8 +75,15 @@ typings/
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 
+test-results
+playwright-report
+.playwright
+
 # Next.js build output
 .next
+next-env.d.ts
+.vercel
+.turbo
 
 # Nuxt.js build / generate output
 .nuxt

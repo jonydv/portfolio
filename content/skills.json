@@ -1,0 +1,410 @@
+[
+  {
+    "id": "typescript",
+    "label": "TypeScript",
+    "category": "languages",
+    "icon": "/icons/typescript.svg"
+  },
+  {
+    "id": "angular",
+    "label": "Angular",
+    "category": "frameworks",
+    "icon": "/icons/angular.svg"
+  },
+  {
+    "id": "rxjs",
+    "label": "RxJS",
+    "category": "state",
+    "icon": "/icons/rxjs.png"
+  },
+  {
+    "id": "ngrx",
+    "label": "NgRx",
+    "category": "state",
+    "icon": "/icons/ngrx.svg"
+  },
+  {
+    "id": "sap-spartacus",
+    "label": "SAP Spartacus",
+    "category": "ecommerce",
+    "icon": "/icons/spartacus.png"
+  },
+  {
+    "id": "nextjs",
+    "label": "Next.js",
+    "category": "frameworks",
+    "icon": "/icons/nextjs.svg"
+  },
+  {
+    "id": "react",
+    "label": "React",
+    "category": "frameworks",
+    "icon": "/icons/reactjs.svg"
+  },
+  {
+    "id": "nodejs",
+    "label": "Node.js",
+    "category": "languages",
+    "icon": "/icons/nodejs.svg"
+  },
+  {
+    "id": "express",
+    "label": "Express",
+    "category": "languages",
+    "icon": "/icons/expressjs.svg"
+  },
+  {
+    "id": "tanstack-query",
+    "label": "TanStack Query",
+    "category": "state",
+    "icon": "/icons/tanstack.png"
+  },
+  {
+    "id": "nextauth",
+    "label": "NextAuth",
+    "category": "languages",
+    "icon": "/icons/nextauth.svg"
+  },
+  {
+    "id": "sass",
+    "label": "SCSS / Sass",
+    "category": "languages",
+    "icon": "/icons/sass.svg"
+  },
+  {
+    "id": "tailwind-css",
+    "label": "Tailwind CSS",
+    "category": "languages",
+    "icon": "/icons/tailwindcss.svg"
+  },
+  {
+    "id": "javascript",
+    "label": "JavaScript",
+    "category": "languages",
+    "icon": "/icons/javascript.svg"
+  },
+  {
+    "id": "mongodb",
+    "label": "MongoDB",
+    "category": "languages",
+    "icon": "/icons/mongodb.svg"
+  },
+  {
+    "id": "mysql",
+    "label": "MySQL",
+    "category": "languages",
+    "icon": "/icons/mysql.svg"
+  },
+  {
+    "id": "claude-ai",
+    "label": "Claude AI",
+    "category": "ai",
+    "icon": "/icons/claude.svg"
+  },
+  {
+    "id": "github-copilot",
+    "label": "GitHub Copilot",
+    "category": "ai",
+    "icon": "/icons/github-copilot.svg"
+  },
+  {
+    "id": "cursor-ai",
+    "label": "Cursor AI",
+    "category": "ai",
+    "icon": "/icons/cursor-ai.svg"
+  },
+  {
+    "id": "aws",
+    "label": "AWS",
+    "category": "quality",
+    "icon": "/icons/aws.svg"
+  },
+  {
+    "id": "git",
+    "label": "Git",
+    "category": "quality",
+    "icon": "/icons/git.svg"
+  },
+  {
+    "id": "jira",
+    "label": "Jira",
+    "category": "quality",
+    "icon": "/icons/jira.svg"
+  },
+  {
+    "id": "karma",
+    "label": "Karma",
+    "category": "quality",
+    "icon": "/icons/karma.webp"
+  },
+  {
+    "id": "jasmine",
+    "label": "Jasmine",
+    "category": "quality",
+    "icon": "/icons/jasmine.svg"
+  },
+  {
+    "id": "angular-signals",
+    "label": "Angular Signals",
+    "category": "frameworks",
+    "icon": null
+  },
+  {
+    "id": "standalone-components",
+    "label": "Standalone Components",
+    "category": "frameworks",
+    "icon": null
+  },
+  {
+    "id": "react-native",
+    "label": "React Native",
+    "category": "frameworks",
+    "icon": null
+  },
+  {
+    "id": "microfrontends",
+    "label": "Microfrontends",
+    "category": "frameworks",
+    "icon": null
+  },
+  {
+    "id": "nx",
+    "label": "Nx",
+    "category": "frameworks",
+    "icon": null
+  },
+  {
+    "id": "lerna",
+    "label": "Lerna",
+    "category": "frameworks",
+    "icon": null
+  },
+  {
+    "id": "bff-pattern",
+    "label": "Patrón BFF",
+    "category": "frameworks",
+    "icon": null
+  },
+  {
+    "id": "pwa",
+    "label": "PWA",
+    "category": "frameworks",
+    "icon": null
+  },
+  {
+    "id": "i18n",
+    "label": "i18n",
+    "category": "frameworks",
+    "icon": null
+  },
+  {
+    "id": "ssr-ssg",
+    "label": "SSR / SSG / ISR",
+    "category": "frameworks",
+    "icon": null
+  },
+  {
+    "id": "zustand",
+    "label": "Zustand",
+    "category": "state",
+    "icon": null
+  },
+  {
+    "id": "redux-toolkit",
+    "label": "Redux Toolkit",
+    "category": "state",
+    "icon": null
+  },
+  {
+    "id": "context-api",
+    "label": "Context API",
+    "category": "state",
+    "icon": null
+  },
+  {
+    "id": "signalstore",
+    "label": "SignalStore",
+    "category": "state",
+    "icon": null
+  },
+  {
+    "id": "postgresql",
+    "label": "PostgreSQL",
+    "category": "languages",
+    "icon": null
+  },
+  {
+    "id": "angular-material",
+    "label": "Angular Material",
+    "category": "languages",
+    "icon": null
+  },
+  {
+    "id": "primeng",
+    "label": "PrimeNG",
+    "category": "languages",
+    "icon": null
+  },
+  {
+    "id": "rest-apis",
+    "label": "REST APIs",
+    "category": "languages",
+    "icon": null
+  },
+  {
+    "id": "graphql",
+    "label": "GraphQL",
+    "category": "languages",
+    "icon": null
+  },
+  {
+    "id": "clean-architecture",
+    "label": "Clean Architecture",
+    "category": "languages",
+    "icon": null
+  },
+  {
+    "id": "design-systems",
+    "label": "Design Systems",
+    "category": "languages",
+    "icon": null
+  },
+  {
+    "id": "npm-packages",
+    "label": "Librerías NPM",
+    "category": "languages",
+    "icon": null
+  },
+  {
+    "id": "tdd",
+    "label": "TDD",
+    "category": "quality",
+    "icon": null
+  },
+  {
+    "id": "vitest",
+    "label": "Vitest",
+    "category": "quality",
+    "icon": null
+  },
+  {
+    "id": "jest",
+    "label": "Jest",
+    "category": "quality",
+    "icon": null
+  },
+  {
+    "id": "cypress",
+    "label": "Cypress",
+    "category": "quality",
+    "icon": null
+  },
+  {
+    "id": "core-web-vitals",
+    "label": "Core Web Vitals",
+    "category": "quality",
+    "icon": null
+  },
+  {
+    "id": "wcag",
+    "label": "Accesibilidad WCAG",
+    "category": "quality",
+    "icon": null
+  },
+  {
+    "id": "github-actions",
+    "label": "GitHub Actions",
+    "category": "quality",
+    "icon": null
+  },
+  {
+    "id": "jenkins",
+    "label": "Jenkins",
+    "category": "quality",
+    "icon": null
+  },
+  {
+    "id": "docker",
+    "label": "Docker",
+    "category": "quality",
+    "icon": null
+  },
+  {
+    "id": "gitflow",
+    "label": "GitFlow",
+    "category": "quality",
+    "icon": null
+  },
+  {
+    "id": "scrum",
+    "label": "Scrum / Kanban",
+    "category": "quality",
+    "icon": null
+  },
+  {
+    "id": "capacitor",
+    "label": "Capacitor",
+    "category": "quality",
+    "icon": null
+  },
+  {
+    "id": "ionic",
+    "label": "Ionic",
+    "category": "quality",
+    "icon": null
+  },
+  {
+    "id": "ga4",
+    "label": "Google Analytics 4",
+    "category": "quality",
+    "icon": null
+  },
+  {
+    "id": "sap-commerce-cloud",
+    "label": "SAP Commerce Cloud (CCv2)",
+    "category": "ecommerce",
+    "icon": null
+  },
+  {
+    "id": "smartedit",
+    "label": "SmartEdit",
+    "category": "ecommerce",
+    "icon": null
+  },
+  {
+    "id": "backoffice",
+    "label": "Backoffice",
+    "category": "ecommerce",
+    "icon": null
+  },
+  {
+    "id": "hac",
+    "label": "HAC",
+    "category": "ecommerce",
+    "icon": null
+  },
+  {
+    "id": "headless-commerce",
+    "label": "Commerce Headless",
+    "category": "ecommerce",
+    "icon": null
+  },
+  {
+    "id": "medusajs",
+    "label": "Medusa.js v2",
+    "category": "ecommerce",
+    "icon": null
+  },
+  {
+    "id": "mercado-pago",
+    "label": "Mercado Pago Checkout Pro",
+    "category": "ecommerce",
+    "icon": null
+  },
+  {
+    "id": "claude-code",
+    "label": "Claude Code",
+    "category": "ai",
+    "icon": null
+  }
+]
