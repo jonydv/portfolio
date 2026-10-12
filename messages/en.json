@@ -3,8 +3,8 @@
     "siteName": "Jonatan David Villalba",
     "titleTemplate": "%s — Jonatan David Villalba",
     "home": {
-      "title": "Senior Front-End Engineer and Frontend Architect",
-      "description": "Enterprise e-commerce architecture with Angular, React, and Next.js. Over 8 years building scalable, high-performance interfaces."
+      "title": "Senior Full-Stack Engineer",
+      "description": "Full-stack web engineering, NestJS & Node.js backend, AI product features, and high-traffic enterprise storefronts with SAP Spartacus and Next.js. 10 years shipping production web products."
     },
     "work": {
       "title": "Work",
@@ -12,7 +12,7 @@
     },
     "about": {
       "title": "About",
-      "description": "Experience, education, and technical stack of Jonatan David Villalba, Senior Front-End Engineer and Frontend Architect."
+      "description": "Experience, education, and technical stack of Jonatan David Villalba, Senior Full-Stack Engineer."
     },
     "cv": {
       "title": "Resume",
@@ -20,7 +20,7 @@
     },
     "contact": {
       "title": "Contact",
-      "description": "Get in touch with Jonatan David Villalba for frontend, architecture, and e-commerce projects."
+      "description": "Get in touch with Jonatan David Villalba for full-stack engineering, NestJS backends, AI features, and e-commerce projects."
     }
   },
   "nav": {
@@ -74,12 +74,13 @@
     "viewCredential": "View credential"
   },
   "skills": {
-    "frameworks": "Frontend frameworks and architecture",
-    "state": "State management and reactivity",
-    "languages": "Languages, UI and backend integration",
-    "quality": "Testing, quality and DevOps",
-    "ecommerce": "E-commerce and SAP Commerce",
-    "ai": "AI tooling"
+    "backend": "Backend, APIs & Data",
+    "ai": "AI Engineering (TypeScript)",
+    "frameworks": "Frontend & Architecture",
+    "state": "State Management & Reactivity",
+    "languages": "Languages & Core",
+    "quality": "Testing, Quality & DevOps",
+    "ecommerce": "E-commerce & Enterprise Platforms"
   },
   "cv": {
     "download": "Download PDF",
@@ -90,7 +91,7 @@
   "contact": {
     "index": "Contact",
     "title": "Let's talk",
-    "intro": "Have a frontend, architecture, or e-commerce project in mind? Email me directly and we can talk it through.",
+    "intro": "Have a full-stack, NestJS backend, AI integration, or e-commerce project in mind? Email me directly and we can talk it through.",
     "mailSubject": "Enquiry from your portfolio",
     "mailBody": "Hi Jonatan,\n\n",
     "copyEmail": "Copy email",

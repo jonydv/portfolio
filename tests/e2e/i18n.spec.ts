@@ -22,7 +22,7 @@ test('respeta Accept-Language', async ({ browser }) => {
 
 test('el conmutador preserva la subruta', async ({ page }) => {
   await page.goto('/es/work/marchand');
-  await page.getByRole('button', { name: 'en' }).click();
+  await page.getByRole('button', { name: 'en', exact: true }).click();
 
   await expect(page).toHaveURL(/\/en\/work\/marchand$/);
 });

@@ -2,12 +2,13 @@ import { z } from 'zod';
 import { kebabSlug, publicAssetPath } from './primitives';
 
 export const SKILL_CATEGORIES = [
+  'backend',
+  'ai',
   'frameworks',
   'state',
   'languages',
   'quality',
   'ecommerce',
-  'ai',
 ] as const;
 export const skillCategory = z.enum(SKILL_CATEGORIES);
 export type SkillCategory = (typeof SKILL_CATEGORIES)[number];

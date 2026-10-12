@@ -16,12 +16,12 @@
     "slug": "enterprise-ecommerce",
     "order": 1,
     "title": {
-      "es": "E-commerce Enterprise",
-      "en": "E-commerce Enterprise"
+      "es": "E-commerce Enterprise & BFF",
+      "en": "Enterprise E-commerce & BFF"
     },
     "description": {
-      "es": "Experiencia profunda en SAP Spartacus y plataformas transaccionales de alto volumen con integraciones de pasarelas de pago.",
-      "en": "Deep expertise in SAP Spartacus and high-volume transactional platforms with seamless payment gateway integrations."
+      "es": "Arquitecturas de storefront de alto tráfico en SAP Spartacus, capas Backend-for-Frontend (BFF), Medusa.js v2 y checkout transaccional con Mercado Pago.",
+      "en": "High-traffic storefront architectures in SAP Spartacus, Backend-for-Frontend (BFF) layers, Medusa.js v2, and transactional checkout with Mercado Pago."
     },
     "image": "/images/commerce.webp"
   },
@@ -55,12 +55,12 @@
     "slug": "fullstack-integration",
     "order": 4,
     "title": {
-      "es": "Integración Fullstack",
-      "en": "Fullstack Integration"
+      "es": "Backend & Arquitectura Fullstack",
+      "en": "Backend & Full-Stack Architecture"
     },
     "description": {
-      "es": "Diseño de arquitecturas completas conectando el frontend con bases de datos relacionales y no relacionales mediante APIs robustas.",
-      "en": "Designing end-to-end architectures connecting the frontend with relational and non-relational databases through robust APIs."
+      "es": "Servicios en NestJS 12 y Node.js, modelado relacional con Prisma y PostgreSQL, colas con BullMQ, caché con Redis y APIs REST/GraphQL tipadas.",
+      "en": "Backend services with NestJS 12 and Node.js, relational modeling with Prisma and PostgreSQL, BullMQ queues, Redis caching, and typed REST/GraphQL APIs."
     },
     "image": "/images/database.webp"
   },
@@ -94,12 +94,12 @@
     "slug": "ai-workflows",
     "order": 7,
     "title": {
-      "es": "Flujos de IA",
-      "en": "AI Workflows"
+      "es": "Ingeniería de IA y Agentes",
+      "en": "AI Engineering & Agents"
     },
     "description": {
-      "es": "Integración de agentes autónomos y copilots en el ciclo de desarrollo para acelerar entregas sin comprometer la arquitectura y legibilidad.",
-      "en": "Integration of autonomous agents and copilots in the development cycle to accelerate delivery without compromising architecture and readability."
+      "es": "Integración de LLMs en TypeScript con Vercel AI SDK, agentes con bucles de herramientas, servidores MCP, RAG con pgvector y flujos asistidos de ingeniería.",
+      "en": "TypeScript LLM integration with Vercel AI SDK, tool loop agents, MCP servers, pgvector RAG, and AI-assisted engineering workflows."
     },
     "image": "/images/achievement.webp"
   }

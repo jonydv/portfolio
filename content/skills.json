@@ -44,13 +44,13 @@
   {
     "id": "nodejs",
     "label": "Node.js",
-    "category": "languages",
+    "category": "backend",
     "icon": "/icons/nodejs.svg"
   },
   {
     "id": "express",
     "label": "Express",
-    "category": "languages",
+    "category": "backend",
     "icon": "/icons/expressjs.svg"
   },
   {
@@ -62,7 +62,7 @@
   {
     "id": "nextauth",
     "label": "NextAuth",
-    "category": "languages",
+    "category": "backend",
     "icon": "/icons/nextauth.svg"
   },
   {
@@ -86,13 +86,13 @@
   {
     "id": "mongodb",
     "label": "MongoDB",
-    "category": "languages",
+    "category": "backend",
     "icon": "/icons/mongodb.svg"
   },
   {
     "id": "mysql",
     "label": "MySQL",
-    "category": "languages",
+    "category": "backend",
     "icon": "/icons/mysql.svg"
   },
   {
@@ -182,7 +182,7 @@
   {
     "id": "bff-pattern",
     "label": "Patrón BFF",
-    "category": "frameworks",
+    "category": "backend",
     "icon": null
   },
   {
@@ -230,7 +230,7 @@
   {
     "id": "postgresql",
     "label": "PostgreSQL",
-    "category": "languages",
+    "category": "backend",
     "icon": null
   },
   {
@@ -248,19 +248,19 @@
   {
     "id": "rest-apis",
     "label": "REST APIs",
-    "category": "languages",
+    "category": "backend",
     "icon": null
   },
   {
     "id": "graphql",
     "label": "GraphQL",
-    "category": "languages",
+    "category": "backend",
     "icon": null
   },
   {
     "id": "clean-architecture",
     "label": "Clean Architecture",
-    "category": "languages",
+    "category": "backend",
     "icon": null
   },
   {
@@ -404,6 +404,78 @@
   {
     "id": "claude-code",
     "label": "Claude Code",
+    "category": "ai",
+    "icon": null
+  },
+  {
+    "id": "nestjs",
+    "label": "NestJS",
+    "category": "backend",
+    "icon": null
+  },
+  {
+    "id": "prisma",
+    "label": "Prisma",
+    "category": "backend",
+    "icon": null
+  },
+  {
+    "id": "redis",
+    "label": "Redis",
+    "category": "backend",
+    "icon": null
+  },
+  {
+    "id": "bullmq",
+    "label": "BullMQ",
+    "category": "backend",
+    "icon": null
+  },
+  {
+    "id": "testcontainers",
+    "label": "Testcontainers",
+    "category": "backend",
+    "icon": null
+  },
+  {
+    "id": "opentelemetry",
+    "label": "OpenTelemetry",
+    "category": "backend",
+    "icon": null
+  },
+  {
+    "id": "sql",
+    "label": "SQL",
+    "category": "backend",
+    "icon": null
+  },
+  {
+    "id": "zod",
+    "label": "Zod",
+    "category": "backend",
+    "icon": null
+  },
+  {
+    "id": "vercel-ai-sdk",
+    "label": "Vercel AI SDK",
+    "category": "ai",
+    "icon": null
+  },
+  {
+    "id": "mcp",
+    "label": "Model Context Protocol (MCP)",
+    "category": "ai",
+    "icon": null
+  },
+  {
+    "id": "rag",
+    "label": "RAG & pgvector",
+    "category": "ai",
+    "icon": null
+  },
+  {
+    "id": "agents",
+    "label": "Agentes de IA",
     "category": "ai",
     "icon": null
   }

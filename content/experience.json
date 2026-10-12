@@ -4,8 +4,8 @@
     "company": "Qubik Commerce",
     "companyUrl": null,
     "role": {
-      "es": "Senior Front-End Engineer",
-      "en": "Senior Front-End Engineer"
+      "es": "Senior Software Engineer · Full-Stack y features de IA",
+      "en": "Senior Software Engineer · Full-Stack & AI features"
     },
     "start": "2021-03",
     "end": "2026-06",
@@ -17,37 +17,41 @@
     "order": 0,
     "highlights": {
       "es": [
-        "Diseñé y desarrollé aplicaciones web empresariales y storefronts de e-commerce de alto rendimiento con Next.js (App Router, SSR, SSG), Angular (v8 a v21) y SAP Composable Storefront (Spartacus), sobre TypeScript y Tailwind CSS.",
-        "Construí y mantuve servicios Backend-for-Frontend (BFF) y API Route Handlers en Next.js y Node.js, apoyándome en herramientas de IA para acelerar la orquestación, la validación de esquemas y la agregación de microservicios distribuidos, APIs REST y GraphQL.",
-        "Diseñé arquitecturas de estado predecibles combinando TanStack Query, Zustand, Redux Toolkit, NgRx y Angular Signals, optimizando la detección de cambios y eliminando peticiones redundantes mediante deduplicación y caché en servidor.",
-        "Estructuré monorepos modulares con Nx y Lerna y publiqué librerías NPM internas con Design Systems reutilizables (Tailwind CSS, Angular Material, PrimeNG), acelerando el ciclo de entrega de varios equipos en un 40%.",
-        "Implementé estrategias de Test-Driven Development con Vitest, Jest, Jasmine y Cypress, y mantuve pipelines de CI/CD (GitHub Actions, Jenkins) con controles de lint, build y calidad en cada despliegue, con cobertura de regresión sobre los flujos críticos de checkout y catálogo.",
-        "Optimicé el rendimiento y los Core Web Vitals (LCP, CLS, INP) mediante streaming SSR, carga diferida y optimización de bundles, mejorando la velocidad de carga inicial en un 35%.",
-        "Garanticé el cumplimiento de accesibilidad WCAG 2.1 AA, interfaces responsive mobile-first y flujos seguros de autenticación y autorización con OAuth2 y JWT.",
-        "Integré desarrollo asistido por IA (Cursor, Claude Code) para acelerar refactorizaciones y entregas de sprint, y lideré code reviews bajo principios SOLID y Clean Architecture.",
-        "Desarrollé aplicaciones móviles híbridas para iOS y Android con Capacitor e Ionic integradas con frontends Angular, y di soporte técnico al ecosistema mobile en React Native."
+        "Lideré el frontend de tiendas de e-commerce de alto tráfico para marcas como Crocs, Belsport, Bold y Marchand, construidas en Angular (hasta v21, Signals, SSR) sobre SAP Composable Storefront (Spartacus) y SAP Commerce Cloud.",
+        "Trabajé en todo el stack dentro de una arquitectura de plataforma ya definida: implementé y mantuve servicios Backend-for-Frontend en Node.js y Route Handlers de Next.js según los contratos del equipo de plataforma, agregando endpoints GraphQL y REST de microservicios en respuestas tipadas para la UI, con validación de esquemas en cada frontera.",
+        "Construí la capa de IA de SafeCore, el producto multi-tenant de análisis de riesgos de Qubik, con Vercel AI SDK y GPT-4o mini: respuestas en streaming, tool calling y salida estructurada validada con Zod del lado del servidor en Node.js, RAG con pgvector, y evals para controlar la calidad de las respuestas antes de cada cambio.",
+        "Construí un servidor MCP (Model Context Protocol) interno que exponía las reglas de negocio, la arquitectura de backend y frontend y las convenciones de librerías del repositorio a los agentes de código, para que las respuestas salieran del código y no de las personas.",
+        "Lideré la adopción de desarrollo asistido por IA sobre esa base (Claude Code, Cursor, reglas compartidas del proyecto y estándares de revisión para código generado por IA), reduciendo al menos un 30% las consultas entre el equipo técnico, QA y negocio.",
+        "Implementé resiliencia en el BFF —timeouts por llamada, reintentos acotados con backoff y caminos de degradación explícitos— para que un microservicio lento devolviera una respuesta usable en lugar de tirar la tienda.",
+        "Implementé autenticación del lado del servidor contra el proveedor de identidad de la plataforma (OAuth2, JWT, rotación de refresh, cookies HttpOnly), y caché con Redis y HTTP que redujo llamadas redundantes en el catálogo; escribí consultas y migraciones en PostgreSQL y ajusté índices cuando la latencia empeoró.",
+        "Estructuré monorepos Nx y publiqué librerías de componentes y Design Systems internos para Angular 21 y React/Next.js 16 (Tailwind CSS, Angular Material, PrimeNG), usados por varios equipos y acelerando la entrega en un 40%.",
+        "Impulsé TDD (Vitest, Jest, Cypress) y CI/CD (GitHub Actions, Jenkins) con controles de calidad en cada despliegue; optimicé Core Web Vitals (LCP, CLS, INP), mejorando la carga inicial en un 35%, y aseguré WCAG 2.1 AA."
       ],
       "en": [
-        "Architected and delivered high-performance enterprise web applications and e-commerce storefronts using Next.js (App Router, SSR, SSG), Angular (v8–v21), and SAP Composable Storefront (Spartacus) with TypeScript and Tailwind CSS.",
-        "Built and maintained Backend-for-Frontend (BFF) services and API Route Handlers in Next.js and Node.js, leveraging AI-assisted development to orchestrate, validate schemas, and aggregate distributed microservices, REST APIs, and GraphQL endpoints.",
-        "Designed scalable client and server-state architectures with TanStack Query, Zustand, Redux Toolkit, NgRx, and Angular Signals, optimizing change detection and eliminating redundant fetches through request deduplication and server-side caching.",
-        "Engineered modular monorepos with Nx and Lerna and published internal NPM component libraries and Design Systems (Tailwind CSS, Angular Material, PrimeNG), accelerating multi-squad delivery by 40%.",
-        "Implemented Test-Driven Development pipelines with Vitest, Jest, Jasmine, and Cypress, and maintained CI/CD workflows (GitHub Actions, Jenkins) enforcing lint, build, and quality gates on every deployment, with regression coverage across checkout and catalog funnels.",
-        "Optimized runtime performance and Core Web Vitals (LCP, CLS, INP) through SSR streaming, dynamic imports, and bundle optimization, resulting in a 35% improvement in initial load speed.",
-        "Audited and enforced WCAG 2.1 AA accessibility, responsive mobile-first UI patterns, and robust authentication and authorization workflows with OAuth2 and JWT.",
-        "Leveraged AI-assisted development (Cursor, Claude Code) to accelerate refactors and sprint deliverables, while leading code reviews grounded in SOLID and Clean Architecture principles.",
-        "Developed hybrid mobile experiences for iOS and Android with Capacitor and Ionic integrated with Angular frontends, and supported the React Native mobile ecosystem."
+        "Led the frontend of high-traffic e-commerce storefronts for brands including Crocs, Belsport, Bold and Marchand, built in Angular (up to v21, Signals, SSR) on SAP Composable Storefront (Spartacus) and SAP Commerce Cloud.",
+        "Worked across the stack inside an established platform architecture: implemented and maintained Node.js Backend-for-Frontend services and Next.js API Route Handlers to the contracts defined by the platform team, aggregating GraphQL and REST endpoints from distributed microservices into typed responses for the UI, with schema validation at each boundary.",
+        "Built the AI layer of SafeCore, Qubik’s multi-tenant risk-analysis product, with the Vercel AI SDK and GPT-4o mini: streaming responses, tool calling and Zod-validated structured output server-side in Node.js, retrieval-augmented generation (RAG) with pgvector, and evals to check answer quality before changes shipped.",
+        "Built an internal MCP (Model Context Protocol) server that exposed the repository’s business rules, backend and frontend architecture and library conventions to AI coding agents, so answers came from the codebase instead of from people.",
+        "Led the team’s adoption of AI-assisted engineering on top of it (Claude Code, Cursor, shared project rules and review standards for AI-generated code), cutting clarification questions between engineering, QA and business by at least 30%.",
+        "Implemented resilience in the BFF — per-call timeouts, bounded retries with backoff and explicit degradation paths — so a slow downstream microservice returned a usable response instead of taking the storefront down.",
+        "Implemented server-side authentication against the platform’s identity provider (OAuth2, JWT, refresh rotation, HttpOnly cookies), plus Redis and HTTP caching that cut redundant upstream calls on catalog endpoints; wrote PostgreSQL queries and migrations and tuned indexes when latency regressed.",
+        "Engineered Nx monorepos and published internal component libraries and Design Systems for Angular 21 and React/Next.js 16 (Tailwind CSS, Angular Material, PrimeNG), consumed by multiple squads and accelerating delivery by 40%.",
+        "Drove TDD (Vitest, Jest, Cypress) and CI/CD (GitHub Actions, Jenkins) with quality gates on every deploy; optimized Core Web Vitals (LCP, CLS, INP), improving initial load speed by 35%, and enforced WCAG 2.1 AA."
       ]
     },
     "stack": [
-      "nextjs",
       "angular",
       "sap-spartacus",
+      "nextjs",
+      "nodejs",
       "typescript",
-      "tailwind-css",
-      "tanstack-query",
-      "ngrx",
-      "angular-signals"
+      "bff-pattern",
+      "postgresql",
+      "redis",
+      "vercel-ai-sdk",
+      "mcp",
+      "vitest",
+      "tailwind-css"
     ]
   },
   {
@@ -69,18 +73,24 @@
     "highlights": {
       "es": [
         "Lideré la dirección arquitectónica y técnica de soluciones frontend empresariales con SAP Composable Storefront (Spartacus), Angular 17+ y TypeScript.",
-        "Definí la gobernanza arquitectónica, los patrones de microfrontends y las convenciones de estado reactivo (NgRx / Signals), actuando como referente técnico ante producto, backend (Java/Node.js) y UX/UI.",
+        "Definí la gobernanza arquitectónica del frontend, patrones de microfrontends y convenciones de estado reactivo (NgRx / Signals), y actué como contraparte técnica de producto, backend (Java / Node.js) y UX/UI — negociando contratos de API y la forma de los payloads con el equipo de backend, para que el frontend no tuviera que rearmar datos que debían llegar listos para renderizar.",
         "Resolví cuellos de botella de renderizado, optimicé la hidratación SSR y aseguré una integración desacoplada entre los servicios frontend y los microservicios empresariales.",
         "Coordiné plannings técnicos, definí contratos de interfaz y conduje revisiones de código garantizando altos estándares de calidad."
       ],
       "en": [
         "Directed the architectural and technical delivery of enterprise frontend solutions using SAP Composable Storefront (Spartacus), Angular 17+, and TypeScript.",
-        "Defined architectural governance, microfrontend patterns, and reactive state conventions (NgRx / Signals), acting as technical point of contact across product, backend (Java/Node.js), and UX/UI teams.",
+        "Defined frontend architectural governance, microfrontend patterns and reactive state conventions (NgRx / Signals), and acted as the technical counterpart to product, backend (Java / Node.js) and UX/UI — negotiating API contracts and payload shapes with the backend team so the frontend was not forced to reshape data it should have received ready to render.",
         "Eliminated rendering bottlenecks, optimized SSR hydration, and ensured decoupled integration between frontend services and enterprise microservices.",
         "Led technical sprint plannings, defined service contracts, and conducted code reviews enforcing strict enterprise coding standards."
       ]
     },
-    "stack": ["angular", "sap-spartacus", "typescript", "ngrx", "microfrontends"]
+    "stack": [
+      "angular",
+      "sap-spartacus",
+      "typescript",
+      "ngrx",
+      "microfrontends"
+    ]
   },
   {
     "id": "onikom-2023",
@@ -110,17 +120,22 @@
         "Coached engineering squads on reactive programming with RxJS, modular folder structures, and automated unit testing best practices."
       ]
     },
-    "stack": ["angular", "sap-spartacus", "typescript", "rxjs"]
+    "stack": [
+      "angular",
+      "sap-spartacus",
+      "typescript",
+      "rxjs"
+    ]
   },
   {
     "id": "jdv-developer",
     "company": "JDV Developer",
     "companyUrl": null,
     "role": {
-      "es": "Full Stack Engineer (Freelance)",
-      "en": "Full Stack Engineer (Freelance)"
+      "es": "Full-Stack Engineer (Freelance)",
+      "en": "Full-Stack Engineer (Freelance)"
     },
-    "start": "2018-03",
+    "start": "2016-03",
     "end": "2021-03",
     "location": {
       "es": "Buenos Aires, Argentina · Remoto",
@@ -130,14 +145,16 @@
     "order": 3,
     "highlights": {
       "es": [
-        "Desarrollé aplicaciones full-stack web y móviles a medida utilizando React, Next.js, Angular, Node.js, Express, PostgreSQL, MySQL y MongoDB.",
-        "Construí interfaces responsive y progresivas (PWA) con JavaScript moderno (ES6+), CSS3/SCSS, Tailwind CSS y consumo seguro de APIs RESTful.",
-        "Integré pasarelas de pago y flujos de checkout con la API de Mercado Pago Checkout Pro, garantizando alta confiabilidad transaccional y optimización de conversiones."
+        "Entregué aplicaciones web y móviles full-stack a medida, de punta a punta — diseño de esquema, API REST, autenticación, deploy e interfaz — con React, Next.js, Angular, Node.js, Express, PostgreSQL, MySQL y MongoDB.",
+        "Fui dueño del lado servidor de cada proyecto: modelado de datos relacional, migraciones, autenticación y autorización, y despliegue, trabajando directamente con clientes sobre requerimientos y trade-offs.",
+        "Construí interfaces responsive mobile-first y aplicaciones progresivas (PWA) con JavaScript moderno (ES6+), CSS3/SCSS y Tailwind CSS, consumiendo endpoints RESTful seguros.",
+        "Integré flujos completos de checkout y procesamiento de pagos con la API de Mercado Pago Checkout Pro, garantizando integridad transaccional y optimización de conversión."
       ],
       "en": [
-        "Developed custom full-stack web and mobile applications using React, Next.js, Angular, Node.js, Express, PostgreSQL, MySQL, and MongoDB.",
-        "Engineered responsive, mobile-first interfaces and progressive web apps with modern JavaScript (ES6+), CSS3/SCSS, Tailwind CSS, and secure RESTful endpoints.",
-        "Integrated end-to-end checkout and payment workflows with the Mercado Pago Checkout Pro API, ensuring transactional integrity and optimal conversion rates."
+        "Delivered custom full-stack web and mobile applications end to end — schema design, REST API, auth, deploy and UI — with React, Next.js, Angular, Node.js, Express, PostgreSQL, MySQL and MongoDB.",
+        "Owned the server side of each project: relational data modelling, migrations, authentication and authorization, and deployment, working directly with clients on requirements and trade-offs.",
+        "Built responsive, mobile-first interfaces and progressive web apps with modern JavaScript (ES6+), CSS3/SCSS and Tailwind CSS, consuming secure RESTful endpoints.",
+        "Integrated end-to-end checkout and payment flows with the Mercado Pago Checkout Pro API, ensuring transactional integrity and conversion optimization."
       ]
     },
     "stack": [
@@ -148,7 +165,8 @@
       "express",
       "postgresql",
       "mysql",
-      "mongodb"
+      "mongodb",
+      "mercado-pago"
     ]
   }
 ]

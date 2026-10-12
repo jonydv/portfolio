@@ -14,6 +14,7 @@ import type {
   SkillSource,
   SocialLinkSource,
 } from './schema';
+import { SKILL_CATEGORIES } from './schema';
 import { getSource } from './source';
 import { hydrateImage, pick, pickNullable } from './resolve';
 
@@ -293,13 +294,20 @@ export const getSkills = cache((): Skill[] => getSource().skills.map(toSkill));
 export const getSkillGroups = cache((): SkillGroup[] => {
   const groups = new Map<SkillCategory, Skill[]>();
 
-  for (const skill of getSkills()) {
-    const existing = groups.get(skill.category) ?? [];
-    existing.push(skill);
-    groups.set(skill.category, existing);
+  for (const category of SKILL_CATEGORIES) {
+    groups.set(category, []);
   }
 
-  return [...groups.entries()].map(([category, skills]) => ({ category, skills }));
+  for (const skill of getSkills()) {
+    const existing = groups.get(skill.category);
+    if (existing) {
+      existing.push(skill);
+    }
+  }
+
+  return [...groups.entries()]
+    .filter(([, skills]) => skills.length > 0)
+    .map(([category, skills]) => ({ category, skills }));
 });
 
 export const getServices = cache((locale: Locale): Service[] =>

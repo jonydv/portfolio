@@ -11,7 +11,7 @@ for (const { locale, migrationTerm, originTerm } of CASE_EXPECTATIONS) {
   test(`el caso del portfolio en ${locale} cuenta la migracion`, async ({ page }) => {
     await page.goto(`/${locale}/work/${SLUG}`);
 
-    await expect(page.locator('h1')).toHaveText('Portfolio Frontend Enterprise');
+    await expect(page.locator('h1')).toHaveText('Portfolio Enterprise');
     await expect(page.getByText(migrationTerm).first()).toBeVisible();
     await expect(page.getByText(originTerm).first()).toBeVisible();
   });

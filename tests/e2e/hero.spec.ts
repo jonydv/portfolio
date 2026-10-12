@@ -4,12 +4,12 @@ const HERO_EXPECTATIONS = [
   {
     locale: 'es',
     greeting: 'Hola, soy',
-    availability: 'Abierto a remoto — LATAM, EEUU y Europa (UTC-3)',
+    availability: 'Abierto a remoto (US / LATAM) — UTC-3, full ET overlap',
   },
   {
     locale: 'en',
     greeting: "Hi, I'm",
-    availability: 'Open to remote — LATAM, US and EU (UTC-3)',
+    availability: 'Open to Remote (US / LATAM) — UTC-3, full ET overlap',
   },
 ] as const;
 
@@ -46,15 +46,15 @@ for (const { locale, greeting, availability } of HERO_EXPECTATIONS) {
 
     test('el h1 comunica el rol profesional', async ({ page }) => {
       const heading = page.getByRole('heading', { level: 1 });
-      await expect(heading).toHaveText('Senior Frontend Developer & Tech Lead');
+      await expect(heading).toHaveText('Senior Full-Stack Engineer');
     });
 
     test('la especializacion vive fuera del h1, como linea secundaria', async ({ page }) => {
       const heading = page.getByRole('heading', { level: 1 });
-      await expect(heading).not.toContainText('SAP Composable Storefront');
+      await expect(heading).not.toContainText('SAP Spartacus');
 
       await expect(
-        page.locator('main').getByText('SAP Composable Storefront (Spartacus)'),
+        page.locator('main').getByText('TypeScript · Node.js · NestJS · AI Features · SAP Spartacus'),
       ).toBeVisible();
     });
   });

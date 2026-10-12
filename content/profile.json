@@ -5,28 +5,30 @@
     "en": "Hi, I'm"
   },
   "headline": {
-    "es": "Senior Frontend Developer & Tech Lead",
-    "en": "Senior Frontend Developer & Tech Lead"
+    "es": "Senior Full-Stack Engineer",
+    "en": "Senior Full-Stack Engineer"
   },
   "focus": {
-    "es": "SAP Composable Storefront (Spartacus)",
-    "en": "SAP Composable Storefront (Spartacus)"
+    "es": "TypeScript · Node.js · NestJS · AI Features · SAP Spartacus",
+    "en": "TypeScript · Node.js · NestJS · AI Features · SAP Spartacus"
   },
   "specialties": [
-    "Angular",
-    "React",
-    "Next.js",
     "TypeScript",
-    "SSR",
-    "Microfrontends"
+    "NestJS",
+    "Node.js",
+    "PostgreSQL",
+    "Next.js",
+    "Angular",
+    "AI Features",
+    "SAP Spartacus"
   ],
   "summary": {
-    "es": "Analista de Sistemas, Senior Frontend Engineer y Tech Lead con más de 8 años diseñando y escalando aplicaciones web empresariales de alto tráfico, plataformas de e-commerce y capas Backend-for-Frontend en Next.js y Node.js. Especialista en React/Next.js y Angular, con tres años dedicados a SAP Composable Storefront para storefronts B2B y B2C.",
-    "en": "Systems Analyst, Senior Frontend Engineer, and Technical Lead with 8+ years architecting and delivering high-traffic web applications, enterprise e-commerce platforms, and Backend-for-Frontend layers with Next.js and Node.js. Expert in React/Next.js and Angular, with three years specializing in SAP Composable Storefront for B2B and B2C storefronts."
+    "es": "Senior Full-Stack Engineer con 10 años construyendo productos web de alto tráfico, hoy enfocado en el backend con NestJS. En Qubik Commerce lideré el frontend de tiendas enterprise en SAP Spartacus, servicios BFF en Node.js, y la capa de IA de SafeCore (Vercel AI SDK, RAG y servidores MCP). Sólido en TDD, CI/CD y Core Web Vitals.",
+    "en": "Senior Full-Stack Engineer with 10 years shipping high-traffic web products, now focused on the backend with NestJS. At Qubik Commerce I led enterprise storefronts on SAP Spartacus, Node.js BFF services, and SafeCore's AI layer (Vercel AI SDK, RAG, and MCP servers). Strong in TDD, CI/CD, and Core Web Vitals."
   },
   "bio": {
-    "es": "Especialista en el ecosistema moderno de React/Next.js (v14-v16 App Router, SSR/SSG, TanStack Query, Zustand) y Angular (v8–v21, Signals, NgRx, monorepos con Nx y Lerna). Sólida trayectoria en diseño de sistemas de componentes reutilizables con Tailwind CSS, Angular Material y PrimeNG, orquestación de APIs RESTful y GraphQL, testing automatizado bajo TDD con Vitest, Jest, Jasmine y Cypress, y optimización de Core Web Vitals y accesibilidad WCAG. Integro herramientas de IA como Cursor y Claude Code en flujos de producción e ingeniería. Nivel de inglés C1 certificado por EF SET.",
-    "en": "Expert in the modern React/Next.js ecosystem (v14-v16 App Router, SSR/SSG, TanStack Query, Zustand) and Angular (v8–v21, Signals, NgRx, Nx and Lerna monorepos). Proven record designing reusable component systems with Tailwind CSS, Angular Material, and PrimeNG, orchestrating RESTful and GraphQL APIs, running TDD pipelines with Vitest, Jest, Jasmine, and Cypress, and optimizing Core Web Vitals and WCAG accessibility. I integrate AI tooling such as Cursor and Claude Code into production engineering workflows. English at C1 level, certified by EF SET."
+    "es": "Especialista en desarrollo web de extremo a extremo: backend robusto en NestJS 12 y Node.js con Prisma, PostgreSQL, colas con BullMQ y observabilidad con OpenTelemetry; integración de capacidades de IA en TypeScript (Vercel AI SDK, agentes con tool loops, servidores MCP y RAG); y arquitecturas frontend empresariales en React/Next.js (App Router, Server Actions) y Angular (Signals, NgRx, Nx monorepos). Trayectoria probada en storefronts de alto tráfico, diseño de contratos tipados entre frontend y microservicios, testing bajo TDD y despliegues automatizados con CI/CD.",
+    "en": "End-to-end web engineering specialist: robust backend development with NestJS 12 and Node.js using Prisma, PostgreSQL, BullMQ queues, and OpenTelemetry observability; TypeScript AI product features (Vercel AI SDK, tool loop agents, MCP servers, and RAG); and enterprise frontend architectures in React/Next.js (App Router, Server Actions) and Angular (Signals, NgRx, Nx monorepos). Proven track record on high-traffic storefronts, typed contracts between frontend and microservices, TDD pipelines, and automated CI/CD deployments."
   },
   "expertiseIntro": {
     "es": "Aporto valor a los equipos de producto combinando arquitectura sólida, metodologías ágiles y las mejores prácticas de la industria para construir software escalable. Me enfoco en resolver problemas complejos de negocio mediante tecnología moderna, siempre priorizando el rendimiento, la accesibilidad y la experiencia de usuario.",
@@ -37,11 +39,11 @@
     "en": "Buenos Aires, Argentina"
   },
   "availability": {
-    "es": "Abierto a remoto — LATAM, EEUU y Europa (UTC-3)",
-    "en": "Open to remote — LATAM, US and EU (UTC-3)"
+    "es": "Abierto a remoto (US / LATAM) — UTC-3, full ET overlap",
+    "en": "Open to Remote (US / LATAM) — UTC-3, full ET overlap"
   },
   "email": "jonatandavidvillalba@gmail.com",
-  "yearsOfExperience": 8,
+  "yearsOfExperience": 10,
   "image": "/images/profile.webp",
   "cv": {
     "es": {
